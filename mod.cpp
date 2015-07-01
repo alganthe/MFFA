@@ -1,0 +1,12 @@
+name = "derp factions";
+picture = "";
+actionName = "Website";
+action = "https://ahoyworld.co.uk";
+description = "derp factions - test build";
+logo = "";
+logoOver = "";
+tooltip = "derp factions";
+tooltipOwned = "Alganthe Owned";
+overview = "derp factions is a faction mod made for AHOYWORLD.";
+author = "Alganthe";
+overviewPicture = "";
