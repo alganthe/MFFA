@@ -5,8 +5,21 @@
 #define mag_4(a) a, a, a, a
 #define mag_5(a) a, a, a, a, a
 #define mag_7(a) a, a, a, a, a, a, a
-
+////////////////////////////////////////////////////Base classes (infantry)
     class O_G_officer_F;
+    class O_G_Soldier_SL_F;
+    class O_G_Soldier_F;
+    class O_G_Soldier_M_F;
+    class O_G_Soldier_GL_F;
+	class O_G_medic_F;
+	class O_G_Soldier_lite_F;
+	class O_G_Soldier_LAT_F;    
+    class O_G_Soldier_AR_F;
+    class O_G_Soldier_A_F;
+    class O_G_engineer_F;
+    class O_G_Soldier_exp_F;
+    class o_g_soldier_unarmed_f;  
+////////////////////////////////////////////////////Infantry
 	class O_ti_CL_F: O_G_officer_F
 	{
 		side=0;
@@ -91,8 +104,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_SL_F;
 	class O_ti_SL_F: O_G_Soldier_SL_F
 	{
 		side=0;
@@ -120,6 +133,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_545x39_AK),
@@ -158,9 +172,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
-
+        class eventhandlers;
 	};
-	class O_G_Soldier_F;
 	class O_ti_soldier_F: O_G_Soldier_F
 	{
 		side=0;
@@ -184,6 +197,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"30Rnd_556x45_Stanag",
@@ -232,8 +246,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_M_F;
 	class O_ti_m_F: O_G_Soldier_M_F
 	{
 		side=0;
@@ -259,6 +273,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"10Rnd_762x51_Mag",
@@ -311,8 +326,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_GL_F;
 	class O_ti_gl_F: O_G_Soldier_GL_F
 	{
 		side=0;
@@ -338,6 +353,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"30Rnd_556x45_Stanag",
@@ -377,7 +393,6 @@
 		linkedItems[]=
 		{
 			"FirstAidKit",
-			"H_Bandanna_khk",
 			"V_Chestrig_blk",
 			"ItemMap",
 			"ItemCompass",
@@ -387,7 +402,6 @@
 		respawnLinkedItems[]=
 		{
 			"FirstAidKit",
-			"H_Bandanna_khk",
 			"V_Chestrig_blk",
 			"ItemMap",
 			"ItemCompass",
@@ -400,8 +414,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_medic_F;
 	class O_ti_medic_F: O_G_medic_F
 	{
 		side=0;
@@ -424,6 +438,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"SmokeShell",
@@ -468,8 +483,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_lite_F;
 	class O_ti_light_F: O_G_Soldier_lite_F
 	{
 		side=0;
@@ -493,6 +508,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"30Rnd_9x21_Mag",
@@ -545,6 +561,7 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
 	class O_ti_ar_F: O_G_Soldier_F
 	{
@@ -563,6 +580,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		respawnWeapons[]=
 		{
 			"arifle_Katiba_F",
@@ -625,6 +643,7 @@
 			"Head_TK",
 			"G_IRAN_default"
         };
+        class eventhandlers;
 	};
 	class O_ti_pistol_F: O_G_Soldier_lite_F
 	{
@@ -649,6 +668,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"9Rnd_45ACP_Mag",
@@ -705,8 +725,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_LAT_F;
 	class O_ti_lat_F: O_G_Soldier_LAT_F
 	{
 		side=0;
@@ -717,7 +737,7 @@
 		_generalMacro="O_ti_lat_F";
 		scope=2;
         scopeCurator = 2;
-		displayName="Fighter (LAT)";
+		displayName="Fighter (RPG)";
         genericNames="TakistaniMen";
 		weapons[]=
 		{
@@ -731,6 +751,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -769,6 +790,7 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
 	class O_ti_aa_F: O_G_Soldier_LAT_F
 	{
@@ -794,6 +816,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -832,8 +855,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_AR_F;
 	class O_ti_mg_F: O_G_Soldier_AR_F
 	{
 		side=0;
@@ -857,6 +880,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -897,8 +921,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_A_F;
 	class O_ti_amg_F: O_G_Soldier_A_F
 	{
 		side=0;
@@ -923,6 +947,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"30Rnd_9x21_Mag",
@@ -975,6 +1000,7 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
 	class O_ti_aar_F: O_G_Soldier_A_F
 	{
@@ -1000,6 +1026,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"30Rnd_9x21_Mag",
@@ -1052,8 +1079,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_engineer_F;
 	class O_ti_eng_F: O_G_engineer_F
 	{
 		side=0;
@@ -1078,6 +1105,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -1134,8 +1162,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class O_G_Soldier_exp_F;
 	class O_ti_exp_F: O_G_Soldier_exp_F
 	{
 		side=0;
@@ -1160,6 +1188,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -1216,8 +1245,8 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
-	class o_g_soldier_unarmed_f;
 	class O_ti_driver_F: o_g_soldier_unarmed_f
 	{
 		side=0;
@@ -1241,6 +1270,7 @@
 			"Throw",
 			"Put"
 		};
+        allowedHeadgear[]={};
 		magazines[]=
 		{
 			"30Rnd_9x21_Mag",
@@ -1285,7 +1315,9 @@
 			"Head_TK",
 			"G_IRAN_default"
 		};
+        class eventhandlers;
 	};
+////////////////////////////////////////////////////Vehicles
 	class B_G_Offroad_01_F;
 	class O_ti_technical_F: B_G_Offroad_01_F
 	{
@@ -1364,6 +1396,7 @@
 		author="Alganthe";
 		crew="O_ti_eng_F";
 	};
+////////////////////////////////////////////////////Statics
 	class O_Mortar_01_F;
 	class O_ti_mortar_F: O_Mortar_01_F
 	{
