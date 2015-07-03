@@ -1,10 +1,12 @@
-/// Equipment list macros definition ///
+/// Mags macros ///
  
 #define mag_2(a) a, a
 #define mag_3(a) a, a, a
 #define mag_4(a) a, a, a, a
 #define mag_5(a) a, a, a, a, a
 #define mag_7(a) a, a, a, a, a, a, a
+#define mag_11(a) a, a, a, a, a, a, a, a, a, a, a
+
 ////////////////////////////////////////////////////Base classes (infantry)
     class O_G_officer_F;
     class O_G_Soldier_SL_F;
@@ -19,6 +21,7 @@
     class O_G_engineer_F;
     class O_G_Soldier_exp_F;
     class o_g_soldier_unarmed_f;  
+
 ////////////////////////////////////////////////////Infantry
 	class O_ti_CL_F: O_G_officer_F
 	{
@@ -29,7 +32,7 @@
 		_generalMacro="ti_CL_F";
 		scope=2;
         scopeCurator = 2;
-		displayName="Cell Leader";
+		displayName="Cell leader";
         genericNames="TakistaniMen";
         uniformClass="TRYK_U_taki_BLK";
         model = "tryk_unit\data\tk_sps.p3d";
@@ -38,8 +41,7 @@
 		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-            "rhs_weap_ak74m",
-			"hgun_Rook40_F",
+			"hgun_P07_F",
 			"Binocular",
 			"Throw",
 			"Put"
@@ -50,25 +52,20 @@
         };
 		respawnWeapons[]=
 		{
-            "rhs_weap_ak74m",
-			"hgun_Rook40_F",
+			"hgun_P07_F",
 			"Binocular",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-            mag_7(rhs_30Rnd_545x39_AK),
             mag_3(16Rnd_9x21_Mag),
-            mag_4(HandGrenade),
-            mag_2(ACE_M84)
+            mag_2(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
-            mag_7(rhs_30Rnd_545x39_AK),
             mag_3(16Rnd_9x21_Mag),
-            mag_4(HandGrenade),
-            mag_2(ACE_M84)
+            mag_2(HandGrenade)
 		};
         items[]=
         {
@@ -77,7 +74,7 @@
 		linkedItems[]=
 		{
             "H_Beret_blk",
-			"TRYK_V_harnes_blk_L",
+			"TRYK_V_Bulletproof_BLK",
 			"ItemMap",
 			"ItemGPS",
 			"ItemCompass",
@@ -90,8 +87,8 @@
         };
 		respawnLinkedItems[]=
 		{
-			"H_Beret_blk",
-			"TRYK_V_harnes_blk_L",
+            "H_Beret_blk",
+			"TRYK_V_Bulletproof_BLK",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -106,6 +103,27 @@
 		};
         class eventhandlers;
 	};
+	class O_ti_CL_u_F: O_ti_CL_F
+	{
+        _generalMacro="ti_CL_u_F";
+		scope=2;
+        scopeCurator = 2;
+		displayName="Cell leader unarmed";
+		weapons[]=
+		{
+			"Binocular",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Binocular",
+			"Throw",
+			"Put"
+		};
+		magazines[]={};
+		respawnMagazines[]={};
+	};
 	class O_ti_SL_F: O_G_Soldier_SL_F
 	{
 		side=0;
@@ -117,41 +135,41 @@
         scopeCurator = 2;
 		displayName="Squad leader";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_U_taki_COY";
+        model = "tryk_unit\data\tk_sps.p3d";
+		hiddenSelections[] = {"camo3"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_1_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-            "rhs_weap_ak74m",
-			"hgun_Rook40_F",
+            "rhs_weap_akm",
 			"Binocular",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-            "rhs_weap_ak74m",
-			"hgun_Rook40_F",
+            "rhs_weap_akm",
 			"Binocular",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol"};
 		magazines[]=
 		{
-            mag_7(rhs_30Rnd_545x39_AK),
-            mag_3(16Rnd_9x21_Mag),
-            mag_4(HandGrenade),
-            mag_2(ACE_M84)
+            mag_11(rhs_30Rnd_762x39mm),
+            mag_4(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
-            mag_7(rhs_30Rnd_545x39_AK),
-            mag_3(16Rnd_9x21_Mag),
-            mag_4(HandGrenade),
-            mag_2(ACE_M84)
+            mag_11(rhs_30Rnd_762x39mm),
+            mag_4(HandGrenade)
         };
 		linkedItems[]=
 		{
+            "TRYK_H_pakol",
 			"FirstAidKit",
-			"V_HarnessO_brn",
+			"V_TacVest_brn",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -159,8 +177,9 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol",
 			"FirstAidKit",
-			"V_HarnessO_brn",
+			"V_TacVest_brn",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -185,47 +204,41 @@
         scopeCurator = 2;
 		displayName="Fighter";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"arifle_TRG20_F",
+			"rhs_weap_akm",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_TRG20_F",
+			"rhs_weap_akm",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"HandGrenade",
-			"HandGrenade",
+            mag_11(rhs_30Rnd_762x39mm),
+            mag_2(HandGrenade),
 			"Chemlight_green"
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"HandGrenade",
-			"HandGrenade",
+            mag_11 (rhs_30Rnd_762x39mm),
+            mag_2 (HandGrenade),
 			"Chemlight_green"
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_Chestrig_oli",
+			"TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -233,8 +246,9 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_Chestrig_oli",
+			"TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -259,53 +273,41 @@
         scopeCurator = 2;
 		displayName="Marksman";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI2";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"srifle_DMR_01_DMS_F",
+			"rhs_weap_svd_pso1",
 			"Binocular",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"srifle_DMR_01_DMS_F",
+			"rhs_weap_svd_pso1",
 			"Binocular",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
+            mag_11(rhs_10Rnd_762x54mmR_7N1),
 			"Chemlight_green"
 		};
 		respawnMagazines[]=
 		{
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag",
+            mag_11(rhs_10Rnd_762x54mmR_7N1),
 			"Chemlight_green"
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_BandollierB_khk",
+			"rhs_vest_commander",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -313,8 +315,9 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_BandollierB_khk",
+			"rhs_vest_commander",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -339,61 +342,46 @@
         scopeCurator = 2;
 		displayName="Grenadier";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI3";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
+		hiddenSelectionsMaterials[] = {};
+        
 		weapons[]=
 		{
-			"arifle_TRG21_GL_F",
+			"rhs_weap_akm_gp25",
 			"Binocular",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_TRG21_GL_F",
+			"rhs_weap_akm_gp25",
 			"Binocular",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_Smoke_Grenade_shell",
-			"1Rnd_Smoke_Grenade_shell",
-			"1Rnd_Smoke_Grenade_shell",
-			"Chemlight_blue",
-			"Chemlight_blue"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_4(rhs_VOG25P),
+            mag_3(rhs_GRD40_White),
+            mag_2(Chemlight_blue)
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_Smoke_Grenade_shell",
-			"1Rnd_Smoke_Grenade_shell",
-			"1Rnd_Smoke_Grenade_shell",
-			"Chemlight_blue",
-			"Chemlight_blue"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_4(rhs_VOG25P),
+            mag_3(rhs_GRD40_White),
+            mag_2(Chemlight_blue)
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_Chestrig_blk",
+			"V_HarnessOGL_gry",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -401,8 +389,9 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_Chestrig_blk",
+			"V_HarnessOGL_gry",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -420,7 +409,7 @@
 	{
 		side=0;
 		faction="O_ti";
-		backpack="B_FieldPack_ocamo_Medic";
+		backpack="B_FieldPack_cbr_Medic";
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_medic_F";
@@ -428,43 +417,38 @@
         scopeCurator = 2;
 		displayName="Medic";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
+            "rhs_weap_akms",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
+            "rhs_weap_akms",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"Chemlight_red",
-			"Chemlight_blue",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShellGreen",
-			"SmokeShellRed"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_5(SmokeShell)   
 		};
 		respawnMagazines[]=
 		{
-			"SmokeShell",
-			"Chemlight_red",
-			"Chemlight_blue",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShellGreen",
-			"SmokeShellRed"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_5(SmokeShell)
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
+            "TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -472,8 +456,10 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
+            "TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
-			"ItemCompass",
+			"It1emCompass",
 			"ItemWatch",
 			"ItemRadio"
 		};
@@ -496,49 +482,40 @@
         scopeCurator = 2;
 		displayName="Fighter (light)";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI2";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
+		hiddenSelectionsMaterials[] = {};
+        
 		weapons[]=
 		{
-			"SMG_02_F",
+			"SMG_01_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"SMG_02_F",
+			"SMG_01_F",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
+			mag_11(30Rnd_45ACP_Mag_SMG_01),
 			"HandGrenade",
 			"Chemlight_blue"
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
+			mag_11(30Rnd_45ACP_Mag_SMG_01),
 			"HandGrenade",
 			"Chemlight_blue"
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_BandollierB_blk",
 			"ItemMap",
@@ -548,6 +525,7 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_BandollierB_blk",
 			"ItemMap",
@@ -563,7 +541,7 @@
 		};
         class eventhandlers;
 	};
-	class O_ti_ar_F: O_G_Soldier_F
+	class O_ti_ar_F: O_G_Soldier_AR_F
 	{
 		side=0;
 		faction="O_ti";
@@ -572,57 +550,40 @@
 		_generalMacro="O_ti_ar_F";
 		scope=2;
         scopeCurator = 2;
-		displayName="autorifleman";
+        backpack="TRYK_B_AssaultPack_ti_ar";
+		displayName="Autorifleman";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI3";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"arifle_Katiba_F",
+			"LMG_Zafir_F",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		respawnWeapons[]=
 		{
-			"arifle_Katiba_F",
+			"LMG_Zafir_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_green",
-			"Chemlight_blue",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"HandGrenade",
-			"HandGrenade"
+            mag_2(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_green",
-			"Chemlight_blue",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"HandGrenade",
-			"HandGrenade"
+            mag_2(HandGrenade)
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_TacVestCamo_khk",
+			"V_HarnessO_gry",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -630,8 +591,9 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
-			"V_TacVestCamo_khk",
+			"V_HarnessO_gry",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -656,6 +618,11 @@
         scopeCurator = 2;
 		displayName="Fighter (Pistol)";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI3";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
 			"hgun_ACPC2_F",
@@ -668,41 +635,22 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"9Rnd_45ACP_Mag",
 			"Chemlight_red",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"HandGrenade",
-			"HandGrenade",
-			"HandGrenade",
-			"HandGrenade"
+            mag_7(9Rnd_45ACP_Mag),
+            mag_4(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
-			"9Rnd_45ACP_Mag",
 			"Chemlight_red",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"HandGrenade",
-			"HandGrenade",
-			"HandGrenade",
-			"HandGrenade"
+            mag_7(9Rnd_45ACP_Mag),
+            mag_4(HandGrenade)
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemMap",
@@ -712,6 +660,7 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemMap",
@@ -733,43 +682,46 @@
 		faction="O_ti";
 		vehicleclass="Men";
 		author="Alganthe";
-		backpack="B_FieldPack_cbr_LAT";
+		backpack="B_FieldPack_cbr_ti_LAT";
 		_generalMacro="O_ti_lat_F";
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (RPG)";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI2";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"launch_RPG32_F",
+            "rhs_weap_akm",
+			"rhs_weap_rpg7",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"launch_RPG32_F",
+            "rhs_weap_akm",
+			"rhs_weap_rpg7",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"Chemlight_red",
-			"RPG32_HE_F",
-			"SmokeShell",
-			"SmokeShell",
-			"RPG32_HE_F"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_2(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
-			"Chemlight_red",
-			"RPG32_HE_F",
-			"SmokeShell",
-			"SmokeShell",
-			"RPG32_HE_F"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_2(HandGrenade)
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
+            "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -778,6 +730,8 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
+            "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -798,43 +752,46 @@
 		faction="O_ti";
 		vehicleclass="Men";
 		author="Alganthe";
-		backpack="B_FieldPack_ocamo_AA";
+		backpack="B_FieldPack_cbr_ti_AA";
 		_generalMacro="O_ti_aa_F";
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (AA)";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI3";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"launch_O_Titan_F",
+            "rhs_weap_akm",
+			"rhs_weap_igla",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"launch_O_Titan_F",
+            "rhs_weap_akm",
+			"rhs_weap_igla",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"Chemlight_red",
-			"Titan_AA",
-			"SmokeShell",
-			"SmokeShell",
-			"Titan_AA"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_2(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
-			"Chemlight_red",
-			"Titan_AA",
-			"SmokeShell",
-			"SmokeShell",
-			"Titan_AA"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_2(HandGrenade)
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_pakol2",
+            "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -843,6 +800,8 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_pakol2",
+            "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -863,43 +822,44 @@
 		faction="O_ti";
 		vehicleclass="Men";
 		author="Alganthe";
-		_generalMacro="O_ti_amg_F";
+		_generalMacro="O_ti_mg_F";
 		scope=2;
         scopeCurator = 2;
+        backpack="TRYK_B_AssaultPack_ti_mg";
 		displayName="Machinegunner";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"LMG_Zafir_F",
+			"rhs_weap_pkm",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"LMG_Zafir_F",
+			"rhs_weap_pkm",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			"Chemlight_red",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer",
-			"SmokeShell",
-			"150Rnd_762x51_Box_Tracer"
+            mag_4(rhs_100Rnd_762x54mmR),
+            mag_2(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
-			"Chemlight_red",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer",
-			"SmokeShell",
-			"150Rnd_762x51_Box_Tracer"
+            mag_4(rhs_100Rnd_762x54mmR),
+            mag_2(HandGrenade)
 		};
 		linkedItems[]=
 		{
-			"V_HarnessO_brn",
+            "TRYK_H_pakol2",
+			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -908,86 +868,8 @@
 		};
 		respawnLinkedItems[]=
 		{
-			"V_HarnessO_brn",
-			"FirstAidKit",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"ItemRadio"
-		};
-        identityTypes[]=
-		{
-			"LanguagePER_F",
-			"Head_TK",
-			"G_IRAN_default"
-		};
-        class eventhandlers;
-	};
-	class O_ti_amg_F: O_G_Soldier_A_F
-	{
-		side=0;
-		faction="O_ti";
-		vehicleclass="MenSupport";
-		author="Alganthe";
-		backpack="B_FieldPack_oucamo_Ammo";
-		_generalMacro="O_ti_amg_F";
-		scope=2;
-        scopeCurator = 2;
-		displayName="Assist MG";
-        genericNames="TakistaniMen";
-		weapons[]=
-		{
-			"hgun_PDW2000_F",
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[]=
-		{
-			"hgun_PDW2000_F",
-			"Throw",
-			"Put"
-		};
-        allowedHeadgear[]={};
-		magazines[]=
-		{
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"Chemlight_blue",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer"
-		};
-		respawnMagazines[]=
-		{
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"Chemlight_blue",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer"
-		};
-		linkedItems[]=
-		{
-			"V_TacVest_brn",
-			"FirstAidKit",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"ItemRadio"
-		};
-		respawnLinkedItems[]=
-		{
-			"V_TacVest_brn",
+            "TRYK_H_pakol2",
+			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -1008,56 +890,42 @@
 		faction="O_ti";
 		vehicleclass="MenSupport";
 		author="Alganthe";
-		backpack="B_FieldPack_oucamo_Ammo";
+		backpack="B_FieldPack_cbr_ti_AAR";
 		_generalMacro="O_ti_aar_F";
 		scope=2;
         scopeCurator = 2;
 		displayName="Assist autorifleman";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_ZARATAKI2";
+        model = "tryk_unit\data\LOC_soldier01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"hgun_PDW2000_F",
+			"rhs_weap_akm",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"hgun_PDW2000_F",
+			"rhs_weap_akm",
 			"Throw",
 			"Put"
 		};
         allowedHeadgear[]={};
 		magazines[]=
 		{
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"Chemlight_blue",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer"
+            mag_11(rhs_30Rnd_762x39mm)
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"Chemlight_blue",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer"
+            mag_11(rhs_30Rnd_762x39mm)
 		};
 		linkedItems[]=
 		{
-			"V_TacVest_brn",
+            "TRYK_H_pakol2",
+			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -1066,7 +934,8 @@
 		};
 		respawnLinkedItems[]=
 		{
-			"V_TacVest_brn",
+            "TRYK_H_pakol2",
+			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -1087,60 +956,47 @@
 		faction="O_ti";
 		vehicleclass="Men";
 		author="Alganthe";
-		backpack="B_Carryall_ocamo_Eng";
+		backpack="G_TacticalPack_Eng";
 		_generalMacro="O_ti_eng_F";
 		scope=2;
         scopeCurator = 2;
 		displayName="Engineer";
         genericNames="TakistaniMen";
+        uniformClass="B_takisp_G_BL_F";
+        model = "tryk_unit\data\tk_sps_G.p3d";
+		hiddenSelections[] = {"camo3"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_bl_co.paa"};
+		hiddenSelectionsMaterials[] = {};
+        
 		weapons[]=
 		{
-			"arifle_Mk20_plain_F",
+			"rhs_weap_akms",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_Mk20_plain_F",
+			"rhs_weap_akms",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_woolhat_br"};
 		magazines[]=
 		{
 			"Chemlight_red",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell"
+            mag_7(rhs_30Rnd_762x39mm),
+			mag_2(SmokeShell)
 		};
 		respawnMagazines[]=
 		{
 			"Chemlight_red",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell"
+            mag_7(rhs_30Rnd_762x39mm),
+			mag_2(SmokeShell)
 		};
 		linkedItems[]=
 		{
-			"V_Chestrig_blk",
+            "TRYK_H_woolhat",
+			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -1149,7 +1005,8 @@
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_blk",
+            "TRYK_H_woolhat",
+			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -1170,60 +1027,48 @@
 		faction="O_ti";
 		vehicleclass="Men";
 		author="Alganthe";
-		backpack="B_FieldPack_ocamo_ReconExp";
+		backpack="B_Carryall_oucamo_Exp";
 		_generalMacro="O_ti_exp_F";
 		scope=2;
         scopeCurator = 2;
 		displayName="Explosive specialist";
         genericNames="TakistaniMen";
+        uniformClass="B_takisp_G_BL_F";
+        model = "tryk_unit\data\tk_sps_G.p3d";
+		hiddenSelections[] = {"camo3"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_bl_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"arifle_TRG20_F",
+			"rhs_weap_akms",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_TRG20_F",
+			"rhs_weap_akms",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_woolhat"};
 		magazines[]=
 		{
 			"Chemlight_red",
-			"APERSMine_Range_Mag",
-			"APERSMine_Range_Mag",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_3(SmokeShell),
+            mag_2(APERSMine_Range_Mag)
 		};
 		respawnMagazines[]=
 		{
 			"Chemlight_red",
-			"APERSMine_Range_Mag",
-			"APERSMine_Range_Mag",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"SmokeShell"
+            mag_7(rhs_30Rnd_762x39mm),
+            mag_3(SmokeShell),
+            mag_2(APERSMine_Range_Mag)
 		};
 		linkedItems[]=
 		{
-			"V_HarnessOSpec_brn",
+            "TRYK_H_woolhat",
+			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -1232,7 +1077,8 @@
 		};
 		respawnLinkedItems[]=
 		{
-			"V_HarnessOSpec_brn",
+            "TRYK_H_woolhat",
+			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
 			"ItemCompass",
@@ -1258,39 +1104,35 @@
         scopeCurator = 2;
 		displayName="Driver";
         genericNames="TakistaniMen";
+        uniformClass="TRYK_U_taki_G_WH";
+        model = "tryk_unit\data\tk_sps_G.p3d";
+		hiddenSelections[] = {"camo3"};
+		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_3_co.paa"};
+		hiddenSelectionsMaterials[] = {};
 		weapons[]=
 		{
-			"hgun_Rook40_F",
+			"rhs_weap_ak74m_folded",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"hgun_Rook40_F",
+			"rhs_weap_ak74m_folded",
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"TRYK_H_headsetcap_blk"};
 		magazines[]=
 		{
-			"30Rnd_9x21_Mag",
-			"Chemlight_blue",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag"
+            mag_7(rhs_30Rnd_545x39_AK)
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_9x21_Mag",
-			"Chemlight_blue",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag"
+            mag_7(rhs_30Rnd_545x39_AK)
 		};
 		linkedItems[]=
 		{
+            "TRYK_H_headsetcap_blk",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemGPS",
@@ -1301,6 +1143,7 @@
 		};
 		respawnLinkedItems[]=
 		{
+            "TRYK_H_headsetcap_blk",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemGPS",
@@ -1357,8 +1200,8 @@
 		author="Alganthe";
 		crew="O_ti_driver_F";
 	};
-	class C_SUV_01_F;
-	class O_ti_suv_F: C_SUV_01_F
+	class  SUV_01_base_black_F ;
+	class O_ti_suv_F:  SUV_01_base_black_F 
 	{
 		displayName="SUV";
 		vehicleclass="Car";
@@ -1369,6 +1212,7 @@
 		_generalMacro="O_ti_suv_F";
 		author="Alganthe";
 		crew="O_ti_driver_F";
+        class eventhandlers;
 	};
 	class B_G_Van_01_fuel_F;
 	class O_ti_fuel_F: B_G_Van_01_fuel_F
@@ -1408,5 +1252,5 @@
 		faction="O_ti";
 		_generalMacro="O_ti_mortar_F";
 		author="Alganthe";
-		crew="O_ti_driver_F";
+		crew="O_ti_soldier_F";
 	};

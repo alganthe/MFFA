@@ -28,7 +28,7 @@
     };
     class O_ti_ar_F
     {
-        MFFA_init = "(_this select 0) setVariable ['Bis_randomization',false]";
+        MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
     };
     class O_ti_pistol_F
     {
@@ -46,10 +46,6 @@
     {
         MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
     };
-    class O_ti_amg_F
-    {
-        MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
-    };
     class O_ti_aar_F
     {
         MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
@@ -63,6 +59,10 @@
         MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
     };
     class O_ti_driver_F
+    {
+        MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
+    };
+    class O_ti_suv_F
     {
         MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
     };

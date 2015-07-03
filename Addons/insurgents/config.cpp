@@ -1,12 +1,11 @@
 #include "script_component.hpp"
 
-class CfgPatches 
-{
-    class ADDON 
-    {
+class cfgPatches {
+    class ADDON {
         units[] = 
         {
             "O_ti_CL_F",
+            "O_ti_CL_u_F",
 			"O_ti_SL_F",
 			"O_ti_soldier_F",
 			"O_ti_m_F",
@@ -17,7 +16,6 @@ class CfgPatches
 			"O_ti_lat_F",
 			"O_ti_aa_F",
 			"O_ti_mg_F",
-            "O_ti_amg_F",
             "O_ti_ar_F",
 			"O_ti_aar_F",
 			"O_ti_eng_F",
@@ -31,14 +29,15 @@ class CfgPatches
             "O_ti_suv_F",
             "O_ti_fuel_F",
             "O_ti_mortar_F",
+            "O_ti_g_team_F",
             "O_ti_g_squad_F",
             "O_ti_g_sentry_F",
             "O_ti_g_sentry_r_F",
+            "O_ti_g_aa",
+            "O_ti_g_at",
             "O_ti_g_sup_med",
             "O_ti_g_sup_exp",
             "O_ti_g_sup_eng",
-            "O_ti_g_sup_aa",
-            "O_ti_g_sup_at",
             "ti_mot_g",
             "ti_mot_tech"
         };
@@ -101,6 +100,7 @@ class CfgVehicleClasses
 };
 class CfgVehicles
 {
+    #include "equipment\ti_backpacks.hpp"
     #include "units\O_ti_units.hpp"
 };
 class Extended_Init_Eventhandlers
