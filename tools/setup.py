@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 #######################
-#  derp factions Setup Script  #
-# Thanks to the ACE3 team      #
+#  MFFA Setup Script  #
+# Thanks to the ACE3 team for that awesome pythons script     #
 #######################
 
 import os
@@ -14,21 +14,22 @@ import winreg
 
 ######## GLOBALS #########
 MAINDIR = "d"
-PROJECTDIR = "derp"
+PROJECTDIR = "MFFA"
+CBA = "P:\\x\\cba"
 ##########################
 
 def main():
     FULLDIR = "{}\\{}".format(MAINDIR,PROJECTDIR)
     print("""
   ###############################################
-  # derp factions Development Environment Setup #
+  # MFFA Development Environment Setup #
   ###############################################
 
-  This script will create two hard links on your system, both pointing to your derp factions project folder:
-    [Arma 3 installation directory]\\{} => derp project folder
-    P:\\{}                              => derp project folder
+  This script will create two hard links on your system, both pointing to your MFFA project folder:
+    [Arma 3 installation directory]\\{} => MFFA project folder
+    P:\\{}                              => MFFA project folder
   
-   """.format (FULLDIR,FULLDIR))
+  It will also copy the required CBA includes to {}, if you do not have the CBA source code already.""".format(FULLDIR,FULLDIR,CBA))
     print("\n") 
 
     try:
@@ -83,6 +84,22 @@ def main():
         return 6
 
     print("# Links created successfully.")
+
+
+    print("\n# Copying required CBA includes ...")
+
+    if os.path.exists(CBA):
+        print("{} already exists, skipping.".format(CBA))
+        return -1
+
+    try:
+        shutil.copytree(os.path.join(projectpath, "tools", "cba"), CBA)
+    except:
+        raise
+        print("Something went wrong while copying CBA includes. Please copy tools\\cba to {} manually.".format(CBA))
+        return 7
+
+    print("# CBA includes copied successfully to {}.".format(CBA))
 
     return 0
 

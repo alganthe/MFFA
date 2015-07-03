@@ -1,12 +1,12 @@
-name = "derp factions";
+name = "MFFA";
 picture = "";
 actionName = "Website";
 action = "https://ahoyworld.co.uk";
-description = "derp factions - test build";
+description = "MFFA - test build";
 logo = "";
 logoOver = "";
 tooltip = "derp factions";
 tooltipOwned = "Alganthe Owned";
-overview = "derp factions is a faction mod made for AHOYWORLD.";
+overview = "MFFA is a faction mod made for Ahoyworld featuring takistani insurgents (tracksuit russians and spec-ops later).";
 author = "Alganthe";
 overviewPicture = "";

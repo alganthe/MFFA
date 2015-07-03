@@ -1,10 +1,12 @@
-class CfgPatches
+#include "script_component.hpp"
+
+class CfgPatches 
 {
-	class derp_opf_ins
-	{
-		units[]=
-		{
-			"O_ti_CL_F",
+    class ADDON 
+    {
+        units[] = 
+        {
+            "O_ti_CL_F",
 			"O_ti_SL_F",
 			"O_ti_soldier_F",
 			"O_ti_m_F",
@@ -39,39 +41,14 @@ class CfgPatches
             "O_ti_g_sup_at",
             "ti_mot_g",
             "ti_mot_tech"
-		};
-		weapons[]={};
-		requiredAddons[]=
-		{
-			"A3_Characters_F_OPFOR",
-			"A3_Data_F_Curator_Characters",
-            "A3_Characters_F",
-            "A3_Characters_F_Beta",
-            "A3_Characters_F_Gamma",
-            "A3_Characters_F_EPA",
-            "A3_Characters_F_EPB",
-			"A3_Characters_F_Common",
-			"A3_Characters_F_Heads",
-            "rhs_weapons",
-            "rhs_weapons2",
-            "rhs_heavyweapons",
-            "rhs_optics",
-            "rhs_c_weapons",
-            "rhs_c_heavyweapons",
-            "rhs_c_cars",
-            "US_ESS_Glasses_tryk",
-            "Kio_Balaclava",
-            "TRYK_Shemaghs",
-            "TRYK_BackPack",
-            "maa_Uniform",
-            "TRYK_Uniform"
-		};
-		version="0.1";
-		versionStr="0.1";
-		versionDesc="DERP faction mod";
-		versionAr[]={0,1};
-		author[]={"Alganthe"};
-	};
+        };
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {"MFFA_main"};
+        author[] = {"Alganthe"};
+        authorUrl = "";
+        VERSION_CONFIG;
+    };
 };
 class CfgGroups
 {
@@ -141,15 +118,4 @@ class CfgVehicleClasses
 class CfgVehicles
 {
     #include "units\O_ti_units.hpp"
-};
-class CfgMods 
-{
-    class PREFIX 
-    {
-        dir = "@derp_factions";
-        name = "derp factions";
-        picture = "";
-        hidePicture = "true";
-        hideName = "true";
-    };
 };

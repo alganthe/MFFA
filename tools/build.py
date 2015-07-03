@@ -6,7 +6,7 @@ import subprocess
 
 ######## GLOBALS #########
 MAINPREFIX = "d"
-PREFIX = "derp_"
+PREFIX = "MFFA_"
 ##########################
 
 def mod_time(path):
