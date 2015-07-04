@@ -31,6 +31,7 @@ class cfgPatches {
             "O_ti_mortar_F",
             "O_ti_g_team_F",
             "O_ti_g_squad_F",
+            "O_ti_g_squad_s_F",
             "O_ti_g_sentry_F",
             "O_ti_g_sentry_r_F",
             "O_ti_g_aa",
@@ -38,8 +39,9 @@ class cfgPatches {
             "O_ti_g_sup_med",
             "O_ti_g_sup_exp",
             "O_ti_g_sup_eng",
-            "ti_mot_g",
-            "ti_mot_tech"
+            "O_ti_mot_g",
+            "O_ti_mot_g_s",
+            "O_ti_mot_tech"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
