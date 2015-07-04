@@ -4,7 +4,7 @@
 #define PREFIX MFFA
 
 #define MAJOR 0
-#define MINOR 1
+#define MINOR 2
 #define PATCHLVL 0
 #define BUILD 0
 
@@ -14,4 +14,4 @@
 #define MFFA_TAG M.F.F.A
 
 // MINIMAL required version for the Mod. Components can specify others..
-#define REQUIRED_VERSION 0.0.1
+#define REQUIRED_VERSION 0.1.0.0

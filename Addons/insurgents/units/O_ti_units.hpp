@@ -159,12 +159,12 @@
 		magazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm),
-            mag_3(HandGrenade)
+            mag_2(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm),
-            mag_3(HandGrenade)
+            mag_2(HandGrenade)
         };
 		linkedItems[]=
 		{
@@ -225,14 +225,14 @@
         allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-            mag_11(rhs_30Rnd_762x39mm),
+            mag_10(rhs_30Rnd_762x39mm),
             mag_2(HandGrenade),
 			"Chemlight_red"
 		};
 		respawnMagazines[]=
 		{
-            mag_11 (rhs_30Rnd_762x39mm),
-            mag_2 (HandGrenade),
+            mag_10(rhs_30Rnd_762x39mm),
+            mag_2(HandGrenade),
 			"Chemlight_red"
 		};
 		linkedItems[]=
