@@ -1254,3 +1254,16 @@
 		author="Alganthe";
 		crew="O_ti_soldier_F";
 	};
+    class RHS_NSV_TriPod_MSV;
+    class O_ti_nsv_tripod_F: RHS_NSV_TriPod_MSV
+	{
+		displayName="NSV tripod";
+		vehicleclass="Static";
+		side=0;
+        scope=2;
+        scopeCurator = 2;
+		faction="O_ti";
+		_generalMacro="O_ti_nsv_tripod_F";
+		author="Alganthe";
+		crew="O_ti_light_F";
+	};

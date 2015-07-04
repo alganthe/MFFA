@@ -1238,3 +1238,15 @@
 		author="Alganthe";
 		crew="I_ti_soldier_F";
 	};
+    class I_ti_nsv_tripod_F: RHS_NSV_TriPod_MSV
+	{
+		displayName="NSV tripod";
+		vehicleclass="Static";
+		side=2;
+        scope=2;
+        scopeCurator = 2;
+		faction="I_ti";
+		_generalMacro="I_ti_nsv_tripod_F";
+		author="Alganthe";
+		crew="I_ti_light_F";
+	};
