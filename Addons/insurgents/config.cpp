@@ -122,8 +122,13 @@ class CfgGroups
 };
 class cfgWeapons
 {
+    #include "equipment\ti_headgears.hpp"
     #include "equipment\ti_uniforms.hpp"
-};   
+};
+class CfgGlasses
+{
+    #include "equipment\ti_facewear.hpp"
+};
 class CfgFactionClasses
 {
 	class O_ti
