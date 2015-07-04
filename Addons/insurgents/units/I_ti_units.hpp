@@ -25,7 +25,7 @@
         scopeCurator = 2;
 		displayName="Cell leader";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_U_taki_BLK";
+        uniformClass="I_TRYK_U_taki_BLK";
         model = "tryk_unit\data\tk_sps.p3d";
 		hiddenSelections[] = {"camo3"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_bk_co.paa"};
@@ -126,7 +126,7 @@
         scopeCurator = 2;
 		displayName="Squad leader";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_U_taki_COY";
+        uniformClass="I_TRYK_U_taki_COY";
         model = "tryk_unit\data\tk_sps.p3d";
 		hiddenSelections[] = {"camo3"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_1_co.paa"};
@@ -195,7 +195,7 @@
         scopeCurator = 2;
 		displayName="Fighter";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI";
+        uniformClass="I_TRYK_ZARATAKI";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {};
 		hiddenSelectionsTextures[] = {};
@@ -264,7 +264,7 @@
         scopeCurator = 2;
 		displayName="Marksman";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI2";
+        uniformClass="I_TRYK_ZARATAKI2";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
@@ -333,7 +333,7 @@
         scopeCurator = 2;
 		displayName="Grenadier";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI3";
+        uniformClass="I_TRYK_ZARATAKI3";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
@@ -408,7 +408,7 @@
         scopeCurator = 2;
 		displayName="Medic";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI";
+        uniformClass="I_TRYK_ZARATAKI";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {};
 		hiddenSelectionsTextures[] = {};
@@ -473,7 +473,7 @@
         scopeCurator = 2;
 		displayName="Fighter (light)";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI2";
+        uniformClass="I_TRYK_ZARATAKI2";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
@@ -544,7 +544,7 @@
         backpack="TRYK_B_AssaultPack_ti_ar";
 		displayName="Autorifleman";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI3";
+        uniformClass="I_TRYK_ZARATAKI3";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
@@ -609,7 +609,7 @@
         scopeCurator = 2;
 		displayName="Fighter (Pistol)";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI3";
+        uniformClass="I_TRYK_ZARATAKI3";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
@@ -679,7 +679,7 @@
         scopeCurator = 2;
 		displayName="Fighter (RPG)";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI2";
+        uniformClass="I_TRYK_ZARATAKI2";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
@@ -749,7 +749,7 @@
         scopeCurator = 2;
 		displayName="Fighter (AA)";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI3";
+        uniformClass="I_TRYK_ZARATAKI3";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
@@ -819,7 +819,7 @@
         backpack="TRYK_B_AssaultPack_ti_mg";
 		displayName="Machinegunner";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI";
+        uniformClass="I_TRYK_ZARATAKI";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {};
 		hiddenSelectionsTextures[] = {};
@@ -887,7 +887,7 @@
         scopeCurator = 2;
 		displayName="Assist autorifleman";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_ZARATAKI2";
+        uniformClass="I_TRYK_ZARATAKI2";
         model = "tryk_unit\data\LOC_soldier01.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
@@ -953,7 +953,7 @@
         scopeCurator = 2;
 		displayName="Engineer";
         genericNames="TakistaniMen";
-        uniformClass="B_takisp_G_BL_F";
+        uniformClass="I_B_takisp_G_BL_F";
         model = "tryk_unit\data\tk_sps_G.p3d";
 		hiddenSelections[] = {"camo3"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_bl_co.paa"};
@@ -1024,7 +1024,7 @@
         scopeCurator = 2;
 		displayName="Explosive specialist";
         genericNames="TakistaniMen";
-        uniformClass="B_takisp_G_BL_F";
+        uniformClass="I_B_takisp_G_BL_F";
         model = "tryk_unit\data\tk_sps_G.p3d";
 		hiddenSelections[] = {"camo3"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_bl_co.paa"};
@@ -1095,7 +1095,7 @@
         scopeCurator = 2;
 		displayName="Driver";
         genericNames="TakistaniMen";
-        uniformClass="TRYK_U_taki_G_WH";
+        uniformClass="I_TRYK_U_taki_G_WH";
         model = "tryk_unit\data\tk_sps_G.p3d";
 		hiddenSelections[] = {"camo3"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_3_co.paa"};
