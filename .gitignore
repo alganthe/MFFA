@@ -45,3 +45,4 @@ Temporary Items
 *.biprivatekey
 *.pbo
 /release
+*cache
