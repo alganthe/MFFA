@@ -21,6 +21,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="ti_CL_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Cell leader";
@@ -117,6 +118,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_SL_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Squad leader";
@@ -184,6 +186,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_soldier_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter";
@@ -251,6 +254,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_m_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Marksman";
@@ -318,6 +322,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_gl_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Grenadier";
@@ -391,6 +396,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_medic_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Medic";
@@ -454,6 +460,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_light_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (light)";
@@ -522,6 +529,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_ar_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
         backpack="TRYK_B_AssaultPack_ti_ar";
@@ -586,6 +594,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_pistol_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (Pistol)";
@@ -654,6 +663,7 @@
 		author="Alganthe";
 		backpack="B_FieldPack_cbr_ti_LAT";
 		_generalMacro="I_ti_lat_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (RPG)";
@@ -722,6 +732,7 @@
 		author="Alganthe";
 		backpack="B_FieldPack_cbr_ti_AA";
 		_generalMacro="I_ti_aa_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (AA)";
@@ -789,6 +800,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="I_ti_mg_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
         backpack="TRYK_B_AssaultPack_ti_mg";
@@ -856,6 +868,7 @@
 		author="Alganthe";
 		backpack="B_FieldPack_cbr_ti_AAR";
 		_generalMacro="I_ti_aar_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Assist autorifleman";
@@ -920,6 +933,7 @@
 		author="Alganthe";
 		backpack="G_TacticalPack_Eng";
 		_generalMacro="I_ti_eng_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Engineer";
@@ -989,6 +1003,7 @@
 		author="Alganthe";
 		backpack="B_Carryall_oucamo_Exp";
 		_generalMacro="I_ti_exp_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Explosive specialist";
@@ -1027,7 +1042,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_woolhat",
 			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
@@ -1037,7 +1051,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_woolhat",
 			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
@@ -1060,6 +1073,7 @@
 		vehicleclass="MenSupport";
 		author="Alganthe";
 		_generalMacro="I_ti_driver_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Driver";
