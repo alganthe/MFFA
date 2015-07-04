@@ -5,7 +5,7 @@
 #define mag_4(a) a, a, a, a
 #define mag_5(a) a, a, a, a, a
 #define mag_7(a) a, a, a, a, a, a, a
-#define mag_10(a)a, a, a, a, a, a, a, a, a, a,
+#define mag_10(a) a, a, a, a, a, a, a, a, a, a
 #define mag_11(a) a, a, a, a, a, a, a, a, a, a, a
 
 ////////////////////////////////////////////////////Base classes (infantry)
