@@ -51,12 +51,12 @@
 		magazines[]=
 		{
             mag_3(16Rnd_9x21_Mag),
-            mag_2(HandGrenade)
+            "HandGrenade"
 		};
 		respawnMagazines[]=
 		{
             mag_3(16Rnd_9x21_Mag),
-            mag_2(HandGrenade)
+            "HandGrenade"
 		};
         items[]=
         {
@@ -149,12 +149,12 @@
 		magazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm),
-            mag_4(HandGrenade)
+            mag_3(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm),
-            mag_4(HandGrenade)
+            mag_3(HandGrenade)
         };
 		linkedItems[]=
 		{
@@ -217,13 +217,13 @@
 		{
             mag_11(rhs_30Rnd_762x39mm),
             mag_2(HandGrenade),
-			"Chemlight_green"
+			"Chemlight_red"
 		};
 		respawnMagazines[]=
 		{
             mag_11 (rhs_30Rnd_762x39mm),
             mag_2 (HandGrenade),
-			"Chemlight_green"
+			"Chemlight_red"
 		};
 		linkedItems[]=
 		{
@@ -494,15 +494,15 @@
         allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-			mag_11(30Rnd_45ACP_Mag_SMG_01),
+			mag_10(30Rnd_45ACP_Mag_SMG_01),
 			"HandGrenade",
-			"Chemlight_blue"
+			"Chemlight_red"
 		};
 		respawnMagazines[]=
 		{
-			mag_11(30Rnd_45ACP_Mag_SMG_01),
+			mag_10(30Rnd_45ACP_Mag_SMG_01),
 			"HandGrenade",
-			"Chemlight_blue"
+			"Chemlight_red"
 		};
 		linkedItems[]=
 		{
@@ -631,13 +631,13 @@
 		{
 			"Chemlight_red",
             mag_7(9Rnd_45ACP_Mag),
-            mag_4(HandGrenade)
+            mag_2(HandGrenade)
 		};
 		respawnMagazines[]=
 		{
 			"Chemlight_red",
             mag_7(9Rnd_45ACP_Mag),
-            mag_4(HandGrenade)
+            mag_2(HandGrenade)
 		};
 		linkedItems[]=
 		{
@@ -839,13 +839,13 @@
         allowedHeadgear[]={"TRYK_H_pakol2"};
 		magazines[]=
 		{
-            mag_4(rhs_100Rnd_762x54mmR),
-            mag_2(HandGrenade)
+            mag_2(HandGrenade),
+            mag_2( SmokeShellRed)
 		};
 		respawnMagazines[]=
 		{
-            mag_4(rhs_100Rnd_762x54mmR),
-            mag_2(HandGrenade)
+            mag_2(HandGrenade),
+            mag_2( SmokeShellRed)
 		};
 		linkedItems[]=
 		{
@@ -1115,11 +1115,11 @@
         allowedHeadgear[]={"TRYK_H_headsetcap_blk"};
 		magazines[]=
 		{
-            mag_7(rhs_30Rnd_545x39_AK)
+            mag_5(rhs_30Rnd_545x39_AK)
 		};
 		respawnMagazines[]=
 		{
-            mag_7(rhs_30Rnd_545x39_AK)
+            mag_5(rhs_30Rnd_545x39_AK)
 		};
 		linkedItems[]=
 		{
