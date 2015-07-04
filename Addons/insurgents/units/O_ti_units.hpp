@@ -31,6 +31,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="ti_CL_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Cell leader";
@@ -47,10 +48,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]=
-        {
-			"H_Beret_blk"
-        };
+        allowedHeadgear[]={"O_ti_H_Beret_blk"};
 		respawnWeapons[]=
 		{
 			"hgun_P07_F",
@@ -74,7 +72,6 @@
         };
 		linkedItems[]=
 		{
-            "H_Beret_blk",
 			"TRYK_V_Bulletproof_BLK",
 			"ItemMap",
 			"ItemGPS",
@@ -88,7 +85,6 @@
         };
 		respawnLinkedItems[]=
 		{
-            "H_Beret_blk",
 			"TRYK_V_Bulletproof_BLK",
 			"ItemGPS",
 			"ItemMap",
@@ -100,7 +96,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -132,6 +128,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_SL_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Squad leader";
@@ -155,7 +152,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm),
@@ -168,7 +165,6 @@
         };
 		linkedItems[]=
 		{
-            "TRYK_H_pakol",
 			"FirstAidKit",
 			"V_TacVest_brn",
 			"ItemMap",
@@ -178,7 +174,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol",
 			"FirstAidKit",
 			"V_TacVest_brn",
 			"ItemMap",
@@ -190,7 +185,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -201,6 +196,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_soldier_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter";
@@ -222,7 +218,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_10(rhs_30Rnd_762x39mm),
@@ -237,7 +233,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
@@ -247,7 +242,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
@@ -259,7 +253,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -270,6 +264,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_m_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Marksman";
@@ -293,7 +288,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_11(rhs_10Rnd_762x54mmR_7N1),
@@ -306,7 +301,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"rhs_vest_commander",
 			"ItemMap",
@@ -316,7 +310,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"rhs_vest_commander",
 			"ItemMap",
@@ -328,7 +321,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -339,6 +332,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_gl_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Grenadier";
@@ -363,7 +357,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -380,7 +374,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_HarnessOGL_gry",
 			"ItemMap",
@@ -390,7 +383,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_HarnessOGL_gry",
 			"ItemMap",
@@ -402,7 +394,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -414,6 +406,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_medic_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Medic";
@@ -435,7 +428,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -448,7 +441,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
             "TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
 			"ItemCompass",
@@ -457,7 +449,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
             "TRYK_LOC_AK_chestrig_TAN",
 			"ItemMap",
 			"It1emCompass",
@@ -468,7 +459,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -479,6 +470,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_light_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (light)";
@@ -501,7 +493,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
 			mag_10(30Rnd_45ACP_Mag_SMG_01),
@@ -516,7 +508,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_BandollierB_blk",
 			"ItemMap",
@@ -526,7 +517,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_BandollierB_blk",
 			"ItemMap",
@@ -538,7 +528,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -549,6 +539,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_ar_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
         backpack="TRYK_B_AssaultPack_ti_ar";
@@ -565,7 +556,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		respawnWeapons[]=
 		{
 			"LMG_Zafir_F",
@@ -582,7 +573,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_HarnessO_gry",
 			"ItemMap",
@@ -592,7 +582,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_HarnessO_gry",
 			"ItemMap",
@@ -604,7 +593,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
         };
         class eventhandlers;
 	};
@@ -615,6 +604,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_pistol_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (Pistol)";
@@ -636,7 +626,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -651,7 +641,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemMap",
@@ -661,7 +650,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemMap",
@@ -673,7 +661,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -685,6 +673,7 @@
 		author="Alganthe";
 		backpack="B_FieldPack_cbr_ti_LAT";
 		_generalMacro="O_ti_lat_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (RPG)";
@@ -708,7 +697,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -721,7 +710,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
             "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -731,7 +719,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
             "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -743,7 +730,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -755,6 +742,7 @@
 		author="Alganthe";
 		backpack="B_FieldPack_cbr_ti_AA";
 		_generalMacro="O_ti_aa_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Fighter (AA)";
@@ -778,7 +766,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -791,7 +779,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
             "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -801,7 +788,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
             "TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -813,7 +799,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -824,6 +810,7 @@
 		vehicleclass="Men";
 		author="Alganthe";
 		_generalMacro="O_ti_mg_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
         backpack="TRYK_B_AssaultPack_ti_mg";
@@ -846,7 +833,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_pakol2"};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_2(HandGrenade),
@@ -859,7 +846,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -869,7 +855,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -881,7 +866,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -893,6 +878,7 @@
 		author="Alganthe";
 		backpack="B_FieldPack_cbr_ti_AAR";
 		_generalMacro="O_ti_aar_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Assist autorifleman";
@@ -914,7 +900,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={};
+        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm)
@@ -925,7 +911,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -935,7 +920,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_pakol2",
 			"TRYK_LOC_AK_chestrig_TAN",
 			"FirstAidKit",
 			"ItemMap",
@@ -947,7 +931,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -959,6 +943,7 @@
 		author="Alganthe";
 		backpack="G_TacticalPack_Eng";
 		_generalMacro="O_ti_eng_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Engineer";
@@ -981,7 +966,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_woolhat_br"};
+        allowedHeadgear[]={"O_ti_TRYK_H_woolhat_br"};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -996,7 +981,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_woolhat",
 			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
@@ -1006,7 +990,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_woolhat",
 			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
@@ -1018,7 +1001,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -1030,6 +1013,7 @@
 		author="Alganthe";
 		backpack="B_Carryall_oucamo_Exp";
 		_generalMacro="O_ti_exp_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Explosive specialist";
@@ -1051,7 +1035,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_woolhat"};
+        allowedHeadgear[]={"O_ti_TRYK_H_woolhat"};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -1068,7 +1052,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_woolhat",
 			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
@@ -1078,7 +1061,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_woolhat",
 			"TRYK_LOC_AK_chestrig_OD",
 			"FirstAidKit",
 			"ItemMap",
@@ -1090,7 +1072,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
@@ -1101,6 +1083,7 @@
 		vehicleclass="MenSupport";
 		author="Alganthe";
 		_generalMacro="O_ti_driver_F";
+        headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
 		displayName="Driver";
@@ -1133,7 +1116,6 @@
 		};
 		linkedItems[]=
 		{
-            "TRYK_H_headsetcap_blk",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemGPS",
@@ -1144,7 +1126,6 @@
 		};
 		respawnLinkedItems[]=
 		{
-            "TRYK_H_headsetcap_blk",
 			"FirstAidKit",
 			"V_Rangemaster_belt",
 			"ItemGPS",
@@ -1157,7 +1138,7 @@
 		{
 			"LanguagePER_F",
 			"Head_TK",
-			"G_IRAN_default"
+			"G_TI_default"
 		};
         class eventhandlers;
 	};
