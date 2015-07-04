@@ -134,16 +134,14 @@ class CfgFactionClasses
 	class O_ti
 	{
 		displayName="Takistani insurgents";
-        flag = "";
-		icon="";
+		icon=PATHTOF(data\ti_icon.paa);
 		side=0;
 		priority=2;
 	};
     class I_ti
 	{
 		displayName="Takistani insurgents";
-        flag = "";
-		icon="";
+		icon=PATHTOF(data\ti_icon.paa);
 		side=2;
 		priority=2;
 	};
