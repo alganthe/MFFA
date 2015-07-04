@@ -1,6 +1,6 @@
     class ItemCore;
     class HeadgearItem;
-    class O_ti_H_Beret_blk: ItemCore
+    class ti_H_Beret_blk: ItemCore
     {
         scope = 2;
         scopeArsenal = 0
@@ -10,7 +10,7 @@
         model = "\A3\Characters_F\Common\headgear_beret01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\a3\characters_f\common\data\headgear_beret01_co.paa"};
-        allowedFacewear[]={"O_ti_TRYK_Beard_BK","TRYK_Beard_BK2","O_ti_TRYK_Beard_BK3","O_ti_TRYK_Beard_BK4"};
+        allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
         class ItemInfo: HeadgearItem
         {
             mass=6;
@@ -19,7 +19,7 @@
             modelSides[] = {TCivilian, TWest};
         };
     }; 
-    class O_ti_TRYK_H_pakol2: ItemCore
+    class ti_TRYK_H_pakol: ItemCore
     {
         scope = 2;
         scopeArsenal = 0
@@ -29,7 +29,7 @@
 		model = "tryk_unit\data\pakol.p3d";
         hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil01_4_co.paa"}; 
-        allowedFacewear[]={"O_ti_TRYK_Beard_BK","TRYK_Beard_BK2","O_ti_TRYK_Beard_BK3","O_ti_TRYK_Beard_BK4"};
+        allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
         class ItemInfo: HeadgearItem
         {
 			mass = 5;
@@ -41,7 +41,7 @@
 			explosionShielding = 0.2;
         };
     };   
-    class O_ti_TRYK_H_pakol: ItemCore
+    class ti_TRYK_H_pakol2: ItemCore
     {
 		scope = 2;
         scopeArsenal = 0
@@ -51,7 +51,7 @@
 		model = "tryk_unit\data\pakol2.p3d";
         hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil01_4_co.paa"};
-        allowedFacewear[]={"O_ti_TRYK_Beard_BK","TRYK_Beard_BK2","O_ti_TRYK_Beard_BK3","O_ti_TRYK_Beard_BK4"};
+        allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
         class ItemInfo: HeadgearItem
         {
 			mass = 5;
@@ -63,7 +63,7 @@
 			explosionShielding = 0.2;
         };
     };
-    class O_ti_TRYK_H_woolhat: ItemCore
+    class ti_TRYK_H_woolhat: ItemCore
 	{
 		scope = 2;
         scopeArsenal = 0
@@ -73,7 +73,7 @@
 		model = "tryk_unit\data\woolhat.p3d";
         hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\wh\woolhat_black_co.paa"};
-        allowedFacewear[]={"O_ti_TRYK_Beard_BK","TRYK_Beard_BK2","O_ti_TRYK_Beard_BK3","O_ti_TRYK_Beard_BK4"};
+        allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 5;
@@ -85,7 +85,7 @@
 			explosionShielding = 0.2;
 		};
 	}; 
-	class TRYK_H_woolhat_br: ItemCore
+	class ti_TRYK_H_woolhat_br: ItemCore
 	{
 		scope = 2;
         scopeArsenal = 0
@@ -95,7 +95,7 @@
 		model = "tryk_unit\data\woolhat.p3d";
         hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"tryk_unit\data\woolhat_br.paa"};
-        allowedFacewear[]={"O_ti_TRYK_Beard_BK","TRYK_Beard_BK2","O_ti_TRYK_Beard_BK3","O_ti_TRYK_Beard_BK4"};
+        allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 5;
@@ -107,7 +107,7 @@
 			explosionShielding = 0.2;
 		};
 	};
-    class O_ti_TRYK_H_headsetcap_blk: ItemCore
+    class ti_TRYK_H_headsetcap_blk: ItemCore
 	{
 		scope = 2;
         scopeArsenal = 0
@@ -115,7 +115,7 @@
 		displayName = "TRYK HEAD SET2";
 		picture = "\tryk_unit\data\ui\UI_tac2headset.paa";
 		model = "ESSGoggles\headset2.p3d";
-        allowedFacewear[]={"O_ti_TRYK_Beard_BK","TRYK_Beard_BK2","O_ti_TRYK_Beard_BK3","O_ti_TRYK_Beard_BK4"};
+        allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 1;

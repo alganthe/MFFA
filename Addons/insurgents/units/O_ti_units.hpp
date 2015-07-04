@@ -48,7 +48,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_H_Beret_blk"};
+        allowedHeadgear[]={"ti_H_Beret_blk"};
 		respawnWeapons[]=
 		{
 			"hgun_P07_F",
@@ -152,7 +152,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol2"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm),
@@ -218,7 +218,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_10(rhs_30Rnd_762x39mm),
@@ -288,7 +288,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_11(rhs_10Rnd_762x54mmR_7N1),
@@ -357,7 +357,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -428,7 +428,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -493,7 +493,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
 			mag_10(30Rnd_45ACP_Mag_SMG_01),
@@ -556,7 +556,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		respawnWeapons[]=
 		{
 			"LMG_Zafir_F",
@@ -626,7 +626,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -697,7 +697,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -766,7 +766,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_7(rhs_30Rnd_762x39mm),
@@ -833,7 +833,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_2(HandGrenade),
@@ -900,7 +900,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_pakol"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
 		magazines[]=
 		{
             mag_11(rhs_30Rnd_762x39mm)
@@ -966,7 +966,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_woolhat_br"};
+        allowedHeadgear[]={"ti_TRYK_H_woolhat_br"};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -1035,7 +1035,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"O_ti_TRYK_H_woolhat"};
+        allowedHeadgear[]={"ti_TRYK_H_woolhat"};
 		magazines[]=
 		{
 			"Chemlight_red",
@@ -1105,7 +1105,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"TRYK_H_headsetcap_blk"};
+        allowedHeadgear[]={"ti_TRYK_H_headsetcap_blk"};
 		magazines[]=
 		{
             mag_5(rhs_30Rnd_545x39_AK)

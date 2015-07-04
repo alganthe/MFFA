@@ -1,5 +1,5 @@
     class None;
-    class O_ti_TRYK_Beard_BK: None
+    class ti_TRYK_Beard_BK: None
     {
         scope = 2;
         scopeArsenal=0;
@@ -11,7 +11,7 @@
         identityTypes[] ={"G_TI_default",100};
         mass = 4;
     };
-    class O_ti_TRYK_Beard_BK2: None
+    class ti_TRYK_Beard_BK2: None
     {
         scope=2;
         scopeArsenal=0;
@@ -22,7 +22,7 @@
 		hiddenSelectionsTextures[] = {"zabb2\TAC\beard\TRYK_beard_BK.paa"};
         identityTypes[] = {"G_TI_default",100}; 
     };
-    class O_ti_TRYK_Beard_BK3: None 
+    class ti_TRYK_Beard_BK3: None 
     { 
         scope = 2;
         scopeArsenal=0;
@@ -33,7 +33,7 @@
 		hiddenSelectionsTextures[] = {"zabb2\TAC\beard\TRYK_beard_BK.paa"};
         identityTypes[] = {"G_TI_default",100};    
     };
-    class O_ti_TRYK_Beard_BK4: None 
+    class ti_TRYK_Beard_BK4: None 
     { 
         scope = 2;
         scopeArsenal=0;
