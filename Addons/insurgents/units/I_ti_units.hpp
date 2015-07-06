@@ -1095,7 +1095,7 @@
 			"Throw",
 			"Put"
 		};
-        allowedHeadgear[]={"ti_TRYK_H_headsetcap_blk"};
+        allowedHeadgear[]={"ti_TRYK_H_pakol"};
 		magazines[]=
 		{
             mag_5(rhs_30Rnd_545x39_AK)

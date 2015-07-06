@@ -71,7 +71,7 @@ dssignfile = ""
 prefix = "MFFA"
 pbo_name_prefix = "MFFA_"
 signature_blacklist = []
-importantFiles = ["mod.cpp"]
+importantFiles = ["mod.cpp","MFFA_logo.paa","MFFA_overview.paa","readme.txt"]
 versionFiles = ["mod.cpp"]
 
 ###############################################################################

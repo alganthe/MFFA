@@ -107,23 +107,3 @@
 			explosionShielding = 0.2;
 		};
 	};
-    class ti_TRYK_H_headsetcap_blk: ItemCore
-	{
-		scope = 2;
-        scopeArsenal = 0
-        weaponPoolAvailable = 1;
-		displayName = "TRYK HEAD SET2";
-		picture = "\tryk_unit\data\ui\UI_tac2headset.paa";
-		model = "ESSGoggles\headset2.p3d";
-        allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 1;
-			allowedSlots[] = {901,605};
-			uniformModel = "ESSGoggles\headset2.p3d";
-			modelSides[] = {2,3};
-			armor = 0;
-			passThrough = 0.5;
-			explosionShielding = 0.1;
-		};
-	}; 
