@@ -30,7 +30,7 @@
 		faction="O_ti";
 		vehicleclass="Men";
 		author="Alganthe";
-		_generalMacro="ti_CL_F";
+		_generalMacro="O_ti_CL_F";
         headgearProbability=100;
 		scope=2;
         scopeCurator = 2;
@@ -1143,8 +1143,8 @@
         class eventhandlers;
 	};
 ////////////////////////////////////////////////////Vehicles
-	class B_G_Offroad_01_F;
-	class O_ti_technical_F: B_G_Offroad_01_F
+	class O_G_Offroad_01_F;
+	class O_ti_technical_F: O_G_Offroad_01_F
 	{
 		displayName="Technical (unarmed)";
 		vehicleclass="Car";

@@ -1,7 +1,9 @@
 #include "script_component.hpp"
 
-class cfgPatches {
-    class ADDON {
+class cfgPatches 
+{
+    class ADDON 
+    {
         units[] = 
         {
 //////////////////////////// Opfor units
@@ -25,7 +27,6 @@ class cfgPatches {
 			"O_ti_technical_F",
 			"O_ti_technical_a_F",
             "O_ti_technical_r_F",
-			"O_ti_truck_F",
 			"O_ti_truck_s_F",
             "O_ti_suv_F",
             "O_ti_fuel_F",
@@ -65,7 +66,6 @@ class cfgPatches {
 			"I_ti_technical_F",
 			"I_ti_technical_a_F",
             "I_ti_technical_r_F",
-			"I_ti_truck_F",
 			"I_ti_truck_s_F",
             "I_ti_suv_F",
             "I_ti_fuel_F",
@@ -92,6 +92,61 @@ class cfgPatches {
         authorUrl = "";
         VERSION_CONFIG;
     };
+};
+class CfgFactionClasses
+{
+	class O_ti
+	{
+		displayName="Takistani insurgents";
+		icon=PATHTOF(data\ti_icon.paa);
+		side=0;
+		priority=2;
+	};
+    class I_ti
+	{
+		displayName="Takistani insurgents";
+		icon=PATHTOF(data\ti_icon.paa);
+		side=2;
+		priority=2;
+	};
+};
+class CfgVehicleClasses
+{
+	class O_ti_ins
+	{
+		displayName="Infantry";
+	};
+	class O_ti_mot
+	{
+		displayName="Motorized groups";
+	};
+	class O_ti_sup
+	{
+		displayName="Supports";
+	};
+	class I_ti_ins
+	{
+		displayName="Infantry";
+	};
+	class I_ti_mot
+	{
+		displayName="Motorized groups";
+	};
+	class I_ti_sup
+	{
+		displayName="Supports";
+	};
+};
+class CfgVehicles
+{
+    #include "equipment\ti_backpacks.hpp"
+    #include "units\O_ti_units.hpp"
+    #include "units\I_ti_units.hpp"
+};
+class Extended_Init_Eventhandlers
+{
+    #include "units\O_ti_EH.hpp"
+    #include "units\I_ti_EH.hpp"
 };
 class CfgGroups
 {
@@ -128,67 +183,4 @@ class cfgWeapons
 class CfgGlasses
 {
     #include "equipment\ti_facewear.hpp"
-};
-class CfgFactionClasses
-{
-	class O_ti
-	{
-		displayName="Takistani insurgents";
-		icon=PATHTOF(data\ti_icon.paa);
-		side=0;
-		priority=2;
-	};
-    class I_ti
-	{
-		displayName="Takistani insurgents";
-		icon=PATHTOF(data\ti_icon.paa);
-		side=2;
-		priority=2;
-	};
-};
-class CfgVehicleClasses
-{
-	class O_ti_ins
-	{
-		displayName="Insurgents";
-	};
-	class O_ti_mot
-	{
-		displayName="Motorized groups";
-	};
-	class O_ti_sup
-	{
-		displayName="Supports";
-	};
-	class O_ti_stat
-	{
-		displayName="Static";
-	};
-	class I_ti_ins
-	{
-		displayName="Insurgents";
-	};
-	class I_ti_mot
-	{
-		displayName="Motorized groups";
-	};
-	class I_ti_sup
-	{
-		displayName="Supports";
-	};
-	class I_ti_stat
-	{
-		displayName="Static";
-	};
-};
-class CfgVehicles
-{
-    #include "equipment\ti_backpacks.hpp"
-    #include "units\O_ti_units.hpp"
-    #include "units\I_ti_units.hpp"
-};
-class Extended_Init_Eventhandlers
-{
-    #include "units\O_ti_EH.hpp"
-    #include "units\I_ti_EH.hpp"
 };
