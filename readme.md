@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/alganthe/MFFA/blob/0.4_preps/assets/MFFA_logo.png"
+    <img src="https://github.com/alganthe/MFFA/blob/master/assets/MFFA_logo.png"
          height="112">
 </p>         
 <p align="center">
