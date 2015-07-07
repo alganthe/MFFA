@@ -58,7 +58,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@MFFA"
-MFFA_VERSION = "0.0.1"
+MFFA_VERSION = "0.4.0.0"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""
@@ -71,7 +71,7 @@ dssignfile = ""
 prefix = "MFFA"
 pbo_name_prefix = "MFFA_"
 signature_blacklist = []
-importantFiles = ["mod.cpp","MFFA_logo.paa","MFFA_overview.paa","readme.txt"]
+importantFiles = ["mod.cpp","MFFA_logo.paa","MFFA_overview.paa","readme.md","classnames.txt"]
 versionFiles = ["mod.cpp"]
 
 ###############################################################################

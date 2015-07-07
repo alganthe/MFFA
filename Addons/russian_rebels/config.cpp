@@ -96,14 +96,14 @@ class CfgFactionClasses
 	class B_rr
 	{
 		displayName="Russian rebels";
-		icon="";
+		icon=PATHTOF(data\rr_icon.paa);
 		side=1;
 		priority=2;
 	};
     class I_rr
 	{
 		displayName="russian rebels";
-		icon="";
+		icon=PATHTOF(data\rr_icon.paa);
 		side=2;
 		priority=2;
 	};
