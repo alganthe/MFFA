@@ -11,7 +11,7 @@
         scope = 1;
         class TransportMagazines
         {
-            mag_xx(150Rnd_762x54_Box,5);
+            mag_xx(rhs_100Rnd_762x54mmR,5);
         };
         class TransportItems
         {
