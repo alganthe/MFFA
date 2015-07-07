@@ -3,11 +3,11 @@
          height="112">
 </p>         
 <p align="center">
-    <a href="https://github.com/alganthe/MFFA/tree/master">
+    <a href="https://github.com/alganthe/MFFA/releases">
         <img src="https://img.shields.io/badge/version-0.4-orange.svg"
              alt="MFFA version">
     </a>
-    <a href="https://github.com/alganthe/MFFA/tree/master">
+    <a href="https://github.com/alganthe/MFFA/releases/download/0.4/MFFA.zip">
         <img src="https://img.shields.io/badge/Download-click%20me-green.svg"
              alt="MFFA version">
     </a>
