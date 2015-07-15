@@ -3,12 +3,12 @@
          height="112">
 </p>         
 <p align="center">
-    <a href="https://github.com/alganthe/MFFA/tree/master">
-        <img src="https://img.shields.io/badge/version-0.4-orange.svg"
+    <a href="https://github.com/alganthe/MFFA/releases">
+        <img src="https://img.shields.io/badge/version-0.5-orange.svg"
              alt="MFFA version">
     </a>
-    <a href="https://github.com/alganthe/MFFA/tree/master">
-        <img src="https://img.shields.io/badge/Download-click%20me-green.svg"
+    <a href="https://github.com/alganthe/MFFA/releases/download/0.5/MFFA.zip">
+        <img src="https://img.shields.io/badge/Download-Click%20me%20!!!-green.svg"
              alt="MFFA version">
     </a>
     <a href="http://www.bistudio.com/community/licenses/arma-public-license-share-alike">

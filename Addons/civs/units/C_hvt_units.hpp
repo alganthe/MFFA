@@ -39,6 +39,7 @@
 		};
         identityTypes[]=
 		{
+            "LanguageENG_F",
 			"GreekHead_A3_04",
 			"G_CIVIL_male"
 		};

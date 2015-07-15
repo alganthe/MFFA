@@ -38,6 +38,7 @@
 		};
         identityTypes[]=
 		{
+            "LanguageENG_F",
 			"Head_Euro",
 			"G_CIVIL_male"
 		};
@@ -83,6 +84,7 @@
 		};
         identityTypes[]=
 		{
+            "LanguageENG_F",
 			"Head_Euro",
 			"G_CIVIL_male"
 		};
@@ -128,6 +130,7 @@
 		};
         identityTypes[]=
 		{
+            "LanguageENG_F",
 			"Head_Euro",
 			"G_CIVIL_male"
 		};
@@ -173,6 +176,7 @@
 		};
         identityTypes[]=
 		{
+            "LanguageENG_F",
 			"Head_Euro",
 			"G_CIVIL_male"
 		};
@@ -218,6 +222,7 @@
 		};
         identityTypes[]=
 		{
+            "LanguageENG_F",
 			"Head_Euro",
 			"G_CIVIL_male"
 		};

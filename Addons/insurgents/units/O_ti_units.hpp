@@ -1040,15 +1040,13 @@
 		{
 			"Chemlight_red",
             mag_7(rhs_30Rnd_762x39mm),
-            mag_3(SmokeShell),
-            mag_2(APERSMine_Range_Mag)
+            mag_3(SmokeShell)
 		};
 		respawnMagazines[]=
 		{
 			"Chemlight_red",
             mag_7(rhs_30Rnd_762x39mm),
-            mag_3(SmokeShell),
-            mag_2(APERSMine_Range_Mag)
+            mag_3(SmokeShell)
 		};
 		linkedItems[]=
 		{
