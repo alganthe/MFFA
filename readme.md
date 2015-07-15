@@ -4,10 +4,10 @@
 </p>         
 <p align="center">
     <a href="https://github.com/alganthe/MFFA/releases">
-        <img src="https://img.shields.io/badge/version-0.5-orange.svg"
+        <img src="https://img.shields.io/badge/version-0.5.1-orange.svg"
              alt="MFFA version">
     </a>
-    <a href="https://github.com/alganthe/MFFA/releases/download/0.5/MFFA.zip">
+    <a href="https://github.com/alganthe/MFFA/releases/download/0.5.1/MFFA_0.5.1.zip">
         <img src="https://img.shields.io/badge/Download-Click%20me%20!!!-green.svg"
              alt="MFFA version">
     </a>
