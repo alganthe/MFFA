@@ -66,8 +66,9 @@ Alganthe</br></p>
 
 <p align="center">
 <b>Information about the license</b>
-
-Do not distribute this mod over steam workshop.
-You can modify the content of this mod, however if you plan on distributing it the above still applies.
-If you intend to distribute it, release the sources.
+</p>
+<p align="center">
+Do not distribute this mod over steam workshop.</br>
+You can modify the content of this mod, however if you plan on distributing it the above still applies.</br>
+If you intend to distribute it, release the sources.</br>
 </p>
