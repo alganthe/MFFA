@@ -4,10 +4,10 @@
 </p>         
 <p align="center">
     <a href="https://github.com/alganthe/MFFA/releases">
-        <img src="https://img.shields.io/badge/version-0.5-orange.svg"
+        <img src="https://img.shields.io/badge/version-1.0.0-orange.svg"
              alt="MFFA version">
     </a>
-    <a href="https://github.com/alganthe/MFFA/releases/download/0.5/MFFA.zip">
+    <a href="https://github.com/alganthe/MFFA/releases/download/1.0.0/MFFA_1.0.0.zip">
         <img src="https://img.shields.io/badge/Download-Click%20me%20!!!-green.svg"
              alt="MFFA version">
     </a>
@@ -29,14 +29,15 @@ Any ressemblance to a real person / group is simply a coincidence this is purely
 </p>
  
 <p align="center">
-MFFA (More Factions For Arma) is a mod aiming to add, as the name indicates, new factions to arma3 by combining assets from RHS and TRYK.</br>
-Currently 2 new factions and 2 of their variants are available</br>
+MFFA (More Factions For Arma) is a mod aiming to add, as the name indicates, new factions to arma3 by combining assets from RHS and TRYK as well as a CSAT retexture.</br>
+</p>
 
-- Takistani insurgents (OPFOR)</br>
-- Takistani insurgents (INDEP)</br>
+Available factions:
 
-- Russian rebels (BLUFOR)</br>
-- Russian rebels (INDEP)</br>
+- Takistani insurgents (OPFOR) and (INDEP).
+- Russian rebels (BLUFOR) and (INDEP).
+- CGCSAT (OPFOR)
+
 
 More factions are on the way !
 </p>
@@ -52,8 +53,8 @@ More factions are on the way !
 <p align="center">
 <b>CREDITS</b>
 </p><p align="center">
-The RHS team.</br>
-The TRYK team.</br>
+The RHS and TRYK teams for some models.</br>
+BI for the CSAT models.</br>
 Alganthe</br></p>
 
 
@@ -61,4 +62,13 @@ Alganthe</br></p>
 <b>THANKS TO</b>
 </p><p align="center">
  Bohemia Interactive
+</p>
+
+<p align="center">
+<b>Information about the license</b>
+</p>
+<p align="center">
+Do not distribute this mod over steam workshop.</br>
+You can modify the content of this mod, however if you plan on distributing it the above still applies.</br>
+If you intend to distribute it, release the sources.</br>
 </p>

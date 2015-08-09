@@ -3,7 +3,7 @@
     class ti_H_Beret_blk: ItemCore
     {
         scope = 2;
-        scopeArsenal = 0
+        scopeArsenal = 0;
         weaponPoolAvailable = 1;
         displayName = "Beret (Black)";
         picture = "\A3\characters_f\Data\UI\icon_H_Beret_blk_CA.paa";
@@ -22,88 +22,88 @@
     class ti_TRYK_H_pakol: ItemCore
     {
         scope = 2;
-        scopeArsenal = 0
+        scopeArsenal = 0;
         weaponPoolAvailable = 1;
-		displayName = "TRYK Pakol+headset(BR+headset)";
-		picture = "\tryk_unit\data\ui\UI_pakol.paa";
-		model = "tryk_unit\data\pakol.p3d";
+        displayName = "TRYK Pakol+headset(BR+headset)";
+        picture = "\tryk_unit\data\ui\UI_pakol.paa";
+        model = "tryk_unit\data\pakol.p3d";
         hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil01_4_co.paa"}; 
+        hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil01_4_co.paa"}; 
         allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
         class ItemInfo: HeadgearItem
         {
-			mass = 5;
-			allowedSlots[] = {901,605};
-			uniformModel = "tryk_unit\data\pakol.p3d";
-			modelSides[] = {2,3};
-			armor = 0.5;
-			passThrough = 0.5;
-			explosionShielding = 0.2;
+            mass = 5;
+            allowedSlots[] = {901,605};
+            uniformModel = "tryk_unit\data\pakol.p3d";
+            modelSides[] = {2,3};
+            armor = 0.5;
+            passThrough = 0.5;
+            explosionShielding = 0.2;
         };
     };   
     class ti_TRYK_H_pakol2: ItemCore
     {
-		scope = 2;
-        scopeArsenal = 0
+        scope = 2;
+        scopeArsenal = 0;
         weaponPoolAvailable = 1;
-		displayName = "TRYK Pakol(BR)";
-		picture = "\tryk_unit\data\ui\UI_pakol.paa";
-		model = "tryk_unit\data\pakol2.p3d";
+        displayName = "TRYK Pakol(BR)";
+        picture = "\tryk_unit\data\ui\UI_pakol.paa";
+        model = "tryk_unit\data\pakol2.p3d";
         hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil01_4_co.paa"};
+        hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil01_4_co.paa"};
         allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
         class ItemInfo: HeadgearItem
         {
-			mass = 5;
-			allowedSlots[] = {901,605};
-			uniformModel = "tryk_unit\data\pakol2.p3d";
-			modelSides[] = {2,3};
-			armor = 0.5;
-			passThrough = 0.5;
-			explosionShielding = 0.2;
+            mass = 5;
+            allowedSlots[] = {901,605};
+            uniformModel = "tryk_unit\data\pakol2.p3d";
+            modelSides[] = {2,3};
+            armor = 0.5;
+            passThrough = 0.5;
+            explosionShielding = 0.2;
         };
     };
     class ti_TRYK_H_woolhat: ItemCore
-	{
-		scope = 2;
-        scopeArsenal = 0
+    {
+        scope = 2;
+        scopeArsenal = 0;
         weaponPoolAvailable = 1;
-		displayName = "TRYK Woolcap";
-		picture = "\a3\characters_f\data\ui\icon_h_cap_beanie_ca.paa";
-		model = "tryk_unit\data\woolhat.p3d";
+        displayName = "TRYK Woolcap";
+        picture = "\a3\characters_f\data\ui\icon_h_cap_beanie_ca.paa";
+        model = "tryk_unit\data\woolhat.p3d";
         hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"tryk_unit\data\wh\woolhat_black_co.paa"};
+        hiddenSelectionsTextures[] = {"tryk_unit\data\wh\woolhat_black_co.paa"};
         allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 5;
-			allowedSlots[] = {901,605};
-			uniformModel = "tryk_unit\data\woolhat.p3d";
-			modelSides[] = {2,3};
-			armor = 0.5;
-			passThrough = 0.5;
-			explosionShielding = 0.2;
-		};
-	}; 
-	class ti_TRYK_H_woolhat_br: ItemCore
-	{
-		scope = 2;
-        scopeArsenal = 0
+        class ItemInfo: HeadgearItem
+        {
+            mass = 5;
+            allowedSlots[] = {901,605};
+            uniformModel = "tryk_unit\data\woolhat.p3d";
+            modelSides[] = {2,3};
+            armor = 0.5;
+            passThrough = 0.5;
+            explosionShielding = 0.2;
+        };
+    }; 
+    class ti_TRYK_H_woolhat_br: ItemCore
+    {
+        scope = 2;
+        scopeArsenal = 0;
         weaponPoolAvailable = 1;
-		displayName = "TRYK Woolcap(br)";
-		picture = "\a3\characters_f\data\ui\icon_h_cap_beanie_ca.paa";
-		model = "tryk_unit\data\woolhat.p3d";
+        displayName = "TRYK Woolcap(br)";
+        picture = "\a3\characters_f\data\ui\icon_h_cap_beanie_ca.paa";
+        model = "tryk_unit\data\woolhat.p3d";
         hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"tryk_unit\data\woolhat_br.paa"};
+        hiddenSelectionsTextures[] = {"tryk_unit\data\woolhat_br.paa"};
         allowedFacewear[]={"ti_TRYK_Beard_BK","ti_TRYK_Beard_BK2","ti_TRYK_Beard_BK3","ti_TRYK_Beard_BK4"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 5;
-			allowedSlots[] = {901,605};
-			uniformModel = "tryk_unit\data\woolhat.p3d";
-			modelSides[] = {2,3};
-			armor = 0.5;
-			passThrough = 0.5;
-			explosionShielding = 0.2;
-		};
-	};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 5;
+            allowedSlots[] = {901,605};
+            uniformModel = "tryk_unit\data\woolhat.p3d";
+            modelSides[] = {2,3};
+            armor = 0.5;
+            passThrough = 0.5;
+            explosionShielding = 0.2;
+        };
+    };

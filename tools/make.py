@@ -30,7 +30,7 @@
 
 ###############################################################################
 
-__version__ = "0.4"
+__version__ = "3.0"
 
 import sys
 
@@ -58,7 +58,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@MFFA"
-MFFA_VERSION = "0.5.0.0"
+MFFA_VERSION = "1.0.0.0"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""

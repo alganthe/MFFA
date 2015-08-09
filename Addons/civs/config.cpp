@@ -20,25 +20,25 @@ class cfgPatches
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"MFFA_main"};
-        author[] = {"Alganthe"};
+        author[] = {ECSTRING(main,author)};
         authorUrl = "";
         VERSION_CONFIG;
     };
 };
 class CfgVehicleClasses
 {
-	class C_tc_men
-	{
-		displayName="Men (Takistani)";
-	};
+    class C_tc_men
+    {
+        displayName="Men (Takistani)";
+    };
     class C_cc_men
-	{
-		displayName="Men (Casual)";
-	};
+    {
+        displayName="Men (Casual)";
+    };
     class C_hvt_men
-	{
-		displayName="Men (HVT)";
-	};
+    {
+        displayName="Men (HVT)";
+    };
 };
 class CfgVehicles
 {

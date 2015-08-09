@@ -9,23 +9,23 @@ class cfgPatches
 /////////////////////////////BLUFOR
             "B_rr_CL_F",
             "B_rr_CL_u_F",
-			"B_rr_SL_F",
-			"B_rr_soldier_F",
-			"B_rr_m_F",
-			"B_rr_gl_F",
-			"B_rr_medic_F",
-			"B_rr_light_F",
-			"B_rr_pistol_F",
-			"B_rr_lat_F",
-			"B_rr_aa_F",
-			"B_rr_mg_F",
-			"B_rr_amg_F",
-			"B_rr_eng_F",
-			"B_rr_exp_F",
-			"B_rr_technical_F",
-			"B_rr_technical_a_F",
+            "B_rr_SL_F",
+            "B_rr_soldier_F",
+            "B_rr_m_F",
+            "B_rr_gl_F",
+            "B_rr_medic_F",
+            "B_rr_light_F",
+            "B_rr_pistol_F",
+            "B_rr_lat_F",
+            "B_rr_aa_F",
+            "B_rr_mg_F",
+            "B_rr_amg_F",
+            "B_rr_eng_F",
+            "B_rr_exp_F",
+            "B_rr_technical_F",
+            "B_rr_technical_a_F",
             "B_rr_technical_r_F",
-			"B_rr_truck_s_F",
+            "B_rr_truck_s_F",
             "B_rr_Ural_c_F",
             "B_rr_Ural_o_F",
             "B_rr_fuel_F",
@@ -47,23 +47,23 @@ class cfgPatches
 ////////////////////////////////Indep
             "I_rr_CL_F",
             "I_rr_CL_u_F",
-			"I_rr_SL_F",
-			"I_rr_soldier_F",
-			"I_rr_m_F",
-			"I_rr_gl_F",
-			"I_rr_medic_F",
-			"I_rr_light_F",
-			"I_rr_pistol_F",
-			"I_rr_lat_F",
-			"I_rr_aa_F",
-			"I_rr_mg_F",
-			"I_rr_amg_F",
-			"I_rr_eng_F",
-			"I_rr_exp_F",
-			"I_rr_technical_F",
-			"I_rr_technical_a_F",
+            "I_rr_SL_F",
+            "I_rr_soldier_F",
+            "I_rr_m_F",
+            "I_rr_gl_F",
+            "I_rr_medic_F",
+            "I_rr_light_F",
+            "I_rr_pistol_F",
+            "I_rr_lat_F",
+            "I_rr_aa_F",
+            "I_rr_mg_F",
+            "I_rr_amg_F",
+            "I_rr_eng_F",
+            "I_rr_exp_F",
+            "I_rr_technical_F",
+            "I_rr_technical_a_F",
             "I_rr_technical_r_F",
-			"I_rr_truck_s_F",
+            "I_rr_truck_s_F",
             "I_rr_Ural_c_F",
             "I_rr_Ural_o_F",
             "I_rr_fuel_F",
@@ -86,54 +86,27 @@ class cfgPatches
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"MFFA_main"};
-        author[] = {"Alganthe"};
+        author[] = {ECSTRING(main,author)};
         authorUrl = "";
         VERSION_CONFIG;
     };
 };
 class CfgFactionClasses
 {
-	class B_rr
-	{
-		displayName="Russian rebels";
-		icon=PATHTOF(data\rr_icon.paa);
-		side=1;
-		priority=2;
-	};
+    class B_rr
+    {
+        displayName="Russian rebels";
+        icon=PATHTOF(data\rr_icon.paa);
+        side=1;
+        priority=2;
+    };
     class I_rr
-	{
-		displayName="russian rebels";
-		icon=PATHTOF(data\rr_icon.paa);
-		side=2;
-		priority=2;
-	};
-};
-class CfgVehicleClasses
-{
-	class B_rr_inf
-	{
-		displayName="Infantry";
-	};
-	class B_rr_mot
-	{
-		displayName="Motorized groups";
-	};
-	class B_rr_sup
-	{
-		displayName="Supports";
-	};
-	class I_rr_inf
-	{
-		displayName="Infantry";
-	};
-	class I_rr_mot
-	{
-		displayName="Motorized groups";
-	};
-	class I_rr_sup
-	{
-		displayName="Supports";
-	};
+    {
+        displayName="russian rebels";
+        icon=PATHTOF(data\rr_icon.paa);
+        side=2;
+        priority=2;
+    };
 };
 class CfgVehicles
 {
@@ -152,24 +125,24 @@ class cfgWeapons
 };
 class CfgGroups
 {
-	class West
-	{
-		side=1;
-		name="BLUFOR";
-		class B_rr
-		{
+    class West
+    {
+        side=1;
+        name="BLUFOR";
+        class B_rr
+        {
             name="Russian rebels";
             #include "groups\B_rr_inf.hpp"
             #include "groups\B_rr_sup.hpp"
             #include "groups\B_rr_mot.hpp"
         };
     };
-	class Indep
-	{
-		side=2;
-		name="independent";
-		class I_rr
-		{
+    class Indep
+    {
+        side=2;
+        name="independent";
+        class I_rr
+        {
             name="Russian rebels";
             #include "groups\I_rr_inf.hpp"
             #include "groups\I_rr_sup.hpp"

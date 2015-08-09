@@ -16,6 +16,11 @@ class CfgPatches {
             "A3_Characters_F_EPB",
 			"A3_Characters_F_Common",
 			"A3_Characters_F_Heads",
+            "A3_Air_F_Heli",
+            "A3_Air_F",
+            "A3_Air_F_Beta",
+            "A3_Armor_F_Beta",
+            "A3_Boat_F",
             "rhs_weapons",
             "rhs_weapons2",
             "rhs_heavyweapons",
@@ -41,7 +46,7 @@ class CfgMods
 {
     class PREFIX 
     {
-        dir = "@ACE";
+        dir = "@MFFA";
         name = "More Factions For Arma3 MFFA";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";

@@ -64,5 +64,5 @@
     };
     class I_ti_suv_F
     {
-        MFFA_init = "(_this select 0) setVariable ['BIS_enableRandomization', false]";
+        MFFA_init = "";
     };
