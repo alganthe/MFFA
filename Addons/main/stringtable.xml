@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MFFA">
+    <Package name="main">
+        <Key ID="STR_MFFA_main_author">
+        <English>Alganthe</english>
+        </Key>
+    </Package>
+</Project>
