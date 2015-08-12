@@ -1,4 +1,4 @@
-        class B_rr_sup
+        class Support
         {
             name="Support Infantry";
             class B_rr_g_sup_med

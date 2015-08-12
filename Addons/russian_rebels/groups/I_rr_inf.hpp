@@ -1,4 +1,4 @@
-        class I_rr_ins
+        class Infantry
         {
             name="Infantry";
             class I_rr_g_team_F

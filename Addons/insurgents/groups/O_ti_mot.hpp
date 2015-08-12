@@ -1,4 +1,4 @@
-        class O_ti_mot
+        class Motorized_MTP
         {
             name ="Motorized groups";
             class O_ti_mot_g_s
