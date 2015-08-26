@@ -22,13 +22,12 @@
         {
             "FirstAidKit"
         };
-        respawnitems[] = 
+        respawnitems[] =
         {
             "FirstAidKit"
         };
         linkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -36,7 +35,6 @@
         };
         respawnLinkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -70,13 +68,12 @@
         {
             "FirstAidKit"
         };
-        respawnitems[] = 
+        respawnitems[] =
         {
             "FirstAidKit"
         };
         linkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -84,7 +81,6 @@
         };
         respawnLinkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -118,13 +114,12 @@
         {
             "FirstAidKit"
         };
-        respawnitems[] = 
+        respawnitems[] =
         {
             "FirstAidKit"
         };
         linkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -132,7 +127,6 @@
         };
         respawnLinkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -168,13 +162,12 @@
         {
             "FirstAidKit"
         };
-        respawnitems[] = 
+        respawnitems[] =
         {
             "FirstAidKit"
         };
         linkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -182,7 +175,6 @@
         };
         respawnLinkedItems[]=
         {
-            "TRYK_H_pakol2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

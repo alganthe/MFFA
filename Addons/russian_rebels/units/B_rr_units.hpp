@@ -1,5 +1,5 @@
 /// Mags macros ///
- 
+
 #define mag_2(a) a, a
 #define mag_3(a) a, a, a
 #define mag_4(a) a, a, a, a
@@ -16,7 +16,7 @@
     class B_G_Soldier_GL_F;
     class B_G_medic_F;
     class B_G_Soldier_lite_F;
-    class B_G_Soldier_LAT_F;    
+    class B_G_Soldier_LAT_F;
     class B_G_Soldier_AR_F;
     class B_G_Soldier_A_F;
     class B_G_engineer_F;
@@ -54,7 +54,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"H_Beret_blk"};
         magazines[]=
         {
             mag_3(rhs_mag_9x18_12_57N181S),
@@ -69,7 +68,7 @@
         {
             "FirstAidKit"
         };
-        respawnitems[] = 
+        respawnitems[] =
         {
             "FirstAidKit"
         };
@@ -151,7 +150,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"H_MilCap_gry"};
         magazines[]=
         {
             mag_11(rhs_30Rnd_545x39_AK),
@@ -217,7 +215,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_10(rhs_30Rnd_762x39mm),
@@ -287,7 +284,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_11(rhs_10Rnd_762x54mmR_7N1),
@@ -355,7 +351,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
@@ -426,11 +421,10 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
-            mag_5(SmokeShell)   
+            mag_5(SmokeShell)
         };
         respawnMagazines[]=
         {
@@ -490,7 +484,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_10(30Rnd_45ACP_Mag_SMG_01),
@@ -561,7 +554,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
@@ -630,7 +622,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
@@ -697,7 +688,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_2(HandGrenade),
@@ -764,7 +754,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             mag_11(rhs_30Rnd_762x39mm)
@@ -817,7 +806,7 @@
         scopeCurator = 2;
         displayName="Engineer";
         genericNames="RussianMen";
-        
+
         weapons[]=
         {
             "rhs_weap_akms",
@@ -830,7 +819,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             "Chemlight_red",
@@ -899,7 +887,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"TRYK_H_woolhat","H_Bandanna_gry","H_Bandanna_blu","H_Bandanna_camo","H_Watchcap_blk","rhs_beanie_green","H_Cap_blk","H_Cap_oli","TRYK_H_woolhat"};
         magazines[]=
         {
             "Chemlight_red",
@@ -1019,7 +1006,7 @@
         author=ECSTRING(main,author);
         crew="B_rr_light_F";
     };
-    
+
 ////////////////////////////////////////////////////Statics
     class B_Mortar_01_F;
     class B_rr_mortar_F: B_Mortar_01_F

@@ -17,13 +17,12 @@
         {
             "FirstAidKit"
         };
-        respawnitems[] = 
+        respawnitems[] =
         {
             "FirstAidKit"
         };
         linkedItems[]=
         {
-            "TRYK_H_wig",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -31,7 +30,6 @@
         };
         respawnLinkedItems[]=
         {
-            "TRYK_H_wig",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
