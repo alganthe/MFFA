@@ -8,8 +8,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
         class Wounds
         {
@@ -26,8 +26,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class O_cg_cdp_medic_F: O_cg_cwp_medic_F
@@ -39,8 +39,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class O_cg_cdp_crew_F: O_cg_cwp_crew_F
@@ -65,10 +65,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-         linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+         linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_soldier_exp_F: O_cg_cwp_soldier_exp_F
     {
         backpack ="B_cg_Carryall_cdp_exp";
@@ -78,10 +78,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_GL_F: O_cg_cwp_Soldier_GL_F
     {
         vehicleclass="MenCDP";
@@ -90,10 +90,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_HeavyGunner_F: O_cg_cwp_HeavyGunner_F
     {
         vehicleclass="MenCDP";
@@ -102,8 +102,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class O_cg_cdp_helicrew_F: O_cg_cwp_helicrew_F
@@ -115,7 +115,7 @@
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform4.paa)};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_helipilot_F: O_cg_cwp_helipilot_F
     {
         vehicleclass="MenCDP";
@@ -130,7 +130,7 @@
             mat[] = {"A3\characters_f\common\data\pilot_suit.rvmat","A3\Characters_F\Common\Data\W1_pilot_suit.rvmat","A3\Characters_F\Common\Data\W1_pilot_suit.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat"};
             tex[] = {};
         };
-    }; 
+    };
     class O_cg_cdp_soldier_M_F: O_cg_cwp_soldier_M_F
     {
         vehicleclass="MenCDP";
@@ -139,15 +139,15 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
         class Wounds
         {
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
             tex[] = {};
         };
-    }; 
+    };
     class O_cg_cdp_Soldier_AA_F: O_cg_cwp_Soldier_AA_F
     {
         backpack ="B_cg_FieldPack_cdp_AA";
@@ -157,10 +157,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_AT_F: O_cg_cwp_Soldier_AT_F
     {
         backpack ="B_cg_FieldPack_cdp_AT";
@@ -170,8 +170,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class O_cg_cdp_soldier_repair_F: O_cg_cwp_soldier_repair_F
@@ -183,10 +183,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_F: O_cg_cwp_Soldier_F
     {
         vehicleclass="MenCDP";
@@ -195,8 +195,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class O_cg_cdp_officer_F: O_cg_cwp_officer_F
@@ -215,7 +215,7 @@
             mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
             tex[] = {};
         };
-    }; 
+    };
     class O_cg_cdp_soldier_PG_F: O_cg_cwp_soldier_PG_F
     {
         vehicleclass="MenCDP";
@@ -224,16 +224,16 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Pilot_F: O_cg_cwp_Pilot_F
     {
         vehicleclass="MenCDP";
         _generalMacro="O_cg_cdp_Pilot_F";
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_LAT_F: O_cg_cwp_Soldier_LAT_F
     {
         backpack ="B_cg_FieldPack_cdp_LAT";
@@ -243,10 +243,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_lite_F: O_cg_cwp_Soldier_lite_F
     {
         vehicleclass="MenCDP";
@@ -258,7 +258,7 @@
         linkedItems[] = {"V_BandollierB_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_BandollierB_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class o_cg_cdp_soldier_unarmed_f: o_cg_cwp_soldier_unarmed_f
     {
         vehicleclass="MenCDP";
@@ -267,10 +267,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_SL_F: O_cg_cwp_Soldier_SL_F
     {
         vehicleclass="MenCDP";
@@ -279,8 +279,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class O_cg_cdp_Sharpshooter_F: O_cg_cwp_Sharpshooter_F
@@ -291,8 +291,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class o_cg_cdp_survivor_F:o_cg_cwp_survivor_F
@@ -318,8 +318,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnlinkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnlinkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
     class O_cg_cdp_soldier_UAV_F: O_cg_cwp_soldier_UAV_F
@@ -330,8 +330,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","O_UavTerminal","NVGoggles_OPFOR"};
-        respawnlinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","O_UavTerminal","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","O_UavTerminal","NVGoggles_OPFOR"};
+        respawnlinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","O_UavTerminal","NVGoggles_OPFOR"};
         class eventhandlers;
     };
 ////////////////////////////////////////////////////Men (Recon)
@@ -344,10 +344,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_recon_JTAC_F: O_cg_cwp_recon_JTAC_F
     {
         vehicleclass="MenReconCDP";
@@ -356,10 +356,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_recon_M_F: O_cg_cwp_recon_M_F
     {
         vehicleclass="MenReconCDP";
@@ -368,10 +368,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_recon_medic_F: O_cg_cwp_recon_medic_F
     {
         backpack = "B_cg_FieldPack_cdp_ReconMedic";
@@ -381,10 +381,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_pathfinder_F: O_cg_cwp_pathfinder_F
     {
         vehicleclass="MenReconCDP";
@@ -393,10 +393,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_recon_F: O_cg_cwp_recon_F
     {
         vehicleclass="MenReconCDP";
@@ -405,10 +405,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessO_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_recon_LAT_F: O_cg_cwp_recon_LAT_F
     {
         backpack = "B_cg_FieldPack_cdp_LAT";
@@ -418,10 +418,10 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_TacVest_khk","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessO_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_recon_TL_F: O_cg_cwp_recon_TL_F
     {
         vehicleclass="MenReconCDP";
@@ -430,8 +430,8 @@
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cdp.paa)};
-        linkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_HarnessOGL_gry","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"cg_HarnessOGL_cdp","cg_MICH_cdp","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
 ////////////////////////////////////////////////////Men (Support)
@@ -447,7 +447,7 @@
         linkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_support_AMG_F: O_cg_cwp_support_AMG_F
     {
         vehicleclass="MenSupportCDP";
@@ -459,7 +459,7 @@
         linkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_support_AMort_F: O_cg_cwp_support_AMort_F
     {
         vehicleclass="MenSupportCDP";
@@ -471,7 +471,7 @@
         linkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_AAA_F: O_cg_cwp_Soldier_AAA_F
     {
         backpack = "B_cg_Carryall_cdp_AAA";
@@ -484,7 +484,7 @@
         linkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_Soldier_AAT_F: O_cg_cwp_Soldier_AAT_F
     {
         backpack = "B_cg_Carryall_cdp_AAT";
@@ -498,7 +498,7 @@
         linkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_support_GMG_F: O_cg_cwp_support_GMG_F
     {
         vehicleclass="MenSupportCDP";
@@ -510,7 +510,7 @@
         linkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_support_MG_F: O_cg_cwp_support_MG_F
     {
         vehicleclass="MenSupportCDP";
@@ -522,7 +522,7 @@
         linkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_khk","cg_MICH_cdp","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
-    }; 
+    };
     class O_cg_cdp_support_Mort_F: O_cg_cwp_support_Mort_F
     {
         vehicleclass="MenSupportCDP";
