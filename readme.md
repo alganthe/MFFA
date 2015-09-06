@@ -4,10 +4,10 @@
 </p>         
 <p align="center">
     <a href="https://github.com/alganthe/MFFA/releases">
-        <img src="https://img.shields.io/badge/version-1.0.0-orange.svg"
+        <img src="https://img.shields.io/badge/version-1.0.5-orange.svg"
              alt="MFFA version">
     </a>
-    <a href="https://github.com/alganthe/MFFA/releases/download/1.0.0/MFFA_1.0.0.zip">
+    <a href="https://github.com/alganthe/MFFA/releases/download/1.0.0/MFFA_1.0.5.zip">
         <img src="https://img.shields.io/badge/Download-Click%20me%20!!!-green.svg"
              alt="MFFA version">
     </a>
@@ -27,7 +27,7 @@ Any ressemblance to a real person / group is simply a coincidence this is purely
 <p align="center">
 <b>DESCRIPTION</b>
 </p>
- 
+
 <p align="center">
 MFFA (More Factions For Arma) is a mod aiming to add, as the name indicates, new factions to arma3 by combining assets from RHS and TRYK as well as a CSAT retexture.</br>
 </p>
