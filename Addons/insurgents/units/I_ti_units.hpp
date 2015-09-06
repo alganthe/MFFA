@@ -6,12 +6,12 @@
     class I_G_Soldier_GL_F;
     class I_G_medic_F;
     class I_G_Soldier_lite_F;
-    class I_G_Soldier_LAT_F;    
+    class I_G_Soldier_LAT_F;
     class I_G_Soldier_AR_F;
     class I_G_Soldier_A_F;
     class I_G_engineer_F;
     class I_G_Soldier_exp_F;
-    class i_g_soldier_unarmed_f;  
+    class i_g_soldier_unarmed_f;
 
 ////////////////////////////////////////////////////Infantry
     class I_ti_CL_F: I_G_officer_F
@@ -38,7 +38,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_H_Beret_blk"};
         respawnWeapons[]=
         {
             "hgun_P07_F",
@@ -69,7 +68,7 @@
             "ItemWatch",
             "ItemRadio"
         };
-        respawnitems[] = 
+        respawnitems[] =
         {
             "FirstAidKit"
         };
@@ -147,7 +146,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol"};
         magazines[]=
         {
             mag_10(rhs_30Rnd_762x39mm),
@@ -218,7 +216,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_10(rhs_30Rnd_762x39mm),
@@ -293,7 +290,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_11(rhs_10Rnd_762x54mmR_7N1),
@@ -352,7 +348,7 @@
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_3_co.paa"};
         hiddenSelectionsMaterials[] = {};
-        
+
         weapons[]=
         {
             "rhs_weap_akm_gp25",
@@ -367,7 +363,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
@@ -438,11 +433,10 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
-            mag_5(SmokeShell)   
+            mag_5(SmokeShell)
         };
         respawnMagazines[]=
         {
@@ -490,7 +484,7 @@
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"tryk_unit\data\loc\loc_ind01_1_co.paa"};
         hiddenSelectionsMaterials[] = {};
-        
+
         weapons[]=
         {
             "SMG_01_F",
@@ -503,7 +497,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_10(30Rnd_45ACP_Mag_SMG_01),
@@ -566,7 +559,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         respawnWeapons[]=
         {
             "LMG_Zafir_F",
@@ -636,7 +628,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             "Chemlight_red",
@@ -707,7 +698,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
@@ -776,7 +766,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_7(rhs_30Rnd_762x39mm),
@@ -843,7 +832,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_2(HandGrenade),
@@ -910,7 +898,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol2"};
         magazines[]=
         {
             mag_11(rhs_30Rnd_762x39mm)
@@ -963,7 +950,7 @@
         hiddenSelections[] = {"camo3"};
         hiddenSelectionsTextures[] = {"tryk_unit\data\tk\tak_civil03_bl_co.paa"};
         hiddenSelectionsMaterials[] = {};
-        
+
         weapons[]=
         {
             "rhs_weap_akms",
@@ -976,7 +963,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_woolhat_br"};
         magazines[]=
         {
             "Chemlight_red",
@@ -1050,7 +1036,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_woolhat"};
         magazines[]=
         {
             "Chemlight_red",
@@ -1118,7 +1103,6 @@
             "Throw",
             "Put"
         };
-        allowedHeadgear[]={"ti_TRYK_H_pakol"};
         magazines[]=
         {
             mag_5(rhs_30Rnd_545x39_AK)
@@ -1174,7 +1158,7 @@
         author="Alganthe";
         crew="I_ti_driver_F";
     };
-    class I_G_Offroad_01_armed_F;  
+    class I_G_Offroad_01_armed_F;
     class I_ti_technical_a_F: B_G_Offroad_01_armed_F
     {
         displayName="Technical";
@@ -1199,7 +1183,7 @@
         author="Alganthe";
         crew="I_ti_driver_F";
     };
-    class I_ti_suv_F:  SUV_01_base_black_F 
+    class I_ti_suv_F:  SUV_01_base_black_F
     {
         displayName="SUV";
         vehicleclass="Car";

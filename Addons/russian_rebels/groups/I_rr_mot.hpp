@@ -1,4 +1,4 @@
-        class I_rr_mot
+        class Motorized_MTP
         {
             name ="Motorized groups";
             class I_rr_mot_g_s

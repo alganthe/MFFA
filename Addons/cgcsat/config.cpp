@@ -1,10 +1,10 @@
 #include "script_component.hpp"
 
-class cfgPatches 
+class cfgPatches
 {
-    class ADDON 
+    class ADDON
     {
-        units[] = 
+        units[] =
         {
              ///////////////////////////////////////////////////// Infantry
             "O_cg_sniper_F",
@@ -333,9 +333,33 @@ class cfgPatches
             "O_cg_cdp_MechInf_AT",
             "O_cg_cdp_MechInf_AA",
             "O_cg_cdp_MechInf_Support"
-    
+
         };
-        weapons[] = {};
+        weapons[] =
+        {
+            ///////////////////////////////////////////////////// Uniforms
+            "O_cg_cwp_uniform1",
+            "O_cg_cwp_uniform2",
+            "O_cg_cwp_uniform3",
+            "O_cg_uniform1_cup",
+            "O_cg_uniform2_cup",
+            "O_cg_cdp_uniform1",
+            "O_cg_cdp_uniform2",
+            "O_cg_cdp_uniform3",
+            "O_cg_uniform4",
+            ///////////////////////////////////////////////////// Headgear
+            "cg_MICH_cwp",
+            "H_HelmetCrew_O_cg",
+            "cg_MICH_cup",
+            "cg_MICH_cdp",
+            ///////////////////////////////////////////////////// Vests
+            "cg_HarnessO_cwp",
+            "cg_HarnessOGL_cwp",
+            "cg_HarnessO_cdp",
+            "cg_HarnessOGL_cdp",
+            "cg_HarnessO_cup",
+            "cg_HarnessOGL_cup"
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"MFFA_main"};
         author[] = {ECSTRING(main,author)};
@@ -402,6 +426,7 @@ class CfgWeapons
 {
     #include "equipment\cgcsat_uniforms.hpp"
     #include "equipment\cgcsat_headgear.hpp"
+    #include "equipment\cgcsat_vests.hpp"
 };
 class CfgGroups
 {

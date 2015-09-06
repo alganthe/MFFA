@@ -1,10 +1,10 @@
 #include "script_component.hpp"
 
-class cfgPatches 
+class cfgPatches
 {
-    class ADDON 
+    class ADDON
     {
-        units[] = 
+        units[] =
         {
 //////////////////////////// Opfor units
             "O_ti_CL_F",
@@ -150,7 +150,6 @@ class CfgGroups
 };
 class cfgWeapons
 {
-    #include "equipment\ti_headgears.hpp"
     #include "equipment\ti_uniforms.hpp"
 };
 class CfgGlasses
