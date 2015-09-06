@@ -356,7 +356,9 @@ class cfgPatches
             "cg_HarnessO_cwp",
             "cg_HarnessOGL_cwp",
             "cg_HarnessO_cdp",
-            "cg_HarnessOGL_cdp"
+            "cg_HarnessOGL_cdp",
+            "cg_HarnessO_cup",
+            "cg_HarnessOGL_cup"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"MFFA_main"};
