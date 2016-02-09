@@ -1,11 +1,8 @@
 #include "script_component.hpp"
 
-class cfgPatches
-{
-    class ADDON
-    {
-        units[] =
-        {
+class cfgPatches {
+    class ADDON {
+        units[] = {
              ///////////////////////////////////////////////////// Infantry
             "O_cg_sniper_F",
             "O_cg_ghillie_ard_F",
@@ -335,8 +332,7 @@ class cfgPatches
             "O_cg_cdp_MechInf_Support"
 
         };
-        weapons[] =
-        {
+        weapons[] = {
             ///////////////////////////////////////////////////// Uniforms
             "O_cg_cwp_uniform1",
             "O_cg_cwp_uniform2",
@@ -367,10 +363,9 @@ class cfgPatches
         VERSION_CONFIG;
     };
 };
-class CfgFactionClasses
-{
-    class O_cgcsat
-    {
+
+class CfgFactionClasses {
+    class O_cgcsat {
         displayName="CSAT(current gen)";
         flag = "\a3\Data_f\Flags\flag_CSAT_co.paa";
         icon = "\a3\Data_f\cfgFactionClasses_OPF_ca.paa";
@@ -378,64 +373,61 @@ class CfgFactionClasses
         priority=1;
     };
 };
-class CfgVehicleClasses
-{
-    class MenCWP
-    {
+
+class CfgVehicleClasses {
+    class MenCWP {
         displayName="Men (CWP)";
     };
-    class MenCUP
-    {
+
+    class MenCUP {
         displayName="Men (CUP)";
     };
-    class MenCDP
-    {
+
+    class MenCDP {
         displayName="Men (CDP)";
     };
-    class MenReconCWP
-    {
+
+    class MenReconCWP {
         displayName="Men (Recon)(CWP)";
     };
-    class MenReconCDP
-    {
+
+    class MenReconCDP {
         displayName="Men (Recon)(CDP)";
     };
-    class MenSupportCWP
-    {
+
+    class MenSupportCWP {
         displayName="Men (Support)(CWP)";
     };
-    class MenSupportCDP
-    {
+
+    class MenSupportCDP {
         displayName="Men (Support)(CDP)";
     };
 };
-class CfgVehicles
-{
+
+class CfgVehicles {
     #include "equipment\cgcsat_backpacks.hpp"
     #include "units\cgcsat_units_cwp.hpp"
     #include "units\cgcsat_units_cup.hpp"
     #include "units\cgcsat_units_cdp.hpp"
     #include "units\cgcsat_vehicles.hpp"
 };
-class Extended_Init_Eventhandlers
-{
+
+class Extended_Init_Eventhandlers {
     #include "units\cgcsat_EH.hpp"
     #include "units\cgcsat_vehicles_EH.hpp"
 };
-class CfgWeapons
-{
+
+class CfgWeapons {
     #include "equipment\cgcsat_uniforms.hpp"
     #include "equipment\cgcsat_headgear.hpp"
     #include "equipment\cgcsat_vests.hpp"
 };
-class CfgGroups
-{
-    class East
-    {
+
+class CfgGroups {
+    class East {
         name="OPFOR";
         side=0;
-        class O_cgcsat
-        {
+        class O_cgcsat {
             name="CG CSAT";
             #include "groups\cgcsat_g_infantry.hpp"
             #include "groups\cgcsat_g_infantry_urban.hpp"

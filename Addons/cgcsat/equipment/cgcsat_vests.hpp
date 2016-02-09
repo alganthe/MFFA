@@ -27,6 +27,7 @@
 			};
 		};
 	};
+    
     class cg_HarnessOGL_cwp: cg_HarnessO_cwp {
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cwp";
@@ -70,6 +71,7 @@
 			};
 		};
 	};
+
     class cg_HarnessOGL_cdp: cg_HarnessO_cdp {
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cdp";
@@ -113,6 +115,7 @@
 			};
 		};
 	};
+
     class cg_HarnessOGL_cup: cg_HarnessO_cup {
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cup";
