@@ -2,7 +2,7 @@
     class O_cg_cup_Soldier_A_F: O_cg_cwp_Soldier_A_F {
         faction="O_cg_cup";
         backpack = "O_cg_Caryall_cup_Ammo";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_A_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -20,7 +20,7 @@
     class O_cg_cup_Soldier_AAR_F: O_cg_cwp_Soldier_AAR_F {
         faction="O_cg_cup";
         backpack = "O_cg_Carryall_cup_AAR";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_AAR_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -34,7 +34,7 @@
     class O_cg_cup_Soldier_AAA_F: O_cg_cwp_Soldier_AAA_F {
         faction="O_cg_cup";
         backpack = "O_cg_Carryall_cup_AAA";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_AAA_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -48,7 +48,7 @@
     class O_cg_cup_Soldier_AAT_F: O_cg_cwp_Soldier_AAT_F {
         faction="O_cg_cup";
         backpack = "O_cg_Carryall_cup_AAT";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_AAT_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -62,7 +62,7 @@
     class O_cg_cup_Soldier_AR_F: O_cg_cwp_Soldier_AR_F {
         faction="O_cg_cup";
         backpack = "O_cg_AssaultPack_cup_AR";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_AR_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -76,7 +76,7 @@
     class O_cg_cup_medic_F: O_cg_cwp_medic_F {
         faction="O_cg_cup";
         backpack = "O_cg_FieldPack_cup_Medic";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_medic_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -90,7 +90,7 @@
     class O_cg_cup_engineer_F: O_cg_cwp_engineer_F {
         faction="O_cg_cup";
         backpack ="O_cg_Carryall_cup_eng";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_engineer_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -104,7 +104,7 @@
     class O_cg_cup_soldier_exp_F: O_cg_cwp_soldier_exp_F {
         faction="O_cg_cup";
         backpack ="O_cg_Carryall_cup_exp";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_soldier_exp_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -117,7 +117,7 @@
 
     class O_cg_cup_Soldier_GL_F: O_cg_cwp_Soldier_GL_F {
         faction="O_cg_cup";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_GL_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -130,7 +130,7 @@
 
     class O_cg_cup_HeavyGunner_F: O_cg_cwp_HeavyGunner_F {
         faction="O_cg_cup";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_HeavyGunner_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -143,7 +143,7 @@
 
     class O_cg_cup_soldier_M_F: O_cg_cwp_soldier_M_F {
         faction="O_cg_cup";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_soldier_M_F";
         uniformClass="O_cg_uniform2_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
@@ -161,7 +161,7 @@
     class O_cg_cup_Soldier_AA_F: O_cg_cwp_Soldier_AA_F {
         faction="O_cg_cup";
         backpack ="O_cg_FieldPack_cup_AA";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_AA_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -175,7 +175,7 @@
     class O_cg_cup_Soldier_AT_F: O_cg_cwp_Soldier_AT_F {
         faction="O_cg_cup";
         backpack ="O_cg_FieldPack_cup_AT";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_AT_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -189,7 +189,7 @@
     class O_cg_cup_soldier_repair_F: O_cg_cwp_soldier_repair_F {
         faction="O_cg_cup";
         backpack ="O_cg_FieldPack_cup_repair";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_soldier_repair_F";
         uniformClass="O_cg_uniform2_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -202,7 +202,7 @@
 
     class O_cg_cup_Soldier_F: O_cg_cwp_Soldier_F {
         faction="O_cg_cup";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -216,7 +216,7 @@
     class O_cg_cup_Soldier_LAT_F: O_cg_cwp_Soldier_LAT_F {
         faction="O_cg_cup";
         backpack ="O_cg_FieldPack_cup_LAT";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_LAT_F";
         uniformClass="O_cg_uniform2_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -229,7 +229,7 @@
 
     class O_cg_cup_Soldier_SL_F: O_cg_cwp_Soldier_SL_F {
         faction="O_cg_cup";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_SL_F";
         uniformClass="O_cg_uniform1_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -242,7 +242,7 @@
 
     class O_cg_cup_Sharpshooter_F: O_cg_cwp_Sharpshooter_F {
         faction="O_cg_cup";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Sharpshooter_F";
         uniformClass="O_cg_uniform2_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
@@ -255,7 +255,7 @@
 
     class O_cg_cup_Soldier_TL_F: O_cg_cwp_Soldier_TL_F {
         faction="O_cg_cup";
-        vehicleclass="MenCUP";
+        vehicleclass="Men";
         _generalMacro="O_cg_cup_Soldier_TL_F";
         uniformClass="O_cg_uniform2_cup";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
