@@ -45,7 +45,7 @@ class CfgSettings {
                 level = DEFAULT_VERSIONING_LEVEL;
 
                 class Dependencies {
-                    CBA[]={"cba_main", {1,0,0}, "true"};
+                    CBA[]={"cba_main", {2,3,0}, "true"};
                     XEH[]={"cba_xeh", {1,0,0}, "true"};
                 };
             };

@@ -411,7 +411,6 @@ class CfgWeapons {
     #include "equipment\cgcsat_vests.hpp"
 };
 
-
 class CfgGroups {
     class East {
         name="OPFOR";

@@ -1,4 +1,4 @@
-name = "MFFA";
+name = "MFFA 1.1.134489";
 picture = "MFFA_overview.paa";
 actionName = "GitHub";
 action = "https://github.com/alganthe/MFFA/";
