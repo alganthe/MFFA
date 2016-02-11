@@ -67,8 +67,8 @@
 ////////////////////////////////////////////////////Men
     class O_cg_cwp_Soldier_A_F: O_Soldier_A_F {
         side=0;
-        backpack = "B_cg_Caryall_cwp_Ammo";
-        faction="O_cgcsat";
+        backpack = "O_cg_Caryall_cwp_Ammo";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_A_F";
@@ -89,8 +89,8 @@
 
     class O_cg_cwp_Soldier_AR_F: O_Soldier_AR_F {
         side=0;
-        backpack = "B_cg_AssaultPack_cwp_AR";
-        faction="O_cgcsat";
+        backpack = "O_cg_AssaultPack_cwp_AR";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_AR_F";
@@ -108,8 +108,8 @@
 
     class O_cg_cwp_medic_F: O_medic_F {
         side=0;
-        backpack = "B_cg_FieldPack_cwp_Medic";
-        faction="O_cgcsat";
+        backpack = "O_cg_FieldPack_cwp_Medic";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_medic_F";
@@ -126,7 +126,7 @@
 
     class O_cg_cwp_crew_F: O_crew_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_crew_F";
@@ -143,8 +143,8 @@
 
     class O_cg_cwp_engineer_F: O_engineer_F {
         side=0;
-        backpack ="B_cg_Carryall_cwp_eng";
-        faction="O_cgcsat";
+        backpack ="O_cg_Carryall_cwp_eng";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_engineer_F";
@@ -161,8 +161,8 @@
 
     class O_cg_cwp_soldier_exp_F: O_soldier_exp_F {
         side=0;
-        backpack ="B_cg_Carryall_cwp_exp";
-        faction="O_cgcsat";
+        backpack ="O_cg_Carryall_cwp_exp";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_soldier_exp_F";
@@ -179,7 +179,7 @@
 
     class O_cg_cwp_Soldier_GL_F: O_Soldier_GL_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_GL_F";
@@ -197,7 +197,7 @@
     class O_cg_cwp_HeavyGunner_F: O_HeavyGunner_F {
         side=0;
         backpack ="";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_HeavyGunner_F";
@@ -214,7 +214,7 @@
 
     class O_cg_cwp_helicrew_F: O_helicrew_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_helicrew_F";
@@ -229,7 +229,7 @@
 
     class O_cg_cwp_helipilot_F: O_helipilot_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_helipilot_F";
@@ -249,7 +249,7 @@
 
     class O_cg_cwp_soldier_M_F: O_soldier_M_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_soldier_M_F";
@@ -266,8 +266,8 @@
 
     class O_cg_cwp_Soldier_AA_F: O_Soldier_AA_F {
         side=0;
-        backpack ="B_cg_FieldPack_cwp_AA";
-        faction="O_cgcsat";
+        backpack ="O_cg_FieldPack_cwp_AA";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_AA_F";
@@ -284,8 +284,8 @@
 
     class O_cg_cwp_Soldier_AT_F: O_Soldier_AT_F {
         side=0;
-        backpack ="B_cg_FieldPack_cwp_AT";
-        faction="O_cgcsat";
+        backpack ="O_cg_FieldPack_cwp_AT";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_AT_F";
@@ -302,7 +302,7 @@
 
     class O_cg_cwp_officer_F: O_officer_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_officer_F";
@@ -324,7 +324,7 @@
 
     class O_cg_cwp_soldier_PG_F: O_soldier_PG_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_soldier_PG_F";
@@ -346,7 +346,7 @@
 
     class O_cg_cwp_Pilot_F: O_Pilot_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Pilot_F";
@@ -357,8 +357,8 @@
 
     class O_cg_cwp_soldier_repair_F: O_soldier_repair_F {
         side=0;
-        backpack ="B_cg_FieldPack_cwp_repair";
-        faction="O_cgcsat";
+        backpack ="O_cg_FieldPack_cwp_repair";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_soldier_repair_F";
@@ -375,7 +375,7 @@
 
     class O_cg_cwp_Soldier_F: O_Soldier_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_F";
@@ -392,8 +392,8 @@
 
     class O_cg_cwp_Soldier_LAT_F: O_Soldier_LAT_F {
         side=0;
-        backpack ="B_cg_FieldPack_cwp_LAT";
-        faction="O_cgcsat";
+        backpack ="O_cg_FieldPack_cwp_LAT";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_LAT_F";
@@ -410,7 +410,7 @@
 
     class O_cg_cwp_Soldier_lite_F: O_Soldier_lite_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_lite_F";
@@ -427,7 +427,7 @@
 
     class o_cg_cwp_soldier_unarmed_f: o_soldier_unarmed_f {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="o_cg_cwp_soldier_unarmed_f";
@@ -444,7 +444,7 @@
 
     class O_cg_cwp_Soldier_SL_F: O_Soldier_SL_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_SL_F";
@@ -461,7 +461,7 @@
 
     class O_cg_cwp_Sharpshooter_F: O_Sharpshooter_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Sharpshooter_F";
@@ -478,7 +478,7 @@
 
     class o_cg_cwp_survivor_F:o_survivor_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="o_cg_cwp_survivor_F";
@@ -497,7 +497,7 @@
 
     class O_cg_cwp_Soldier_TL_F: O_Soldier_TL_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_TL_F";
@@ -514,7 +514,7 @@
 
     class O_cg_cwp_soldier_UAV_F: O_soldier_UAV_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_soldier_UAV_F";
@@ -529,68 +529,35 @@
         class eventhandlers;
     };
 ////////////////////////////////////////////////////Men(Sniper)
-    class O_cg_sniper_F: O_sniper_F {
+    class O_cg_cwp_sniper_F: O_sniper_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenSniper";
         author= ECSTRING(main,author);
-        _generalMacro="O_cg_sniper_F";
+        _generalMacro="O_cg_cwp_sniper_F";
         uniformClass="O_cg_cwp_uniform1";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cwp.paa)};
-        linkedItems[] = {"V_Chestrig_oli","TRYK_H_ghillie_over","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_Chestrig_oli","TRYK_H_ghillie_over","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         scope=2;
         scopeCurator = 2;
         class eventhandlers;
     };
 
-    class O_cg_ghillie_ard_F: O_ghillie_ard_F {
+    class O_cg_cwp_spotter_F: O_spotter_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenSniper";
         author= ECSTRING(main,author);
-        _generalMacro="O_cg_ghillie_ard_F";
-        scope=2;
-        scopeCurator = 2;
-        class eventhandlers;
-    };
-
-    class O_cg_ghillie_lsh_F: O_ghillie_lsh_F {
-        side=0;
-        faction="O_cgcsat";
-        vehicleclass="MenSniper";
-        author= ECSTRING(main,author);
-        _generalMacro="O_cg_ghillie_lsh_F";
-        scope=2;
-        scopeCurator = 2;
-        class eventhandlers;
-    };
-
-    class O_cg_ghillie_sard_F: O_ghillie_sard_F {
-        side=0;
-        faction="O_cgcsat";
-        vehicleclass="MenSniper";
-        author= ECSTRING(main,author);
-        _generalMacro="O_cg_ghillie_sard_F";
-        scope=2;
-        scopeCurator = 2;
-        class eventhandlers;
-    };
-
-    class O_cg_spotter_F: O_spotter_F {
-        side=0;
-        faction="O_cgcsat";
-        vehicleclass="MenSniper";
-        author= ECSTRING(main,author);
-        _generalMacro="O_cg_spotter_F";
+        _generalMacro="O_cg_cwp_spotter_F";
         uniformClass="O_cg_cwp_uniform1";
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         hiddenSelections[] = {"camo","insignia"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cwp.paa)};
-        linkedItems[] = {"V_Chestrig_oli","TRYK_H_ghillie_over","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
-        respawnLinkedItems[] = {"V_Chestrig_oli","TRYK_H_ghillie_over","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        linkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+        respawnLinkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         scope=2;
         scopeCurator = 2;
         class eventhandlers;
@@ -598,8 +565,8 @@
 ////////////////////////////////////////////////////Men (Recon)
     class O_cg_cwp_recon_exp_F: O_recon_exp_F {
         side=0;
-        backpack = "B_cg_FieldPack_cwp_ReconExp";
-        faction="O_cgcsat";
+        backpack = "O_cg_FieldPack_cwp_ReconExp";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_recon_exp";
@@ -616,7 +583,7 @@
 
     class O_cg_cwp_recon_JTAC_F: O_recon_JTAC_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_recon_JTAC_F";
@@ -633,7 +600,7 @@
 
     class O_cg_cwp_recon_M_F: O_recon_M_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_recon_M_F";
@@ -650,8 +617,8 @@
 
     class O_cg_cwp_recon_medic_F: O_recon_medic_F {
         side=0;
-        backpack = "B_cg_FieldPack_cwp_ReconMedic";
-        faction="O_cgcsat";
+        backpack = "O_cg_FieldPack_cwp_ReconMedic";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_recon_medic_F";
@@ -668,7 +635,7 @@
 
     class O_cg_cwp_pathfinder_F: O_pathfinder_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_pathfinder_F";
@@ -685,7 +652,7 @@
 
     class O_cg_cwp_recon_F: O_recon_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_recon_LAT_F";
@@ -702,8 +669,8 @@
 
     class O_cg_cwp_recon_LAT_F: O_recon_LAT_F {
         side=0;
-        backpack = "B_cg_FieldPack_cwp_LAT";
-        faction="O_cgcsat";
+        backpack = "O_cg_FieldPack_cwp_LAT";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_recon_LAT_F";
@@ -720,7 +687,7 @@
 
     class O_cg_cwp_recon_TL_F: O_recon_TL_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenReconCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_recon_TL_F";
@@ -737,8 +704,8 @@
 ////////////////////////////////////////////////////Men (Support)
     class O_cg_cwp_Soldier_AAR_F: O_Soldier_AAR_F {
         side=0;
-        backpack = "B_cg_Carryall_cwp_AAR";
-        faction="O_cgcsat";
+        backpack = "O_cg_Carryall_cwp_AAR";
+        faction="O_cg_cwp";
         vehicleclass="MenSupportCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_AAR_F";
@@ -755,7 +722,7 @@
 
     class O_cg_cwp_support_AMG_F: O_support_AMG_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenSupportCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_support_AMG_F";
@@ -772,7 +739,7 @@
 
     class O_cg_cwp_support_AMort_F: O_support_AMort_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenSupportCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_support_AMort_F";
@@ -789,8 +756,8 @@
 
     class O_cg_cwp_Soldier_AAA_F: O_Soldier_AAA_F {
         side=0;
-        backpack = "B_cg_Carryall_cwp_AAA";
-        faction="O_cgcsat";
+        backpack = "O_cg_Carryall_cwp_AAA";
+        faction="O_cg_cwp";
         vehicleclass="MenSupportCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_AAA_F";
@@ -807,8 +774,8 @@
 
     class O_cg_cwp_Soldier_AAT_F: O_Soldier_AAT_F {
         side=0;
-        backpack = "B_cg_Carryall_cwp_AAT";
-        faction="O_cgcsat";
+        backpack = "O_cg_Carryall_cwp_AAT";
+        faction="O_cg_cwp";
         vehicleclass="MenSupportCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_Soldier_AAT_F";
@@ -825,7 +792,7 @@
 
     class O_cg_cwp_support_GMG_F: O_support_GMG_F {
         side=0;
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         vehicleclass="MenSupportCWP";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cwp_support_GMG_F";
@@ -841,7 +808,7 @@
     };
 
     class O_cg_cwp_support_MG_F: O_support_MG_F {
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         author= ECSTRING(main,author);
         vehicleclass="MenSupportCWP";
         _generalMacro="O_cg_cwp_support_MG_F";
@@ -855,7 +822,7 @@
     };
 
     class O_cg_cwp_support_Mort_F: O_support_Mort_F {
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         author= ECSTRING(main,author);
         vehicleclass="MenSupportCWP";
         _generalMacro="O_cg_cwp_Soldier_F";
@@ -870,7 +837,7 @@
 ////////////////////////////////////////////////////Static
     class O_cg_cwp_static_AA_F: O_static_AA_F {
         displayName = "Mini-Spike Launcher (AA)";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         _generalMacro="O_cg_cwp_static_AA_F";
         author= ECSTRING(main,author);
         crew="O_cg_cwp_Soldier_F";
@@ -879,7 +846,7 @@
 
     class O_cg_cwp_static_AT_F: O_static_AT_F {
         displayName = "Mini-Spike Launcher (AT)";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         _generalMacro="O_cg_cwp_static_AT_F";
         author= ECSTRING(main,author);
         crew="O_cg_cwp_Soldier_F";
@@ -888,24 +855,16 @@
 
     class O_cg_cwp_Mortar_01_F: O_Mortar_01_F {
         displayname = "Mk6 Mortar";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         _generalMacro="O_cg_cwp_Mortar_01_F";
         author= ECSTRING(main,author);
         crew="O_cg_cwp_Soldier_F";
         class eventhandlers;
     };
 
-    class O_cg_Static_Designator_02_F: O_Static_Designator_02_F {
-        displayname = "Remote Designator [CSAT]";
-        faction="O_cgcsat";
-        _generalMacro="O_cg_Static_Designator_02_F";
-        author= ECSTRING(main,author);
-        class eventhandlers;
-    };
-
     class O_cg_cwp_GMG_01_F: O_GMG_01_F {
         displayName = "XM307";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         _generalMacro="O_cg_cwp_GMG_01_F";
         author= ECSTRING(main,author);
         crew="O_cg_cwp_Soldier_F";
@@ -914,24 +873,16 @@
 
     class O_cg_cwp_GMG_01_high_F: O_GMG_01_high_F {
         displayName = "XM307 (High)";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         _generalMacro="O_cg_cwp_GMG_01_high_F";
         author= ECSTRING(main,author);
         crew="O_cg_cwp_Soldier_F";
         class eventhandlers;
     };
 
-    class O_cg_GMG_01_A_F: O_GMG_01_A_F {
-        author= ECSTRING(main,author);
-        displayName = "XM307A";
-        faction="O_cgcsat";
-        _generalMacro="O_cg_GMG_01_A_F";
-        class eventhandlers;
-    };
-
     class O_cg_cwp_HMG_01_F: O_HMG_01_F {
         displayName = "XM312";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         _generalMacro="O_cg_cwp_HMG_01_F";
         author= ECSTRING(main,author);
         crew="O_cg_cwp_Soldier_F";
@@ -940,42 +891,9 @@
 
     class O_cg_cwp_HMG_01_high_F: O_HMG_01_high_F {
         displayName = "XM312 (High)";
-        faction="O_cgcsat";
+        faction="O_cg_cwp";
         _generalMacro="O_cg_cwp_HMG_01_high_F";
         author= ECSTRING(main,author);
         crew="O_cg_cwp_Soldier_F";
-        class eventhandlers;
-    };
-
-    class O_cg_HMG_01_A_F: O_HMG_01_A_F {
-        displayName = "XM312A";
-        vehicleclass="Static";
-        side=0;
-        scope=2;
-        scopeCurator = 2;
-        faction="O_cgcsat";
-        _generalMacro="O_cg_HMG_01_A_F";
-        author= ECSTRING(main,author);
-        class eventhandlers;
-    };
-////////////////////////////////////////////////////Divers
-    class O_cg_diver_F: O_diver_F {
-        author= ECSTRING(main,author);
-        faction="O_cgcsat";
-        _generalMacro="O_cg_diver_F";
-        class eventhandlers;
-    };
-
-    class O_cg_diver_exp_F: O_diver_exp_F {
-        author= ECSTRING(main,author);
-        faction="O_cgcsat";
-        _generalMacro="O_cg_diver_exp_F";
-        class eventhandlers;
-    };
-
-    class O_cg_diver_TL_F: O_diver_TL_F {
-        author= ECSTRING(main,author);
-        faction="O_cgcsat";
-        _generalMacro="O_cg_diver_TL_F";
         class eventhandlers;
     };

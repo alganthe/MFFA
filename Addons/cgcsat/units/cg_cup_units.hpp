@@ -1,6 +1,7 @@
 ////////////////////////////////////////////////////Men
     class O_cg_cup_Soldier_A_F: O_cg_cwp_Soldier_A_F {
-        backpack = "B_cg_Caryall_cup_Ammo";
+        faction="O_cg_cup";
+        backpack = "O_cg_Caryall_cup_Ammo";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_A_F";
         uniformClass="O_cg_uniform1_cup";
@@ -17,7 +18,8 @@
     };
 
     class O_cg_cup_Soldier_AAR_F: O_cg_cwp_Soldier_AAR_F {
-        backpack = "B_cg_Carryall_cup_AAR";
+        faction="O_cg_cup";
+        backpack = "O_cg_Carryall_cup_AAR";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_AAR_F";
         uniformClass="O_cg_uniform1_cup";
@@ -30,7 +32,8 @@
     };
 
     class O_cg_cup_Soldier_AAA_F: O_cg_cwp_Soldier_AAA_F {
-        backpack = "B_cg_Carryall_cup_AAA";
+        faction="O_cg_cup";
+        backpack = "O_cg_Carryall_cup_AAA";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_AAA_F";
         uniformClass="O_cg_uniform1_cup";
@@ -43,7 +46,8 @@
     };
 
     class O_cg_cup_Soldier_AAT_F: O_cg_cwp_Soldier_AAT_F {
-        backpack = "B_cg_Carryall_cup_AAT";
+        faction="O_cg_cup";
+        backpack = "O_cg_Carryall_cup_AAT";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_AAT_F";
         uniformClass="O_cg_uniform1_cup";
@@ -56,7 +60,8 @@
     };
 
     class O_cg_cup_Soldier_AR_F: O_cg_cwp_Soldier_AR_F {
-        backpack = "B_cg_AssaultPack_cup_AR";
+        faction="O_cg_cup";
+        backpack = "O_cg_AssaultPack_cup_AR";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_AR_F";
         uniformClass="O_cg_uniform1_cup";
@@ -69,7 +74,8 @@
     };
 
     class O_cg_cup_medic_F: O_cg_cwp_medic_F {
-        backpack = "B_cg_FieldPack_cup_Medic";
+        faction="O_cg_cup";
+        backpack = "O_cg_FieldPack_cup_Medic";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_medic_F";
         uniformClass="O_cg_uniform1_cup";
@@ -82,7 +88,8 @@
     };
 
     class O_cg_cup_engineer_F: O_cg_cwp_engineer_F {
-        backpack ="B_cg_Carryall_cup_eng";
+        faction="O_cg_cup";
+        backpack ="O_cg_Carryall_cup_eng";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_engineer_F";
         uniformClass="O_cg_uniform1_cup";
@@ -95,7 +102,8 @@
     };
 
     class O_cg_cup_soldier_exp_F: O_cg_cwp_soldier_exp_F {
-        backpack ="B_cg_Carryall_cup_exp";
+        faction="O_cg_cup";
+        backpack ="O_cg_Carryall_cup_exp";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_soldier_exp_F";
         uniformClass="O_cg_uniform1_cup";
@@ -108,6 +116,7 @@
     };
 
     class O_cg_cup_Soldier_GL_F: O_cg_cwp_Soldier_GL_F {
+        faction="O_cg_cup";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_GL_F";
         uniformClass="O_cg_uniform1_cup";
@@ -120,6 +129,7 @@
     };
 
     class O_cg_cup_HeavyGunner_F: O_cg_cwp_HeavyGunner_F {
+        faction="O_cg_cup";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_HeavyGunner_F";
         uniformClass="O_cg_uniform1_cup";
@@ -132,6 +142,7 @@
     };
 
     class O_cg_cup_soldier_M_F: O_cg_cwp_soldier_M_F {
+        faction="O_cg_cup";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_soldier_M_F";
         uniformClass="O_cg_uniform2_cup";
@@ -148,7 +159,8 @@
     };
 
     class O_cg_cup_Soldier_AA_F: O_cg_cwp_Soldier_AA_F {
-        backpack ="B_cg_FieldPack_cup_AA";
+        faction="O_cg_cup";
+        backpack ="O_cg_FieldPack_cup_AA";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_AA_F";
         uniformClass="O_cg_uniform1_cup";
@@ -161,7 +173,8 @@
     };
 
     class O_cg_cup_Soldier_AT_F: O_cg_cwp_Soldier_AT_F {
-        backpack ="B_cg_FieldPack_cup_AT";
+        faction="O_cg_cup";
+        backpack ="O_cg_FieldPack_cup_AT";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_AT_F";
         uniformClass="O_cg_uniform1_cup";
@@ -174,7 +187,8 @@
     };
 
     class O_cg_cup_soldier_repair_F: O_cg_cwp_soldier_repair_F {
-        backpack ="B_cg_FieldPack_cup_repair";
+        faction="O_cg_cup";
+        backpack ="O_cg_FieldPack_cup_repair";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_soldier_repair_F";
         uniformClass="O_cg_uniform2_cup";
@@ -187,6 +201,7 @@
     };
 
     class O_cg_cup_Soldier_F: O_cg_cwp_Soldier_F {
+        faction="O_cg_cup";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_F";
         uniformClass="O_cg_uniform1_cup";
@@ -199,7 +214,8 @@
     };
 
     class O_cg_cup_Soldier_LAT_F: O_cg_cwp_Soldier_LAT_F {
-        backpack ="B_cg_FieldPack_cup_LAT";
+        faction="O_cg_cup";
+        backpack ="O_cg_FieldPack_cup_LAT";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_LAT_F";
         uniformClass="O_cg_uniform2_cup";
@@ -212,6 +228,7 @@
     };
 
     class O_cg_cup_Soldier_SL_F: O_cg_cwp_Soldier_SL_F {
+        faction="O_cg_cup";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_SL_F";
         uniformClass="O_cg_uniform1_cup";
@@ -224,6 +241,7 @@
     };
 
     class O_cg_cup_Sharpshooter_F: O_cg_cwp_Sharpshooter_F {
+        faction="O_cg_cup";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Sharpshooter_F";
         uniformClass="O_cg_uniform2_cup";
@@ -234,8 +252,9 @@
         respawnLinkedItems[] = {"cg_HarnessO_cup","cg_MICH_cup","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
     };
-    
+
     class O_cg_cup_Soldier_TL_F: O_cg_cwp_Soldier_TL_F {
+        faction="O_cg_cup";
         vehicleclass="MenCUP";
         _generalMacro="O_cg_cup_Soldier_TL_F";
         uniformClass="O_cg_uniform2_cup";

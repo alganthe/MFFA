@@ -8,34 +8,34 @@
     class B_FieldPack_ocamo_Medic;
     class B_FieldPack_cbr_Ammo;
 //////////////////////////////////////////////////////////////////////////// CWP (woodland)
-    class B_cg_Carryall_cwp: B_Carryall_Base {
+    class O_cg_Carryall_cwp: B_Carryall_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_Carryall_cwp";
+        _generalMacro="O_cg_Carryall_cwp";
         displayName="Carryall Backpack [CWP]";
         scope=2;
         picture=PATHTOF(UI\cwpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_carryall_cwp.paa)};
     };
 
-    class B_cg_FieldPack_cwp: B_FieldPack_Base {
+    class O_cg_FieldPack_cwp: B_FieldPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_Fieldpack_cwp";
+        _generalMacro="O_cg_Fieldpack_cwp";
         displayName="Field Pack [CWP]";
         scope=2;
         picture=PATHTOF(UI\cwpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_fieldpack_cwp.paa)};
     };
 
-    class B_cg_AssaultPack_cwp: B_AssaultPack_Base {
+    class O_cg_AssaultPack_cwp: B_AssaultPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_AssaultPack_cwp";
+        _generalMacro="O_cg_AssaultPack_cwp";
         displayName="Assault Pack [CWP]";
         scope=2;
         picture=PATHTOF(UI\cwpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_compact_cwp.paa)};
     };
 
-    class B_cg_FieldPack_cwp_Medic: B_cg_FieldPack_cwp {
+    class O_cg_FieldPack_cwp_Medic: O_cg_FieldPack_cwp {
         scope = 1;
         class TransportItems {
             item_xx(FirstAidKit,5);
@@ -48,7 +48,7 @@
         };
     };
 
-    class B_cg_Caryall_cwp_Ammo: B_cg_Carryall_cwp {
+    class O_cg_Caryall_cwp_Ammo: O_cg_Carryall_cwp {
         scope = 1;
         class TransportMagazines {
             class _xx_30Rnd_65x39_caseless_green {
@@ -92,28 +92,28 @@
         };
     };
 
-    class B_cg_AssaultPack_cwp_AR: B_cg_AssaultPack_cwp {
+    class O_cg_AssaultPack_cwp_AR: O_cg_AssaultPack_cwp {
         scope = 1;
         class TransportMagazines {
             mag_xx(150Rnd_762x54_Box,3)
         };
     };
 
-    class B_cg_FieldPack_cwp_AA: B_cg_FieldPack_cwp {
+    class O_cg_FieldPack_cwp_AA: O_cg_FieldPack_cwp {
         scope = 1;
         class TransportMagazines {
             mag_xx(Titan_AA,2);
         };
     };
 
-    class B_cg_FieldPack_cwp_AT: B_cg_FieldPack_cwp {
+    class O_cg_FieldPack_cwp_AT: O_cg_FieldPack_cwp {
         scope = 1;
         class TransportMagazines {
             mag_xx(Titan_AT,2);
         };
     };
 
-    class B_cg_FieldPack_cwp_LAT: B_cg_FieldPack_cwp {
+    class O_cg_FieldPack_cwp_LAT: O_cg_FieldPack_cwp {
         scope = 1;
         class TransportMagazines {
             mag_xx(RPG32_F,2);
@@ -121,7 +121,7 @@
         };
     };
 
-    class B_cg_Carryall_cwp_eng: B_cg_Carryall_cwp {
+    class O_cg_Carryall_cwp_eng: O_cg_Carryall_cwp {
         scope=1;
         class TransportMagazines {
             class _xx_SatchelCharge_Remote_Mag {
@@ -145,7 +145,7 @@
         };
     };
 
-    class B_cg_Carryall_cwp_exp: B_cg_Carryall_cwp {
+    class O_cg_Carryall_cwp_exp: O_cg_Carryall_cwp {
         scope=1;
         class TransportMagazines {
             class _xx_APERSBoundingMine_Range_Mag {
@@ -177,7 +177,7 @@
         };
     };
 
-    class B_cg_FieldPack_cwp_repair: B_cg_FieldPack_cwp {
+    class O_cg_FieldPack_cwp_repair: O_cg_FieldPack_cwp {
         scope=1;
         class TransportItems {
             class _xx_ToolKit {
@@ -187,7 +187,7 @@
         };
     };
 
-    class B_cg_FieldPack_cwp_ReconExp: B_cg_FieldPack_cwp {
+    class O_cg_FieldPack_cwp_ReconExp: O_cg_FieldPack_cwp {
         scope=1;
         class TransportMagazines {
             class _xx_APERSBoundingMine_Range_Mag {
@@ -219,7 +219,7 @@
         };
     };
 
-    class B_cg_FieldPack_cwp_ReconMedic: B_cg_FieldPack_cwp {
+    class O_cg_FieldPack_cwp_ReconMedic: O_cg_FieldPack_cwp {
         scope=1;
         class TransportMagazines {
             class _xx_SmokeShellRed {
@@ -247,7 +247,7 @@
         };
     };
 
-    class B_cg_Carryall_cwp_AAR: B_cg_Carryall_cwp {
+    class O_cg_Carryall_cwp_AAR: O_cg_Carryall_cwp {
         scope=1;
         class TransportMagazines {
             class _xx_150Rnd_762x54_Box {
@@ -279,7 +279,7 @@
         };
     };
 
-    class B_cg_Carryall_cwp_AAA: B_cg_Carryall_cwp {
+    class O_cg_Carryall_cwp_AAA: O_cg_Carryall_cwp {
         scope=1;
         class TransportMagazines {
             class _xx_Titan_AA {
@@ -289,7 +289,7 @@
         };
     };
 
-    class B_cg_Carryall_cwp_AAT: B_cg_Carryall_cwp {
+    class O_cg_Carryall_cwp_AAT: O_cg_Carryall_cwp {
         scope=1;
         class TransportMagazines {
             class _xx_Titan_AT {
@@ -303,34 +303,34 @@
         };
     };
 //////////////////////////////////////////////////////////////////////////// CUP (urban)
-    class B_cg_Carryall_cup: B_Carryall_Base {
+    class O_cg_Carryall_cup: B_Carryall_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_Carryall_cup";
+        _generalMacro="O_cg_Carryall_cup";
         displayName="Carryall Backpack [CUP]";
         scope=2;
         picture=PATHTOF(UI\cupUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_carryall_cup.paa)};
     };
 
-    class B_cg_FieldPack_cup: B_FieldPack_Base {
+    class O_cg_FieldPack_cup: B_FieldPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_FieldPack_cup";
+        _generalMacro="O_cg_FieldPack_cup";
         displayName="Field Pack [CUP]";
         scope=2;
         picture=PATHTOF(UI\cupUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_fieldpack_cup.paa)};
     };
 
-    class B_cg_AssaultPack_cup: B_AssaultPack_Base {
+    class O_cg_AssaultPack_cup: B_AssaultPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_AssaultPack_cup";
+        _generalMacro="O_cg_AssaultPack_cup";
         displayName="Assault Pack [CUP]";
         scope=2;
         picture=PATHTOF(UI\cupUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_compact_cup.paa)};
     };
 
-    class B_cg_AssaultPack_cup_AR: B_cg_AssaultPack_cup {
+    class O_cg_AssaultPack_cup_AR: O_cg_AssaultPack_cup {
         scope = 1;
         class TransportMagazines
         {
@@ -338,7 +338,7 @@
         };
     };
 
-    class B_cg_FieldPack_cup_Medic: B_cg_FieldPack_cup {
+    class O_cg_FieldPack_cup_Medic: O_cg_FieldPack_cup {
         scope = 1;
         class TransportItems {
             item_xx(FirstAidKit,5);
@@ -351,7 +351,7 @@
         };
     };
 
-    class B_cg_Caryall_cup_Ammo: B_cg_Carryall_cup {
+    class O_cg_Caryall_cup_Ammo: O_cg_Carryall_cup {
         scope = 1;
         class TransportMagazines {
             class _xx_30Rnd_65x39_caseless_green {
@@ -395,21 +395,21 @@
         };
     };
 
-    class B_cg_FieldPack_cup_AA: B_cg_FieldPack_cup {
+    class O_cg_FieldPack_cup_AA: O_cg_FieldPack_cup {
         scope = 1;
         class TransportMagazines {
             mag_xx(Titan_AA,2);
         };
     };
 
-    class B_cg_FieldPack_cup_AT: B_cg_FieldPack_cup {
+    class O_cg_FieldPack_cup_AT: O_cg_FieldPack_cup {
         scope = 1;
         class TransportMagazines {
             mag_xx(Titan_AT,2);
         };
     };
 
-    class B_cg_FieldPack_cup_LAT: B_cg_FieldPack_cup {
+    class O_cg_FieldPack_cup_LAT: O_cg_FieldPack_cup {
         scope = 1;
         class TransportMagazines {
             mag_xx(RPG32_F,2);
@@ -417,7 +417,7 @@
         };
     };
 
-    class B_cg_Carryall_cup_eng: B_cg_Carryall_cup {
+    class O_cg_Carryall_cup_eng: O_cg_Carryall_cup {
         scope=1;
         class TransportMagazines {
             class _xx_SatchelCharge_Remote_Mag {
@@ -441,7 +441,7 @@
         };
     };
 
-    class B_cg_Carryall_cup_exp: B_cg_Carryall_cup {
+    class O_cg_Carryall_cup_exp: O_cg_Carryall_cup {
         scope=1;
         class TransportMagazines {
             class _xx_APERSBoundingMine_Range_Mag {
@@ -473,7 +473,7 @@
         };
     };
 
-    class B_cg_FieldPack_cup_repair: B_cg_FieldPack_cup {
+    class O_cg_FieldPack_cup_repair: O_cg_FieldPack_cup {
         scope=1;
         class TransportItems {
             class _xx_ToolKit {
@@ -483,7 +483,7 @@
         };
     };
 
-    class B_cg_Carryall_cup_AAR: B_cg_Carryall_cup {
+    class O_cg_Carryall_cup_AAR: O_cg_Carryall_cup {
         scope=1;
         class TransportMagazines {
             class _xx_150Rnd_762x54_Box {
@@ -515,7 +515,7 @@
         };
     };
 
-    class B_cg_Carryall_cup_AAA: B_cg_Carryall_cup {
+    class O_cg_Carryall_cup_AAA: O_cg_Carryall_cup {
         scope=1;
         class TransportMagazines {
             class _xx_Titan_AA {
@@ -525,7 +525,7 @@
         };
     };
 
-    class B_cg_Carryall_cup_AAT: B_cg_Carryall_cup {
+    class O_cg_Carryall_cup_AAT: O_cg_Carryall_cup {
         scope=1;
         class TransportMagazines {
             class _xx_Titan_AT {
@@ -539,34 +539,34 @@
         };
     };
 //////////////////////////////////////////////////////////////////////////// CDP (desert)
-    class B_cg_Carryall_cdp: B_Carryall_Base {
+    class O_cg_Carryall_cdp: B_Carryall_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_Carryall_cdp";
+        _generalMacro="O_cg_Carryall_cdp";
         displayName="Carryall Backpack [CDP]";
         scope=2;
         picture=PATHTOF(UI\cdpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_carryall_cdp.paa)};
     };
 
-    class B_cg_FieldPack_cdp: B_FieldPack_Base {
+    class O_cg_FieldPack_cdp: B_FieldPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_Fieldpack_cdp";
+        _generalMacro="O_cg_Fieldpack_cdp";
         displayName="Field Pack [CDP]";
         scope=2;
         picture=PATHTOF(UI\cdpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_fieldpack_cdp.paa)};
     };
 
-    class B_cg_AssaultPack_cdp: B_AssaultPack_Base {
+    class O_cg_AssaultPack_cdp: B_AssaultPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="B_cg_AssaultPack_cdp";
+        _generalMacro="O_cg_AssaultPack_cdp";
         displayName="Assault Pack [CDP]";
         scope=2;
         picture=PATHTOF(UI\cdpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_compact_cdp.paa)};
     };
 
-    class B_cg_FieldPack_cdp_Medic: B_cg_FieldPack_cdp {
+    class O_cg_FieldPack_cdp_Medic: O_cg_FieldPack_cdp {
         scope = 1;
         class TransportItems {
             item_xx(FirstAidKit,5);
@@ -579,7 +579,7 @@
         };
     };
 
-    class B_cg_Caryall_cdp_Ammo: B_cg_Carryall_cdp {
+    class O_cg_Caryall_cdp_Ammo: O_cg_Carryall_cdp {
         scope = 1;
         class TransportMagazines {
             class _xx_30Rnd_65x39_caseless_green {
@@ -623,28 +623,28 @@
         };
     };
 
-    class B_cg_AssaultPack_cdp_AR: B_cg_AssaultPack_cdp {
+    class O_cg_AssaultPack_cdp_AR: O_cg_AssaultPack_cdp {
         scope = 1;
         class TransportMagazines {
             mag_xx(150Rnd_762x54_Box,3)
         };
     };
 
-    class B_cg_FieldPack_cdp_AA: B_cg_FieldPack_cdp {
+    class O_cg_FieldPack_cdp_AA: O_cg_FieldPack_cdp {
         scope = 1;
         class TransportMagazines {
             mag_xx(Titan_AA,2);
         };
     };
 
-    class B_cg_FieldPack_cdp_AT: B_cg_FieldPack_cdp {
+    class O_cg_FieldPack_cdp_AT: O_cg_FieldPack_cdp {
         scope = 1;
         class TransportMagazines {
             mag_xx(Titan_AT,2);
         };
     };
 
-    class B_cg_FieldPack_cdp_LAT: B_cg_FieldPack_cdp {
+    class O_cg_FieldPack_cdp_LAT: O_cg_FieldPack_cdp {
         scope = 1;
         class TransportMagazines {
             mag_xx(RPG32_F,2);
@@ -652,7 +652,7 @@
         };
     };
 
-    class B_cg_Carryall_cdp_eng: B_cg_Carryall_cdp {
+    class O_cg_Carryall_cdp_eng: O_cg_Carryall_cdp {
         scope=1;
         class TransportMagazines {
             class _xx_SatchelCharge_Remote_Mag {
@@ -676,7 +676,7 @@
         };
     };
 
-    class B_cg_Carryall_cdp_exp: B_cg_Carryall_cdp {
+    class O_cg_Carryall_cdp_exp: O_cg_Carryall_cdp {
         scope=1;
         class TransportMagazines {
             class _xx_APERSBoundingMine_Range_Mag {
@@ -708,7 +708,7 @@
         };
     };
 
-    class B_cg_FieldPack_cdp_repair: B_cg_FieldPack_cdp {
+    class O_cg_FieldPack_cdp_repair: O_cg_FieldPack_cdp {
         scope=1;
         class TransportItems {
             class _xx_ToolKit {
@@ -718,7 +718,7 @@
         };
     };
 
-    class B_cg_FieldPack_cdp_ReconExp: B_cg_FieldPack_cdp {
+    class O_cg_FieldPack_cdp_ReconExp: O_cg_FieldPack_cdp {
         scope=1;
         class TransportMagazines {
             class _xx_APERSBoundingMine_Range_Mag {
@@ -750,7 +750,7 @@
         };
     };
 
-    class B_cg_FieldPack_cdp_ReconMedic: B_cg_FieldPack_cdp {
+    class O_cg_FieldPack_cdp_ReconMedic: O_cg_FieldPack_cdp {
         scope=1;
         class TransportMagazines {
             class _xx_SmokeShellRed {
@@ -778,7 +778,7 @@
         };
     };
 
-    class B_cg_Carryall_cdp_AAR: B_cg_Carryall_cdp {
+    class O_cg_Carryall_cdp_AAR: O_cg_Carryall_cdp {
         scope=1;
         class TransportMagazines {
             class _xx_150Rnd_762x54_Box {
@@ -811,7 +811,7 @@
         };
     };
 
-    class B_cg_Carryall_cdp_AAA: B_cg_Carryall_cdp {
+    class O_cg_Carryall_cdp_AAA: O_cg_Carryall_cdp {
         scope=1;
         class TransportMagazines {
             class _xx_Titan_AA {
@@ -820,8 +820,8 @@
             };
         };
     };
-    
-    class B_cg_Carryall_cdp_AAT: B_cg_Carryall_cdp {
+
+    class O_cg_Carryall_cdp_AAT: O_cg_Carryall_cdp {
         scope=1;
         class TransportMagazines {
             class _xx_Titan_AT {
