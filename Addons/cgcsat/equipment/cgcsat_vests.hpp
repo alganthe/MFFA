@@ -5,7 +5,7 @@
         _generalMacro="cg_HarnessO_cwp";
         scope=2;
         displayName="LBV Harness (cwp)";
-        picture=PATHTOF(UI\cwpUI.paa);
+        //picture=PATHTOF(UI\cwpUI.paa);
         model="\A3\Characters_F\OPFOR\equip_o_vest01";
         hiddenSelections[]= {
 			"Camo1",
@@ -27,7 +27,7 @@
 			};
 		};
 	};
-    
+
     class cg_HarnessOGL_cwp: cg_HarnessO_cwp {
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cwp";
@@ -49,7 +49,7 @@
         _generalMacro="cg_HarnessO_cdp";
         scope=2;
         displayName="LBV Harness (cdp)";
-        picture=PATHTOF(UI\cdpUI.paa);
+        //picture=PATHTOF(UI\cdpUI.paa);
         model="\A3\Characters_F\OPFOR\equip_o_vest01";
         hiddenSelections[]= {
 			"Camo1",
@@ -93,7 +93,7 @@
         _generalMacro="cg_HarnessO_cup";
         scope=2;
         displayName="LBV Harness (cup)";
-        picture=PATHTOF(UI\cdpUI.paa);
+        //picture=PATHTOF(UI\cdpUI.paa);
         model="\A3\Characters_F\OPFOR\equip_o_vest01";
         hiddenSelections[]= {
 			"Camo1",

@@ -13,7 +13,7 @@
         _generalMacro="O_cg_Carryall_cwp";
         displayName="Carryall Backpack [CWP]";
         scope=2;
-        picture=PATHTOF(UI\cwpUI.paa);
+        //picture=PATHTOF(UI\cwpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_carryall_cwp.paa)};
     };
 
@@ -22,7 +22,7 @@
         _generalMacro="O_cg_Fieldpack_cwp";
         displayName="Field Pack [CWP]";
         scope=2;
-        picture=PATHTOF(UI\cwpUI.paa);
+        //picture=PATHTOF(UI\cwpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_fieldpack_cwp.paa)};
     };
 
@@ -31,7 +31,7 @@
         _generalMacro="O_cg_AssaultPack_cwp";
         displayName="Assault Pack [CWP]";
         scope=2;
-        picture=PATHTOF(UI\cwpUI.paa);
+        //picture=PATHTOF(UI\cwpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_compact_cwp.paa)};
     };
 
@@ -95,7 +95,7 @@
     class O_cg_AssaultPack_cwp_AR: O_cg_AssaultPack_cwp {
         scope = 1;
         class TransportMagazines {
-            mag_xx(150Rnd_762x54_Box,3)
+            mag_xx(150Rnd_762x54_Box,3);
         };
     };
 
@@ -308,7 +308,7 @@
         _generalMacro="O_cg_Carryall_cup";
         displayName="Carryall Backpack [CUP]";
         scope=2;
-        picture=PATHTOF(UI\cupUI.paa);
+        //picture=PATHTOF(UI\cupUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_carryall_cup.paa)};
     };
 
@@ -317,7 +317,7 @@
         _generalMacro="O_cg_FieldPack_cup";
         displayName="Field Pack [CUP]";
         scope=2;
-        picture=PATHTOF(UI\cupUI.paa);
+        //picture=PATHTOF(UI\cupUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_fieldpack_cup.paa)};
     };
 
@@ -326,7 +326,7 @@
         _generalMacro="O_cg_AssaultPack_cup";
         displayName="Assault Pack [CUP]";
         scope=2;
-        picture=PATHTOF(UI\cupUI.paa);
+        //picture=PATHTOF(UI\cupUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_compact_cup.paa)};
     };
 
@@ -334,7 +334,7 @@
         scope = 1;
         class TransportMagazines
         {
-            mag_xx(150Rnd_762x54_Box,3)
+            mag_xx(150Rnd_762x54_Box,3);
         };
     };
 
@@ -544,7 +544,7 @@
         _generalMacro="O_cg_Carryall_cdp";
         displayName="Carryall Backpack [CDP]";
         scope=2;
-        picture=PATHTOF(UI\cdpUI.paa);
+        //picture=PATHTOF(UI\cdpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_carryall_cdp.paa)};
     };
 
@@ -553,7 +553,7 @@
         _generalMacro="O_cg_Fieldpack_cdp";
         displayName="Field Pack [CDP]";
         scope=2;
-        picture=PATHTOF(UI\cdpUI.paa);
+        //picture=PATHTOF(UI\cdpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_fieldpack_cdp.paa)};
     };
 
@@ -562,7 +562,7 @@
         _generalMacro="O_cg_AssaultPack_cdp";
         displayName="Assault Pack [CDP]";
         scope=2;
-        picture=PATHTOF(UI\cdpUI.paa);
+        //picture=PATHTOF(UI\cdpUI.paa);
         hiddenSelectionsTextures[]={PATHTOF(data\cg_compact_cdp.paa)};
     };
 
@@ -626,7 +626,7 @@
     class O_cg_AssaultPack_cdp_AR: O_cg_AssaultPack_cdp {
         scope = 1;
         class TransportMagazines {
-            mag_xx(150Rnd_762x54_Box,3)
+            mag_xx(150Rnd_762x54_Box,3);
         };
     };
 

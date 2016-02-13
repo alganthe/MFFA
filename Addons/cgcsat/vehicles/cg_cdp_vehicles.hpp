@@ -80,7 +80,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_ifrit_body_cdp.paa),
-            PATHTOF(data\cgcsat_ifrit_back_cdp.paa),
+            PATHTOF(data\cgcsat_ifrit_back_cdp.paa)
         };
     };
 
@@ -121,7 +121,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-            PATHTOF(data\cgcsat_zamac_back_cdp.paa),
+            PATHTOF(data\cgcsat_zamac_back_cdp.paa)
         };
     };
 
@@ -134,7 +134,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-            PATHTOF(data\cgcsat_zamac_back_cdp.paa),
+            PATHTOF(data\cgcsat_zamac_back_cdp.paa)
         };
     };
 
@@ -147,7 +147,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-            PATHTOF(data\cgcsat_zamac_repair_cdp.paa),
+            PATHTOF(data\cgcsat_zamac_repair_cdp.paa)
         };
     };
 
@@ -160,7 +160,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-            PATHTOF(data\cgcsat_zamac_back_cdp.paa),
+            PATHTOF(data\cgcsat_zamac_back_cdp.paa)
         };
     };
 
@@ -173,7 +173,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-            PATHTOF(data\cgcsat_zamac_repair_cdp.paa),
+            PATHTOF(data\cgcsat_zamac_repair_cdp.paa)
         };
     };
 
@@ -186,7 +186,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-            PATHTOF(data\cgcsat_zamac_fuel_cdp.paa),
+            PATHTOF(data\cgcsat_zamac_fuel_cdp.paa)
         };
     };
 

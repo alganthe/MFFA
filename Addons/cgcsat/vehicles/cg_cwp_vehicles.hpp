@@ -80,7 +80,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_ifrit_body_cwp.paa),
-            PATHTOF(data\cgcsat_ifrit_back_cwp.paa),
+            PATHTOF(data\cgcsat_ifrit_back_cwp.paa)
         };
     };
 
@@ -121,7 +121,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-            PATHTOF(data\cgcsat_zamac_back_cwp.paa),
+            PATHTOF(data\cgcsat_zamac_back_cwp.paa)
         };
     };
 
@@ -134,7 +134,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-            PATHTOF(data\cgcsat_zamac_back_cwp.paa),
+            PATHTOF(data\cgcsat_zamac_back_cwp.paa)
         };
     };
 
@@ -147,7 +147,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-            PATHTOF(data\cgcsat_zamac_repair_cwp.paa),
+            PATHTOF(data\cgcsat_zamac_repair_cwp.paa)
         };
     };
 
@@ -160,7 +160,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-            PATHTOF(data\cgcsat_zamac_back_cwp.paa),
+            PATHTOF(data\cgcsat_zamac_back_cwp.paa)
         };
     };
 
@@ -173,7 +173,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-            PATHTOF(data\cgcsat_zamac_repair_cwp.paa),
+            PATHTOF(data\cgcsat_zamac_repair_cwp.paa)
         };
     };
 
@@ -186,7 +186,7 @@
         class eventhandlers;
         hiddenSelectionsTextures[]= {
             PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-            PATHTOF(data\cgcsat_zamac_fuel_cwp.paa),
+            PATHTOF(data\cgcsat_zamac_fuel_cwp.paa)
         };
     };
 //////////////////////////////////////////////////// Boats CWP

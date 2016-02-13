@@ -715,7 +715,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -727,7 +727,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
@@ -771,7 +771,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -783,7 +783,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
@@ -827,7 +827,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_repair_cwp.paa),
+                    PATHTOF(data\cgcsat_zamac_repair_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -838,7 +838,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_repair_cdp.paa),
+                    PATHTOF(data\cgcsat_zamac_repair_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
@@ -882,7 +882,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -894,7 +894,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
@@ -938,7 +938,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -950,7 +950,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa),
+                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
@@ -995,7 +995,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_fuel_cwp.paa),
+                    PATHTOF(data\cgcsat_zamac_fuel_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -1007,7 +1007,7 @@
                 author= ECSTRING(main,author);
                 textures[]= {
                     PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_fuel_cdp.paa),
+                    PATHTOF(data\cgcsat_zamac_fuel_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
