@@ -1149,7 +1149,7 @@
                 displayname="$STR_A3_textureSources_blackcustom0";
                 author="$STR_A3_Bohemia_Interactive";
                 textures[]= {
-                    "\A3\Air_F_Heli\Heli_Light_02\Data\Heli_Light_02_ext_OPFOR_V2_CO.paa"
+                    "\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"
                 };
                 faction[]= {
                     "OPF_F"

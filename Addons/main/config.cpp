@@ -19,6 +19,7 @@ class CfgPatches {
             "A3_Air_F",
             "A3_Air_F_Beta",
             "A3_Armor_F_Beta",
+            "A3_Air_F_Heli",
             "A3_Boat_F"
         };
         author[] = {ECSTRING(main,author)};
