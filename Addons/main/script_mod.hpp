@@ -4,8 +4,8 @@
 #define PREFIX MFFA
 
 #define MAJOR 1
-#define MINOR 0
-#define PATCHLVL 5
+#define MINOR 1
+#define PATCHLVL 134489
 #define BUILD 0
 
 #define VERSION MAJOR.MINOR.PATCHLVL.BUILD

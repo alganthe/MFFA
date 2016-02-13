@@ -27,12 +27,13 @@
 			};
 		};
 	};
+
     class cg_HarnessOGL_cwp: cg_HarnessO_cwp {
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cwp";
         scope=2;
         displayName="LBV Grenadier Harness (cwp)";
-        //picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
+        picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
         model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
         class ItemInfo: ItemInfo {
             uniformModel="\A3\Characters_F\OPFOR\equip_o_vest_gl";
@@ -70,12 +71,13 @@
 			};
 		};
 	};
+
     class cg_HarnessOGL_cdp: cg_HarnessO_cdp {
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cdp";
         scope=2;
         displayName="LBV Grenadier Harness (cdp)";
-        //picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
+        picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
         model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
         class ItemInfo: ItemInfo {
             uniformModel="\A3\Characters_F\OPFOR\equip_o_vest_gl";
@@ -113,12 +115,13 @@
 			};
 		};
 	};
+
     class cg_HarnessOGL_cup: cg_HarnessO_cup {
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cup";
         scope=2;
         displayName="LBV Grenadier Harness (cup)";
-        //picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
+        picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
         model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
         class ItemInfo: ItemInfo {
             uniformModel="\A3\Characters_F\OPFOR\equip_o_vest_gl";

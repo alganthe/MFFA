@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/version-1.0.5-orange.svg"
              alt="MFFA version">
     </a>
-    <a href="https://github.com/alganthe/MFFA/releases/download/1.0.0/MFFA_1.0.5.zip">
+    <a href="https://github.com/alganthe/MFFA/releases/download/1.0.5/MFFA_1.0.5.zip">
         <img src="https://img.shields.io/badge/Download-Click%20me%20!!!-green.svg"
              alt="MFFA version">
     </a>
@@ -68,7 +68,5 @@ Alganthe</br></p>
 <b>Information about the license</b>
 </p>
 <p align="center">
-Do not distribute this mod over steam workshop.</br>
-You can modify the content of this mod, however if you plan on distributing it the above still applies.</br>
 If you intend to distribute it, release the sources.</br>
 </p>
