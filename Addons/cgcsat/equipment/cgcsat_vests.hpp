@@ -5,7 +5,7 @@
         _generalMacro="cg_HarnessO_cwp";
         scope=2;
         displayName="LBV Harness (cwp)";
-        //picture=PATHTOF(UI\cwpUI.paa);
+        picture=PATHTOF(UI\cwpUI.paa);
         model="\A3\Characters_F\OPFOR\equip_o_vest01";
         hiddenSelections[]= {
 			"Camo1",
@@ -33,7 +33,7 @@
         _generalMacro="cg_HarnessOGL_cwp";
         scope=2;
         displayName="LBV Grenadier Harness (cwp)";
-        //picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
+        picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
         model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
         class ItemInfo: ItemInfo {
             uniformModel="\A3\Characters_F\OPFOR\equip_o_vest_gl";
@@ -49,7 +49,7 @@
         _generalMacro="cg_HarnessO_cdp";
         scope=2;
         displayName="LBV Harness (cdp)";
-        //picture=PATHTOF(UI\cdpUI.paa);
+        picture=PATHTOF(UI\cdpUI.paa);
         model="\A3\Characters_F\OPFOR\equip_o_vest01";
         hiddenSelections[]= {
 			"Camo1",
@@ -77,7 +77,7 @@
         _generalMacro="cg_HarnessOGL_cdp";
         scope=2;
         displayName="LBV Grenadier Harness (cdp)";
-        //picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
+        picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
         model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
         class ItemInfo: ItemInfo {
             uniformModel="\A3\Characters_F\OPFOR\equip_o_vest_gl";
@@ -93,7 +93,7 @@
         _generalMacro="cg_HarnessO_cup";
         scope=2;
         displayName="LBV Harness (cup)";
-        //picture=PATHTOF(UI\cdpUI.paa);
+        picture=PATHTOF(UI\cdpUI.paa);
         model="\A3\Characters_F\OPFOR\equip_o_vest01";
         hiddenSelections[]= {
 			"Camo1",
@@ -121,7 +121,7 @@
         _generalMacro="cg_HarnessOGL_cup";
         scope=2;
         displayName="LBV Grenadier Harness (cup)";
-        //picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
+        picture="\A3\characters_f\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
         model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
         class ItemInfo: ItemInfo {
             uniformModel="\A3\Characters_F\OPFOR\equip_o_vest_gl";

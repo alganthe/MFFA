@@ -8,7 +8,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Combat Fatigues [CWP]";
-        //picture=PATHTOF(UI\cwpUI.paa);
+        picture=PATHTOF(UI\cwpUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -24,7 +24,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Recon Fatigues [CWP]";
-        //picture=PATHTOF(UI\cwpUI.paa);
+        picture=PATHTOF(UI\cwpUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -40,7 +40,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Officer fatigues [CWP]";
-        //picture=PATHTOF(UI\cwpUI.paa);
+        picture=PATHTOF(UI\cwpUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -72,7 +72,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Combat Fatigues [CUP]";
-        //picture=PATHTOF(UI\cupUI.paa);
+        picture=PATHTOF(UI\cupUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -88,7 +88,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Recon Fatigues [CUP]";
-        //picture=PATHTOF(UI\cupUI.paa);
+        picture=PATHTOF(UI\cupUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -104,7 +104,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Combat Fatigues [CDP]";
-        //picture=PATHTOF(UI\cdpUI.paa);
+        picture=PATHTOF(UI\cdpUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -120,7 +120,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Recon Fatigues [CDP]";
-        //picture=PATHTOF(UI\cdpUI.paa);
+        picture=PATHTOF(UI\cdpUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -136,7 +136,7 @@
         scopeCurator = 2;
         scopeArsenal = 2;
         displayName = "Officer fatigues [CDP]";
-        //picture=PATHTOF(UI\cdpUI.paa);
+        picture=PATHTOF(UI\cdpUI.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
             uniformModel = "-";

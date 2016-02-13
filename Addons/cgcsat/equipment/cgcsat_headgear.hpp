@@ -9,7 +9,7 @@
         scope = 2;
         displayName = "MICH [CWP]";
         model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-        //picture=PATHTOF(UI\cwpUI.paa);
+        picture=PATHTOF(UI\cwpUI.paa);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_MICH_cwp.paa)};
         class ItemInfo: ItemInfo {
@@ -32,7 +32,7 @@
         scope = 2;
         displayName = "MICH [CUP]";
         model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-        //picture=PATHTOF(UI\cupUI.paa);
+        picture=PATHTOF(UI\cupUI.paa);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_MICH_cup.paa)};
         class ItemInfo: ItemInfo {
@@ -50,7 +50,7 @@
         scope = 2;
         displayName = "MICH [CDP]";
         model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-        //picture=PATHTOF(UI\cdpUI.paa);
+        picture=PATHTOF(UI\cdpUI.paa);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {PATHTOF(data\cg_MICH_cdp.paa)};
         class ItemInfo: ItemInfo {
