@@ -21,34 +21,34 @@
 <b>DISCLAIMER</b>
  </p>
  <p align="center">
-None of the units I make represent my ideology nor my political views, this is made on my spare time to provie enjoyment and assets for mission makers.
-Any ressemblance to a real person / group is simply a coincidence this is purely fictionnal.
+None of the units I make represent my ideology nor my political views, this is made on my spare time to provide enjoyment and assets for mission makers.
+Any resemblance to a real person / group is simply a coincidence this is purely fictional.
 </p>
 <p align="center">
 <b>DESCRIPTION</b>
 </p>
 
 <p align="center">
-MFFA (More Factions For Arma) is a mod aiming to add, as the name indicates, new factions to arma3 by combining assets from RHS and TRYK as well as a CSAT retexture.</br>
+MFFA (More Factions For Arma) is a mod adding reskinned versions of the CSAT</br>
 </p>
 
-Available factions:
-
-- Takistani insurgents (OPFOR) and (INDEP).
-- Russian rebels (BLUFOR) and (INDEP).
-- CGCSAT (OPFOR)
-
-
-More factions are on the way !
-</p>
 <p align="center">
-<b>INSTALLATION</b>
+<b>Available skins</b>:
 </p>
 
-					- Move @MFFA to arma 3 root folder
-					- Move @MFFA\keys to arma 3 root folder
-					- Done
+<p align="center">
+ Woodland </br>
+ Urban </br>
+ Desert </br>
+</p>
 
+<p align="center">
+<b> Requirements </b>
+</p>
+
+<p align="center">
+CBA 2.3.0 minimum
+</p>
 
 <p align="center">
 <b>CREDITS</b>
@@ -69,4 +69,5 @@ Alganthe</br></p>
 </p>
 <p align="center">
 If you intend to distribute it, release the sources.</br>
+Do not monetize this content, ever</br>
 </p>
