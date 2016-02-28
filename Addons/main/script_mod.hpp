@@ -4,7 +4,7 @@
 #define PREFIX MFFA
 
 #define MAJOR 1
-#define MINOR 1
+#define MINOR 2
 #define PATCHLVL 134627
 #define BUILD 0
 
