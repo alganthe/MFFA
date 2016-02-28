@@ -4,7 +4,7 @@
                 class O_cg_cup_GuardSquad {
                     name="$STR_A3_cfggroups_East_OPF_F_UInfantry_OIA_GuardSquad0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cup";
 
                     class Unit0 {
                         side=0;
@@ -66,7 +66,7 @@
                 class O_cg_cup_GuardTeam {
                     name="$STR_A3_cfggroups_East_OPF_F_UInfantry_OIA_GuardTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cup";
 
                     class Unit0 {
                         side=0;
@@ -100,7 +100,7 @@
                 class O_cg_cup_GuardSentry {
                     name="$STR_A3_cfggroups_East_OPF_F_UInfantry_OIA_GuardSentry0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cup";
 
                     class Unit0 {
                         side=0;

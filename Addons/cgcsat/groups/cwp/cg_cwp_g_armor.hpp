@@ -3,7 +3,7 @@
                 class O_cg_cwp_TankPlatoon {
                     name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -37,7 +37,7 @@
                 class O_cg_cwp_TankPlatoon_AA {
                     name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon_AA0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -71,7 +71,7 @@
                 class O_cg_cwp_TankSection {
                     name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankSection0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -91,7 +91,7 @@
                 class O_cg_cwp_SPGPlatoon_Scorcher {
                     name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGPlatoon_Scorcher0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -125,7 +125,7 @@
                 class O_cg_cwp_SPGSection_Scorcher {
                     name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGSection_Scorcher0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
