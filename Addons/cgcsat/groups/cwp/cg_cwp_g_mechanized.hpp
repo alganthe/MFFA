@@ -4,7 +4,7 @@
                 class O_cg_cwp_MechInfSquad {
                     name="$STR_A3_cfggroups_West_BLU_F_Mechanized_BUS_MechInfSquad0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -73,7 +73,7 @@
                 class O_cg_cwp_MechInf_AT {
                     name="$STR_A3_cfggroups_West_BLU_F_Mechanized_BUS_MechInf_AT0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -142,7 +142,7 @@
                 class O_cg_cwp_MechInf_AA {
                     name="$STR_A3_cfggroups_West_BLU_F_Mechanized_BUS_MechInf_AA0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -211,7 +211,7 @@
                 class O_cg_cwp_MechInf_Support {
                     name="$STR_A3_cfggroups_West_BLU_F_Mechanized_BUS_MechInf_Support0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;

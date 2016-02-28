@@ -4,7 +4,7 @@
                 class O_cg_cwp_MotInf_Team {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInfTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -31,7 +31,7 @@
                 class O_cg_cwp_MotInf_AT {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_AT0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -65,7 +65,7 @@
                 class O_cg_cwp_MotInf_AA {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_AA0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -99,7 +99,7 @@
                 class O_cg_cwp_MotInf_MGTeam {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_MGTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -133,7 +133,7 @@
                 class O_cg_cwp_MotInf_GMGTeam {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_GMGTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;
@@ -167,7 +167,7 @@
                 class O_cg_cwp_MotInf_MortTeam {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_MortTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cwp";
 
                     class Unit0 {
                         side=0;

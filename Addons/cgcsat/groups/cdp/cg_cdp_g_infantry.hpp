@@ -4,7 +4,7 @@
                 class O_cg_cdp_InfSquad {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -66,7 +66,7 @@
                 class O_cg_cdp_InfSquad_Weapons {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad_Weapons0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -128,7 +128,7 @@
                 class O_cg_cdp_InfTeam {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -162,7 +162,7 @@
                 class O_cg_cdp_InfTeam_AT {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AT0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -196,7 +196,7 @@
                 class O_cg_cdp_InfTeam_AA {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -230,7 +230,7 @@
                 class O_cg_cdp_InfSentry {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -250,7 +250,7 @@
                 class O_cg_cdp_reconTeam {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_reconTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -298,7 +298,7 @@
                 class O_cg_cdp_reconPatrol {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_reconPatrol0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -332,7 +332,7 @@
                 class O_cg_cdp_reconSentry {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_reconSentry0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -352,7 +352,7 @@
                 class O_cgcsat_SniperTeam {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_SniperTeam0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -376,7 +376,7 @@
                 class O_cg_cdp_support_CLS {
                     name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_support_CLS0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -410,7 +410,7 @@
                 class O_cg_cdp_support_EOD {
                     name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_support_EOD0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -444,7 +444,7 @@
                 class O_cg_cdp_support_ENG {
                     name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_support_ENG0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -478,7 +478,7 @@
                 class O_cg_cdp_recon_EOD {
                     name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_recon_EOD0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -512,7 +512,7 @@
                 class O_cg_cdp_support_MG {
                     name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_support_MG0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -539,7 +539,7 @@
                 class O_cg_cdp_support_GMG {
                     name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_support_GMG0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
@@ -566,7 +566,7 @@
                 class O_cg_cdp_support_Mort {
                     name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_support_Mort0";
                     side=0;
-                    faction="O_cgcsat";
+                    faction="O_cg_cdp";
 
                     class Unit0 {
                         side=0;
