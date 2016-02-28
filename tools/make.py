@@ -59,7 +59,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@MFFA"
-project_version = "1.1.134489"
+project_version = "1.2.134489"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""
