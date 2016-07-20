@@ -60,7 +60,7 @@ release:
 	@"$(MAKE)" clean
 	@"$(MAKE)" $(MAKEFLAGS) signatures
 	@echo "  ZIP  MFFA_$(VERSION).zip"
-	@cp *.dll readme.md mod.cpp classnames.txt MFFA_logo.paa $(BIN)
+	@cp readme.md mod.cpp classnames.txt MFFA_logo.paa $(BIN)
 	@zip -r $(ZIP)_$(VERSION).zip $(BIN) &> /dev/null
 
 .PHONY: release
