@@ -6,26 +6,13 @@
 
     class O_APC_Wheeled_02_rcws_F: O_APC_Wheeled_02_base_F {
         class textureSources {
-            class Hex {
-                DisplayName="Hex";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
-                    "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
-                    "a3\data_f\vehicles\turret_opfor_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_marid_body_cwp.paa),
-                    PATHTOF(data\cgcsat_marid_acc_cwp.paa),
-                    PATHTOF(data\cgcsat_turret_cwp.paa)
+                    QPATHTOF(data\cgcsat_marid_body_cwp.paa),
+                    QPATHTOF(data\cgcsat_marid_acc_cwp.paa),
+                    QPATHTOF(data\cgcsat_turret_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -36,45 +23,27 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_marid_body_cdp.paa),
-                    PATHTOF(data\cgcsat_marid_acc_cdp.paa),
-                    PATHTOF(data\cgcsat_turret_cdp.paa)
+                    QPATHTOF(data\cgcsat_marid_body_cdp.paa),
+                    QPATHTOF(data\cgcsat_marid_acc_cdp.paa),
+                    QPATHTOF(data\cgcsat_turret_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class O_MBT_02_arty_F: O_MBT_02_arty_base_F {
         class textureSources {
-            class Hex {
-                DisplayName="Hex";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "a3\armor_f_gamma\mbt_02\data\mbt_02_body_co.paa",
-                    "a3\armor_f_gamma\mbt_01\data\mbt_01_scorcher_hexarid_co.paa",
-                    "a3\armor_f_gamma\mbt_02\data\mbt_02_co.paa",
-                    "a3\data_f\vehicles\turret_opfor_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_t100_body_cwp.paa),
-                    PATHTOF(data\cgcsat_sochor_turret_cwp.paa),
-                    PATHTOF(data\cgcsat_T100_access_cwp.paa),
-                    PATHTOF(data\cgcsat_turret_cwp.paa)
+                    QPATHTOF(data\cgcsat_t100_body_cwp.paa),
+                    QPATHTOF(data\cgcsat_sochor_turret_cwp.paa),
+                    QPATHTOF(data\cgcsat_T100_access_cwp.paa),
+                    QPATHTOF(data\cgcsat_turret_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -85,45 +54,28 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_t100_body_cdp.paa),
-                    PATHTOF(data\cgcsat_sochor_turret_cdp.paa),
-                    PATHTOF(data\cgcsat_T100_access_cdp.paa),
-                    PATHTOF(data\cgcsat_turret_cdp.paa)
+                    QPATHTOF(data\cgcsat_t100_body_cdp.paa),
+                    QPATHTOF(data\cgcsat_sochor_turret_cdp.paa),
+                    QPATHTOF(data\cgcsat_T100_access_cdp.paa),
+                    QPATHTOF(data\cgcsat_turret_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class O_APC_Tracked_02_cannon_F: O_APC_Tracked_02_base_F {
         class textureSources {
-            class Hex {
-                DisplayName="Hex";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_01_hexarid_co.paa",
-                    "A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_02_hexarid_co.paa",
-                    "A3\Armor_F_Beta\APC_Tracked_02\Data\rcws30_opfor_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]=
                 {
-                    PATHTOF(data\cgcsat_btr_body1_cwp.paa),
-                    PATHTOF(data\cgcsat_btr_body2_cwp.paa),
-                    PATHTOF(data\cgcsat_rcws30_cwp.paa)
+                    QPATHTOF(data\cgcsat_btr_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_btr_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_rcws30_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -134,43 +86,26 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_btr_body1_cdp.paa),
-                    PATHTOF(data\cgcsat_btr_body2_cdp.paa),
-                    PATHTOF(data\cgcsat_rcws30_cdp.paa)
+                    QPATHTOF(data\cgcsat_btr_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_btr_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_rcws30_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class O_APC_Tracked_02_AA_F: O_APC_Tracked_02_base_F {
         class textureSources {
-            class Hex {
-                DisplayName="Hex (Tigris)";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_01_aa_hexarid_co.paa",
-                    "A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_02_hexarid_co.paa",
-                    "A3\Armor_F_Beta\APC_Tracked_01\Data\apc_tracked_01_aa_tower_opfor_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_btr_body1_cwp.paa),
-                    PATHTOF(data\cgcsat_btr_body2_cwp.paa),
-                    PATHTOF(data\cgcsat_tigris_aa_cwp.paa)
+                    QPATHTOF(data\cgcsat_btr_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_btr_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_tigris_aa_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -181,43 +116,26 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_btr_body1_cdp.paa),
-                    PATHTOF(data\cgcsat_btr_body2_cdp.paa),
-                    PATHTOF(data\cgcsat_tigris_aa_cdp.paa)
+                    QPATHTOF(data\cgcsat_btr_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_btr_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_tigris_aa_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class O_MBT_02_cannon_F: O_MBT_02_base_F {
         class textureSources {
-            class Hex {
-                DisplayName="Hex";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "a3\armor_f_gamma\mbt_02\data\mbt_02_body_co.paa",
-                    "a3\armor_f_gamma\mbt_02\data\mbt_02_turret_co.paa",
-                    "a3\armor_f_gamma\mbt_02\data\mbt_02_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_t100_body_cwp.paa),
-                    PATHTOF(data\cgcsat_T100_turret_cwp.paa),
-                    PATHTOF(data\cgcsat_T100_access_cwp.paa)
+                    QPATHTOF(data\cgcsat_t100_body_cwp.paa),
+                    QPATHTOF(data\cgcsat_T100_turret_cwp.paa),
+                    QPATHTOF(data\cgcsat_T100_access_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -228,18 +146,14 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_t100_body_cdp.paa),
-                    PATHTOF(data\cgcsat_T100_turret_cdp.paa),
-                    PATHTOF(data\cgcsat_T100_access_cdp.paa)
+                    QPATHTOF(data\cgcsat_t100_body_cdp.paa),
+                    QPATHTOF(data\cgcsat_T100_turret_cdp.paa),
+                    QPATHTOF(data\cgcsat_T100_access_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 ////////////////////////////////////////////////////Base classes Cars
@@ -354,25 +268,13 @@
         };
 
         class textureSources {
-            class Hex {
-                DisplayName="Hex";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-                    "\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_ifrit_body_cwp.paa),
-                    PATHTOF(data\cgcsat_ifrit_back_cwp.paa),
-                    PATHTOF(data\cgcsat_turret_cwp.paa)
+                    QPATHTOF(data\cgcsat_ifrit_body_cwp.paa),
+                    QPATHTOF(data\cgcsat_ifrit_back_cwp.paa),
+                    QPATHTOF(data\cgcsat_turret_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -383,18 +285,14 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_ifrit_body_cdp.paa),
-                    PATHTOF(data\cgcsat_ifrit_back_cdp.paa),
-                    PATHTOF(data\cgcsat_turret_cdp.paa)
+                    QPATHTOF(data\cgcsat_ifrit_body_cdp.paa),
+                    QPATHTOF(data\cgcsat_ifrit_back_cdp.paa),
+                    QPATHTOF(data\cgcsat_turret_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
@@ -496,26 +394,13 @@
         };
 
         class textureSources {
-            class Hex {
-                DisplayName="Hex";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-                    "\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-                    "\A3\Data_F\Vehicles\turret_opfor_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_ifrit_body_cwp.paa),
-                    PATHTOF(data\cgcsat_ifrit_back_cwp.paa),
-                    PATHTOF(data\cgcsat_turret_cwp.paa)
+                    QPATHTOF(data\cgcsat_ifrit_body_cwp.paa),
+                    QPATHTOF(data\cgcsat_ifrit_back_cwp.paa),
+                    QPATHTOF(data\cgcsat_turret_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -526,18 +411,14 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_ifrit_body_cdp.paa),
-                    PATHTOF(data\cgcsat_ifrit_back_cdp.paa),
-                    PATHTOF(data\cgcsat_turret_cdp.paa)
+                    QPATHTOF(data\cgcsat_ifrit_body_cdp.paa),
+                    QPATHTOF(data\cgcsat_ifrit_back_cdp.paa),
+                    QPATHTOF(data\cgcsat_turret_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
@@ -639,26 +520,13 @@
         };
 
         class textureSources {
-            class Hex {
-                DisplayName="Hex";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-                    "\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-                    "\A3\Data_F\Vehicles\turret_opfor_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_ifrit_body_cwp.paa),
-                    PATHTOF(data\cgcsat_ifrit_back_cwp.paa),
-                    PATHTOF(data\cgcsat_turret_cwp.paa)
+                    QPATHTOF(data\cgcsat_ifrit_body_cwp.paa),
+                    QPATHTOF(data\cgcsat_ifrit_back_cwp.paa),
+                    QPATHTOF(data\cgcsat_turret_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -669,53 +537,26 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_ifrit_body_cdp.paa),
-                    PATHTOF(data\cgcsat_ifrit_back_cdp.paa),
-                    PATHTOF(data\cgcsat_turret_cdp.paa)
+                    QPATHTOF(data\cgcsat_ifrit_body_cdp.paa),
+                    QPATHTOF(data\cgcsat_ifrit_back_cdp.paa),
+                    QPATHTOF(data\cgcsat_turret_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class Truck_02_base_F: Truck_F {
         class textureSources {
-            class indep {
-                displayName="$STR_A3_TEXTURESOURCES_INDEP0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_indp_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kuz_indp_co.paa"
-                };
-                factions[]= {
-                    "IND_F"
-                };
-            };
-
-            class opfor {
-                displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kuz_OPFOR_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
 
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cwp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -726,52 +567,24 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cdp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class Truck_02_transport_base_F: Truck_02_base_F {
         class textureSources {
-            class indep {
-                displayName="$STR_A3_TEXTURESOURCES_INDEP0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_indp_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kuz_indp_co.paa"
-                };
-                factions[]= {
-                    "IND_F"
-                };
-            };
-
-            class opfor {
-                displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kuz_OPFOR_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cwp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -782,52 +595,24 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cdp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class Truck_02_box_base_F: Truck_02_base_F {
         class textureSources {
-            class indep {
-                displayName="$STR_A3_TEXTURESOURCES_INDEP0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_indp_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_repair_indp_co.paa"
-                };
-                factions[]= {
-                    "IND_F"
-                };
-            };
-
-            class opfor {
-                displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_repair_OPFOR_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_repair_cwp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cwp.paa),
+                    QPATHTOF(data\cgcsat_zamac_repair_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -837,52 +622,24 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_repair_cdp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cdp.paa),
+                    QPATHTOF(data\cgcsat_zamac_repair_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class Truck_02_medical_base_F: Truck_02_box_base_F {
         class textureSources {
-            class indep {
-                displayName="$STR_A3_TEXTURESOURCES_INDEP0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_indp_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kuz_indp_co.paa"
-                };
-                factions[]= {
-                    "IND_F"
-                };
-            };
-
-            class opfor {
-                displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kuz_OPFOR_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cwp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -893,52 +650,24 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cdp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 
     class Truck_02_Ammo_base_F: Truck_02_base_F {
         class textureSources {
-            class indep {
-                displayName="$STR_A3_TEXTURESOURCES_INDEP0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_indp_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_repair_indp_co.paa"
-                };
-                factions[]= {
-                    "IND_F"
-                };
-            };
-
-            class opfor {
-                displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_repair_OPFOR_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cwp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cwp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -949,53 +678,24 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_back_cdp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cdp.paa),
+                    QPATHTOF(data\cgcsat_zamac_back_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]=
-        {
-            "Hex",
-            1
         };
     };
 
     class Truck_02_fuel_base_F: Truck_02_base_F {
         class textureSources {
-            class indep {
-                displayName="$STR_A3_TEXTURESOURCES_INDEP0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_indp_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_fuel_indp_co.paa"
-                };
-                factions[]= {
-                    "IND_F"
-                };
-            };
-
-            class opfor {
-                displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                    "\A3\soft_f_beta\Truck_02\Data\Truck_02_fuel_OPFOR_co.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cwp.paa),
-                    PATHTOF(data\cgcsat_zamac_fuel_cwp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cwp.paa),
+                    QPATHTOF(data\cgcsat_zamac_fuel_cwp.paa)
                 };
                 factions[]= {
                     "O_cg_cwp"
@@ -1006,17 +706,13 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_zamac_front_cdp.paa),
-                    PATHTOF(data\cgcsat_zamac_fuel_cdp.paa)
+                    QPATHTOF(data\cgcsat_zamac_front_cdp.paa),
+                    QPATHTOF(data\cgcsat_zamac_fuel_cdp.paa)
                 };
                 factions[]= {
                     "O_cg_cdp"
                 };
             };
-        };
-        textureList[]= {
-            "Hex",
-            1
         };
     };
 ////////////////////////////////////////////////////Base classes Boats and SDV
@@ -1028,24 +724,12 @@
 
     class Plane_CAS_02_base_F: Plane_Base_F {
         class textureSources {
-            class opfor {
-                displayname="$STR_A3_textureSources_opfor0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\Air_F_EPC\Plane_CAS_02\Data\fighter02_ext01_co.paa",
-                    "\A3\Air_F_EPC\Plane_CAS_02\Data\fighter02_ext02_co.paa"
-                };
-                faction[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 displayname="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_neophron_body1_cwp.paa),
-                    PATHTOF(data\cgcsat_neophron_body2_cwp.paa)
+                    QPATHTOF(data\cgcsat_neophron_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_neophron_body2_cwp.paa)
                 };
                 faction[]= {
                     "O_cg_cwp"
@@ -1056,8 +740,8 @@
                 displayname="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_neophron_body1_cdp.paa),
-                    PATHTOF(data\cgcsat_neophron_body2_cdp.paa)
+                    QPATHTOF(data\cgcsat_neophron_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_neophron_body2_cdp.paa)
                 };
                 faction[]= {
                     "O_cg_cdp"
@@ -1071,36 +755,12 @@
 
     class Heli_Attack_02_base_F: Helicopter_Base_F {
         class textureSources {
-            class black {
-                DisplayName="$STR_A3_TEXTURESOURCES_BLACK0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body1_black_CO.paa",
-                    "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body2_black_CO.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
-            class opfor {
-                DisplayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body1_CO.paa",
-                    "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body2_CO.paa"
-                };
-                factions[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 DisplayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_kajman_body1_cwp.paa),
-                    PATHTOF(data\cgcsat_kajman_body2_cwp.paa)
+                    QPATHTOF(data\cgcsat_kajman_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_kajman_body2_cwp.paa)
                 };
                 faction[]= {
                     "O_cg_cwp"
@@ -1111,8 +771,8 @@
                 DisplayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_kajman_body1_cdp.paa),
-                    PATHTOF(data\cgcsat_kajman_body2_cdp.paa)
+                    QPATHTOF(data\cgcsat_kajman_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_kajman_body2_cdp.paa)
                 };
                 faction[]= {
                     "O_cg_cdp"
@@ -1123,44 +783,11 @@
 
     class Heli_Light_02_base_F: Helicopter_Base_H {
         class textureSources {
-            class opfor {
-                displayname="$STR_A3_textureSources_opfor0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_OPFOR_CO.paa"
-                };
-                faction[]= {
-                    "OPF_F"
-                };
-            };
-
-            class black {
-                displayname="$STR_A3_textureSources_black0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"
-                };
-                faction[]= {
-                    "OPF_F"
-                };
-            };
-
-            class blackcustom {
-                displayname="$STR_A3_textureSources_blackcustom0";
-                author="$STR_A3_Bohemia_Interactive";
-                textures[]= {
-                    "\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"
-                };
-                faction[]= {
-                    "OPF_F"
-                };
-            };
-
             class cg_csat_cwp {
                 displayName="CWP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_orca_cwp.paa)
+                    QPATHTOF(data\cgcsat_orca_cwp.paa)
                 };
                 faction[]= {
                     "O_cg_cwp"
@@ -1171,7 +798,7 @@
                 displayName="CDP";
                 author= ECSTRING(main,author);
                 textures[]= {
-                    PATHTOF(data\cgcsat_orca_cdp.paa)
+                    QPATHTOF(data\cgcsat_orca_cdp.paa)
                 };
                 faction[]= {
                     "O_cg_cdp"
