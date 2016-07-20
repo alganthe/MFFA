@@ -355,7 +355,7 @@ class cfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"MFFA_main"};
-        author[] = {ECSTRING(main,author)};
+        author = ECSTRING(main,author);
         url = "";
         VERSION_CONFIG;
     };

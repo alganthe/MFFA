@@ -19,7 +19,7 @@
 
     class O_cg_FieldPack_cwp: B_FieldPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="O_cg_Fieldpack_cwp";
+        _generalMacro="O_cg_FieldPack_cwp";
         displayName="Field Pack [CWP]";
         scope=2;
         picture=PATHTOF(UI\cwpUI.paa);
@@ -353,7 +353,7 @@
 
     class O_cg_FieldPack_cdp: B_FieldPack_Base {
         author= ECSTRING(main,author);
-        _generalMacro="O_cg_Fieldpack_cdp";
+        _generalMacro="O_cg_FieldPack_cdp";
         displayName="Field Pack [CDP]";
         scope=2;
         picture=PATHTOF(UI\cdpUI.paa);

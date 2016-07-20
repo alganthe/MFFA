@@ -567,17 +567,18 @@ class CfgPatches {
             "cba_xeh_a3",
             "cba_jr"
         };
-        author[] = {ECSTRING(main,author)};
+        author = ECSTRING(main,author);
         url = "";
         VERSION_CONFIG;
     };
 };
 
 class CfgMods {
-    class PREFIX {
+    class Mod_Base;
+    class PREFIX: Mod_Base{
         dir = "@MFFA";
         name = "More Factions For Arma3 MFFA";
-        picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
+        picture = "d\MFFA\MFFA_logo.paa";
         hidePicture = "true";
         hideName = "true";
         description = "Issue Tracker: https://github.com/alganthe/MFFA/issues";
