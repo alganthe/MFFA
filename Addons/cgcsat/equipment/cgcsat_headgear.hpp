@@ -3,6 +3,7 @@
 
 
     class cg_MICH_cwp: H_HelmetIA {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         displayName = "MICH [CWP]";
         picture=PATHTOF(UI\cwpUI.paa);
@@ -15,6 +16,7 @@
     };
 
     class cg_MICH_cup: H_HelmetIA {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         displayName = "MICH [CUP]";
         picture=PATHTOF(UI\cupUI.paa);
@@ -22,6 +24,7 @@
     };
 
     class cg_MICH_cdp: H_HelmetIA {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         displayName = "MICH [CDP]";
         picture=PATHTOF(UI\cdpUI.paa);

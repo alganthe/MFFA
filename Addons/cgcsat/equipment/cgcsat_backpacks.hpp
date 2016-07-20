@@ -9,7 +9,8 @@
     class B_FieldPack_cbr_Ammo;
 //////////////////////////////////////////////////////////////////////////// CWP (woodland)
     class O_cg_Carryall_cwp: B_Carryall_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_Carryall_cwp";
         displayName="Carryall Backpack [CWP]";
         scope=2;
@@ -18,7 +19,8 @@
     };
 
     class O_cg_FieldPack_cwp: B_FieldPack_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_FieldPack_cwp";
         displayName="Field Pack [CWP]";
         scope=2;
@@ -27,7 +29,8 @@
     };
 
     class O_cg_AssaultPack_cwp: B_AssaultPack_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_AssaultPack_cwp";
         displayName="Assault Pack [CWP]";
         scope=2;
@@ -189,7 +192,8 @@
     };
 //////////////////////////////////////////////////////////////////////////// CUP (urban)
     class O_cg_Carryall_cup: B_Carryall_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_Carryall_cup";
         displayName="Carryall Backpack [CUP]";
         scope=2;
@@ -198,7 +202,8 @@
     };
 
     class O_cg_FieldPack_cup: B_FieldPack_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_FieldPack_cup";
         displayName="Field Pack [CUP]";
         scope=2;
@@ -207,7 +212,8 @@
     };
 
     class O_cg_AssaultPack_cup: B_AssaultPack_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_AssaultPack_cup";
         displayName="Assault Pack [CUP]";
         scope=2;
@@ -343,7 +349,8 @@
     };
 //////////////////////////////////////////////////////////////////////////// CDP (desert)
     class O_cg_Carryall_cdp: B_Carryall_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_Carryall_cdp";
         displayName="Carryall Backpack [CDP]";
         scope=2;
@@ -352,6 +359,7 @@
     };
 
     class O_cg_FieldPack_cdp: B_FieldPack_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_FieldPack_cdp";
         displayName="Field Pack [CDP]";
@@ -361,7 +369,8 @@
     };
 
     class O_cg_AssaultPack_cdp: B_AssaultPack_Base {
-        author= ECSTRING(main,author);
+        DLC = "MFFA";
+        author = ECSTRING(main,author);
         _generalMacro="O_cg_AssaultPack_cdp";
         displayName="Assault Pack [CDP]";
         scope=2;

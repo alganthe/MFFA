@@ -3,6 +3,7 @@
 
 ////////////////////////////////////////////////////// Wood
     class O_cg_cwp_uniform1: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Combat Fatigues [CWP]";
@@ -17,6 +18,7 @@
     };
 
     class O_cg_cwp_uniform2: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Recon Fatigues [CWP]";
@@ -31,6 +33,7 @@
     };
 
     class O_cg_cwp_uniform3: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Officer fatigues [CWP]";
@@ -45,6 +48,7 @@
     };
 
     class O_cg_uniform4: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Heli Pilot Coveralls (CG CSAT)";
@@ -59,6 +63,7 @@
     };
 ////////////////////////////////////////////////////// Urban
     class O_cg_uniform1_cup: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Combat Fatigues [CUP]";
@@ -73,6 +78,7 @@
     };
 
     class O_cg_uniform2_cup: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Recon Fatigues [CUP]";
@@ -87,6 +93,7 @@
     };
 ////////////////////////////////////////////////////// Desert
     class O_cg_cdp_uniform1: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Combat Fatigues [CDP]";
@@ -101,6 +108,7 @@
     };
 
     class O_cg_cdp_uniform2: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Recon Fatigues [CDP]";
@@ -115,6 +123,7 @@
     };
 
     class O_cg_cdp_uniform3: Uniform_Base {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         scope = 2;
         displayName = "Officer fatigues [CDP]";

@@ -1,6 +1,7 @@
     class V_HarnessO_brn;
 
     class cg_HarnessO_cwp: V_HarnessO_brn {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessO_cwp";
         displayName="LBV Harness (cwp)";
@@ -12,12 +13,14 @@
     };
 
     class cg_HarnessOGL_cwp: cg_HarnessO_cwp {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cwp";
         displayName="LBV Grenadier Harness (cwp)";
     };
 
     class cg_HarnessO_cdp: V_HarnessO_brn {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessO_cdp";
         displayName="LBV Harness (cdp)";
@@ -29,12 +32,14 @@
     };
 
     class cg_HarnessOGL_cdp: cg_HarnessO_cdp {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cdp";
         displayName="LBV Grenadier Harness (cdp)";
     };
 
     class cg_HarnessO_cup: V_HarnessO_brn {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessO_cup";
         displayName="LBV Harness (cup)";
@@ -46,6 +51,7 @@
     };
 
     class cg_HarnessOGL_cup: cg_HarnessO_cup {
+        DLC = "MFFA";
         author= ECSTRING(main,author);
         _generalMacro="cg_HarnessOGL_cup";
         displayName="LBV Grenadier Harness (cup)";
