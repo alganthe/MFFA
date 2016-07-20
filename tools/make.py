@@ -59,7 +59,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@MFFA"
-project_version = "1.2.134489"
+project_version = "1.0.0"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""
@@ -70,11 +70,13 @@ optionals_root = ""
 key_name = "MFFA"
 key = ""
 dssignfile = ""
-prefix = "MFFA"
+prefix = " "
 pbo_name_prefix = "MFFA_"
 signature_blacklist = []
-importantFiles = ["readme.md","mod.cpp", "MFFA_overview.paa", "MFFA_logo.paa","classnames.txt"]
-versionFiles = ["mod.cpp"]
+importantFiles = ["mod.cpp", "readme.md", "classnames.txt", "MFFA_logo.paa", "MFFA_overview.paa"]
+versionFiles = ["readme.md", "mod.cpp"]
+
+ciBuild = False # Used for CI builds
 
 ###############################################################################
 # http://akiscode.com/articles/sha-1directoryhash.shtml
@@ -347,8 +349,121 @@ def copy_important_files(source_dir,destination_dir):
     except:
         print_error("COPYING IMPORTANT FILES.")
         raise
+
+    #copy all extension dlls
+    try:
+        os.chdir(os.path.join(source_dir))
+        print_blue("\nSearching for DLLs in {}".format(os.getcwd()))
+        filenames = glob.glob("*.dll")
+
+        if not filenames:
+            print ("Empty SET")
+
+        for dll in filenames:
+            print_green("Copying dll => {}".format(os.path.join(source_dir,dll)))
+            if os.path.isfile(dll):
+                shutil.copyfile(os.path.join(source_dir,dll),os.path.join(destination_dir,dll))
+    except:
+        print_error("COPYING DLL FILES.")
+        raise
     finally:
         os.chdir(originalDir)
+
+
+def copy_optionals_for_building(mod,pbos):
+    src_directories = os.listdir(optionals_root)
+    current_dir = os.getcwd()
+
+    print_blue("\nChecking Optionals folder...")
+    try:
+
+        #special server.pbo processing
+        files = glob.glob(os.path.join(release_dir, project, "optionals", "*.pbo"))
+        for file in files:
+            file_name = os.path.basename(file)
+            #print ("Adding the following file: {}".format(file_name))
+            pbos.append(file_name)
+            pbo_path = os.path.join(release_dir, project, "optionals", file_name)
+            sigFile_name = file_name +"."+ key_name + ".bisign"
+            sig_path = os.path.join(release_dir, project, "optionals", sigFile_name)
+            if (os.path.isfile(pbo_path)):
+                print("Moving {} for processing.".format(pbo_path))
+                shutil.move(pbo_path, os.path.join(release_dir, project, "addons", file_name))
+
+            if (os.path.isfile(sig_path)):
+                #print("Moving {} for processing.".format(sig_path))
+                shutil.move(sig_path, os.path.join(release_dir, project, "addons", sigFile_name))
+
+    except:
+        print_error("Error in moving")
+        raise
+    finally:
+        os.chdir(current_dir)
+
+    print("")
+    try:
+        for dir_name in src_directories:
+            mod.append(dir_name)
+            #userconfig requires special handling since it is not a PBO source folder.
+            #CfgConvert fails to build server.pbo if userconfig is not found in P:\
+            if (dir_name == "userconfig"):
+                if (os.path.exists(os.path.join(release_dir, project, "optionals", dir_name))):
+                    shutil.rmtree(os.path.join(release_dir, project, "optionals", dir_name), True)
+                shutil.copytree(os.path.join(optionals_root,dir_name), os.path.join(release_dir, project, "optionals", dir_name))
+                destination = os.path.join(work_drive,dir_name)
+            else:
+                destination = os.path.join(module_root,dir_name)
+
+            print("Temporarily copying {} => {} for building.".format(os.path.join(optionals_root,dir_name),destination))
+            if (os.path.exists(destination)):
+                shutil.rmtree(destination, True)
+            shutil.copytree(os.path.join(optionals_root,dir_name), destination)
+    except:
+        print_error("Copy Optionals Failed")
+        raise
+    finally:
+        os.chdir(current_dir)
+
+
+def cleanup_optionals(mod):
+    print("")
+    try:
+        for dir_name in mod:
+            #userconfig requires special handling since it is not a PBO source folder.
+            if (dir_name == "userconfig"):
+                destination = os.path.join(work_drive,dir_name)
+            else:
+                destination = os.path.join(module_root,dir_name)
+
+            print("Cleaning {}".format(destination))
+
+            try:
+                file_name = "{}{}.pbo".format(pbo_name_prefix,dir_name)
+                src_file_path = os.path.join(release_dir, project, "addons", file_name)
+                dst_file_path = os.path.join(release_dir, project, "optionals", file_name)
+
+                sigFile_name = "{}.{}.bisign".format(file_name,key_name)
+                src_sig_path = os.path.join(release_dir, project, "addons", sigFile_name)
+                dst_sig_path = os.path.join(release_dir, project, "optionals", sigFile_name)
+
+                if (os.path.isfile(src_file_path)):
+                    #print("Preserving {}".format(file_name))
+                    os.renames(src_file_path,dst_file_path)
+                if (os.path.isfile(src_sig_path)):
+                    #print("Preserving {}".format(sigFile_name))
+                    os.renames(src_sig_path,dst_sig_path)
+            except FileExistsError:
+                print_error("{} already exists".format(file_name))
+                continue
+            shutil.rmtree(destination)
+
+    except FileNotFoundError:
+        print_yellow("{} file not found".format(file_name))
+
+    except:
+        print_error("Cleaning Optionals Failed")
+        raise
+
 
 def purge(dir, pattern, friendlyPattern="files"):
     print_green("Deleting {} files from directory: {}".format(friendlyPattern,dir))
@@ -554,8 +669,8 @@ def restore_version_files():
 def get_private_keyname(commitID,module="main"):
     global pbo_name_prefix
 
-    mffaVersion = get_project_version()
-    keyName = str("{prefix}{version}-{commit_id}".format(prefix=pbo_name_prefix,version=mffaVersion,commit_id=commitID))
+    aceVersion = get_project_version()
+    keyName = str("{prefix}{version}-{commit_id}".format(prefix=pbo_name_prefix,version=aceVersion,commit_id=commitID))
     return keyName
 
 
@@ -597,11 +712,9 @@ def version_stamp_pboprefix(module,commitID):
         f.close()
 
         if configtext:
-            patchestext = re.search(r"version.*?=.*?$", configtext, re.DOTALL)
-            if patchestext:
+            if re.search(r"version=(.*?)$", configtext, re.DOTALL):
                 if configtext:
-                    patchestext = re.search(r"(version.*?=)(.*?)$", configtext, re.DOTALL).group(1)
-                    configtext = re.sub(r"version(.*?)=(.*?)$", "version = {}\n".format(commitID), configtext, flags=re.DOTALL)
+                    configtext = re.sub(r"version=(.*?)$", "version={}\n".format(commitID), configtext, flags=re.DOTALL)
                     f = open(configpath, "w")
                     f.write(configtext)
                     f.close()
@@ -644,6 +757,7 @@ def main(argv):
     global dssignfile
     global prefix
     global pbo_name_prefix
+    global ciBuild
 
     if sys.platform != "win32":
         print_error("Non-Windows platform (Cygwin?). Please re-run from cmd.")
@@ -747,6 +861,10 @@ See the make.cfg file for additional build options.
     else:
         version_update = False
 
+    if "--ci" in argv:
+        argv.remove("--ci")
+        ciBuild = True
+
     print_yellow("\nCheck external references is set to {}".format(str(check_external)))
 
     # Get the directory the make script is in.
@@ -820,6 +938,12 @@ See the make.cfg file for additional build options.
             print_error ("Directory {} does not exist.".format(module_root))
             sys.exit()
 
+        if (os.path.isdir(optionals_root)):
+            print_green ("optionals_root: {}".format(optionals_root))
+        else:
+            print_error ("Directory {} does not exist.".format(optionals_root))
+            sys.exit()
+
         print_green ("release_dir: {}".format(release_dir))
 
     except:
@@ -830,7 +954,7 @@ See the make.cfg file for additional build options.
     # See if we have been given specific modules to build from command line.
     if len(argv) > 1 and not make_release_zip:
         arg_modules = True
-        modules = argv[1:]
+        modules = [a for a in argv[1:] if a[0] != "-"]
 
     # Find the tools we need.
     try:
@@ -869,17 +993,16 @@ See the make.cfg file for additional build options.
         print ("No cache found.")
         cache = {}
 
-    # Check the ace build version (from main) with cached version - Forces a full rebuild when version changes
-    mffaVersion = get_project_version()
+    # Check the build version (from main) with cached version - forces a full rebuild when version changes
+    project_version = get_project_version()
     cacheVersion = "None";
     if 'cacheVersion' in cache:
         cacheVersion = cache['cacheVersion']
 
-    if (mffaVersion != cacheVersion):
+    if (project_version != cacheVersion):
         cache = {}
-        print("Reseting Cache {0} to New Version {1}".format(cacheVersion, mffaVersion))
-        cache['cacheVersion'] = mffaVersion
-
+        print("Reseting Cache {0} to New Version {1}".format(cacheVersion, project_version))
+        cache['cacheVersion'] = project_version
 
     if not os.path.isdir(os.path.join(release_dir, project, "addons")):
         try:
@@ -905,7 +1028,15 @@ See the make.cfg file for additional build options.
         set_version_in_files();
         print("Version in files has been changed, make sure you commit and push the updates!")
 
+    amountOfBuildsFailed = 0
+    namesOfBuildsFailed = []
+
     try:
+        # Temporarily copy optionals_root for building. They will be removed later.
+        optionals_modules = []
+        optional_files = []
+        copy_optionals_for_building(optionals_modules,optional_files)
+
         # Get list of subdirs in make root.
         dirs = next(os.walk(module_root))[1]
 
@@ -934,6 +1065,7 @@ See the make.cfg file for additional build options.
                     print_green("Created: {}".format(os.path.join(private_key_path, key_name + ".biprivatekey")))
                     print("Removing any old signature keys...")
                     purge(os.path.join(module_root, release_dir, project, "addons"), "^.*\.bisign$","*.bisign")
+                    purge(os.path.join(module_root, release_dir, project, "optionals"), "^.*\.bisign$","*.bisign")
                     purge(os.path.join(module_root, release_dir, project, "keys"), "^.*\.bikey$","*.bikey")
                 else:
                     print_error("Failed to create key!")
@@ -982,9 +1114,6 @@ See the make.cfg file for additional build options.
                     except:
                         print_error("\nFailed to delete {}".format(os.path.join(obsolete_check_path,file)))
                         pass
-
-        amountOfBuildsFailed = 0
-        namesOfBuildsFailed = []
 
         # For each module, prep files and then build.
         print_blue("\nBuilding...")
@@ -1222,6 +1351,7 @@ See the make.cfg file for additional build options.
 
     finally:
         copy_important_files(module_root_parent,os.path.join(release_dir, project))
+        cleanup_optionals(optionals_modules)
         if not version_update:
             restore_version_files()
 
@@ -1298,6 +1428,7 @@ See the make.cfg file for additional build options.
         for failedModuleName in namesOfBuildsFailed:
             print("- {} failed.".format(failedModuleName))
 
+        sys.exit(1)
     else:
         print_green("\Completed with 0 errors.")
 
@@ -1306,4 +1437,8 @@ if __name__ == "__main__":
     main(sys.argv)
     d,h,m,s = Fract_Sec(timeit.default_timer() - start_time)
     print("\nTotal Program time elapsed: {0:2}h {1:2}m {2:4.5f}s".format(h,m,s))
+
+    if ciBuild:
+        sys.exit(0)
+
     input("Press Enter to continue...")
