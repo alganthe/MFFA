@@ -1,19 +1,14 @@
 <p align="center">
-    <img src="https://github.com/alganthe/MFFA/blob/master/assets/MFFA_logo.png"
-         height="112">
-</p>         
+    <img src="https://github.com/alganthe/MFFA/raw/master/assets/MFFA_logo.png">
+</p>
+
 <p align="center">
-    <a href="https://github.com/alganthe/MFFA/releases">
-        <img src="https://img.shields.io/badge/version-1.2.134627-orange.svg"
-             alt="MFFA version">
+    <a href="https://github.com/alganthe/Co-ops-an-arma3-vanilla-mission/releases">
+        <img src="https://img.shields.io/github/release/alganthe/MFFA.svg">
     </a>
-    <a href="https://github.com/alganthe/MFFA/releases/download/1.2.134627/MFFA_1.2.134627.zip">
-        <img src="https://img.shields.io/badge/Download-Click%20me%20!!!-green.svg"
-             alt="MFFA version">
-    </a>
+
     <a href="http://www.bistudio.com/community/licenses/arma-public-license-share-alike">
-        <img src="https://img.shields.io/badge/license-APL--SA-lightgrey.svg"
-             alt="MFFA version">
+        <img src="https://img.shields.io/badge/license-APL--SA-lightgrey.svg">
     </a>
 </p>
 
@@ -47,13 +42,12 @@ MFFA (More Factions For Arma) is a mod adding reskinned versions of the CSAT</br
 </p>
 
 <p align="center">
-CBA 2.3.0 minimum
+CBA 3.0.0 minimum
 </p>
 
 <p align="center">
 <b>CREDITS</b>
 </p><p align="center">
-The RHS and TRYK teams for some models.</br>
 BI for the CSAT models.</br>
 Alganthe</br></p>
 
