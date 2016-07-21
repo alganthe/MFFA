@@ -505,7 +505,7 @@
         crew="O_cg_cdp_helipilot_F";
         class eventhandlers;
         hiddenSelectionsTextures[]= {
-            QQPATHTOF(data\cgcsat_taru_box1_cdp.paa),
-            QQPATHTOF(data\cgcsat_taru_box2_cdp.paa)
+            QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
+            QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
     };
