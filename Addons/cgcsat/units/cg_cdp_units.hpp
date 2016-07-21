@@ -313,8 +313,7 @@
         faction="O_cg_cdp";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cdp_sniper_F";
-        uniformClass="O_cg_cdp_uniform1";
-        hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cwp.paa)};
+        uniformClass="U_O_FullGhillie_ard";
         linkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
@@ -325,8 +324,7 @@
         faction="O_cg_cdp";
         author= ECSTRING(main,author);
         _generalMacro="O_cg_cdp_spotter_F";
-        uniformClass="O_cg_cdp_uniform1";
-        hiddenSelectionsTextures[] = {PATHTOF(data\cg_uniform_cwp.paa)};
+        uniformClass="U_O_FullGhillie_ard";
         linkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         respawnLinkedItems[] = {"V_Chestrig_oli","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
         class eventhandlers;
