@@ -752,6 +752,10 @@
 ////////////////////////////////////////////////////Base classes Helos
     class Helicopter_Base_F;
     class Helicopter_Base_H;
+    class O_Heli_Light_02_F;
+    class O_Heli_Light_02_unarmed_F;
+    class O_Heli_Attack_02_F;
+    class Heli_Transport_04_base_F;
 
     class Heli_Attack_02_base_F: Helicopter_Base_F {
         class textureSources {
@@ -807,17 +811,259 @@
         };
     };
 
-    class O_Heli_Light_02_F;
-    class O_Heli_Light_02_unarmed_F;
-    class O_Heli_Attack_02_F;
-    class O_Heli_Transport_04_F;
-    class O_Heli_Transport_04_ammo_F;
-    class O_Heli_Transport_04_bench_F;
-    class O_Heli_Transport_04_box_F;
-    class O_Heli_Transport_04_covered_F;
-    class O_Heli_Transport_04_fuel_F;
-    class O_Heli_Transport_04_medevac_F;
-    class O_Heli_Transport_04_repair_F;
+    class O_Heli_Transport_04_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa)
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
+
+    class O_Heli_Transport_04_ammo_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
+
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
+
+    class O_Heli_Transport_04_bench_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_bench_cwp.paa)
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_bench_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
+
+    class O_Heli_Transport_04_box_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
+
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
+
+    class O_Heli_Transport_04_covered_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
+
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
+
+    class O_Heli_Transport_04_fuel_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_fuel_cwp.paa)
+
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_fuel_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
+
+    class O_Heli_Transport_04_medevac_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
+
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
+
+    class O_Heli_Transport_04_repair_F: Heli_Transport_04_base_F {
+        class textureSources {
+            class cg_csat_cwp {
+                DisplayName="CWP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
+
+                };
+                faction[]= {
+                    "O_cg_cwp"
+                };
+            };
+
+            class cg_csat_cdp {
+                DisplayName="CDP";
+                author= ECSTRING(main,author);
+                textures[]= {
+                    QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
+                    QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
+                };
+                faction[]= {
+                    "O_cg_cdp"
+                };
+            };
+        };
+    };
 ////////////////////////////////////////////////////Base classes Static
     class Land_Pod_Heli_Transport_04_ammo_F;
     class Land_Pod_Heli_Transport_04_bench_F;

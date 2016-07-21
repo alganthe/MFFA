@@ -28,6 +28,7 @@
             QPATHTOF(data\cgcsat_rcws30_cwp.paa)
         };
         class eventhandlers;
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_APC_Wheeled_02_rcws_F: O_APC_Wheeled_02_rcws_F {
@@ -73,6 +74,7 @@
             QPATHTOF(data\cgcsat_tigris_aa_cwp.paa)
         };
         class eventhandlers;
+        textureList[] = {"O_cg_cwp",1};
     };
 
 ////////////////////////////////////////////////////Cars CWP
@@ -289,6 +291,7 @@
             QPATHTOF(data\cgcsat_taru_body1_cwp.paa),
             QPATHTOF(data\cgcsat_taru_body2_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_Heli_Transport_04_ammo_F: O_Heli_Transport_04_ammo_F {
@@ -305,6 +308,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_Heli_Transport_04_bench_F: O_Heli_Transport_04_bench_F {
@@ -320,6 +324,7 @@
             QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
             QPATHTOF(data\cgcsat_taru_bench_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_Heli_Transport_04_box_F: O_Heli_Transport_04_box_F {
@@ -336,6 +341,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_Heli_Transport_04_covered_F: O_Heli_Transport_04_covered_F {
@@ -352,6 +358,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_Heli_Transport_04_fuel_F: O_Heli_Transport_04_fuel_F {
@@ -367,6 +374,7 @@
             QPATHTOF(data\cgcsat_taru_body2_cwp.paa),
             QPATHTOF(data\cgcsat_taru_fuel_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_Heli_Transport_04_medevac_F: O_Heli_Transport_04_medevac_F {
@@ -383,6 +391,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 
     class O_cg_cwp_Heli_Transport_04_repair_F: O_Heli_Transport_04_repair_F {
@@ -399,6 +408,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cwp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cwp.paa)
         };
+        textureList[] = {"O_cg_cwp",1};
     };
 //////////////////////////////////////////////////// Static CWP
     class Land_Pod_Heli_Transport_04_ammo_cg_cwp_F: Land_Pod_Heli_Transport_04_ammo_F {

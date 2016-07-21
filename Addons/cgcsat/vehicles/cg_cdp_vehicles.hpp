@@ -28,6 +28,7 @@
             QPATHTOF(data\cgcsat_rcws30_cdp.paa)
         };
         class eventhandlers;
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_APC_Wheeled_02_rcws_F: O_APC_Wheeled_02_rcws_F {
@@ -73,6 +74,7 @@
             QPATHTOF(data\cgcsat_tigris_aa_cdp.paa)
         };
         class eventhandlers;
+        textureList[] = {"O_cg_cdp",1};
     };
 
 ////////////////////////////////////////////////////Cars CDP
@@ -291,6 +293,7 @@
             QPATHTOF(data\cgcsat_taru_body1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_body2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_Heli_Transport_04_ammo_F: O_Heli_Transport_04_ammo_F {
@@ -307,6 +310,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_Heli_Transport_04_bench_F: O_Heli_Transport_04_bench_F {
@@ -322,6 +326,7 @@
             QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
             QPATHTOF(data\cgcsat_taru_bench_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_Heli_Transport_04_box_F: O_Heli_Transport_04_box_F {
@@ -338,6 +343,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_Heli_Transport_04_covered_F: O_Heli_Transport_04_covered_F {
@@ -354,6 +360,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_Heli_Transport_04_fuel_F: O_Heli_Transport_04_fuel_F {
@@ -369,6 +376,7 @@
             QPATHTOF(data\cgcsat_taru_body2_cdp.paa),
             QPATHTOF(data\cgcsat_taru_fuel_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_Heli_Transport_04_medevac_F: O_Heli_Transport_04_medevac_F {
@@ -385,6 +393,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class O_cg_cdp_Heli_Transport_04_repair_F: O_Heli_Transport_04_repair_F {
@@ -401,6 +410,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
 //////////////////////////////////////////////////// Static CDP
