@@ -66,7 +66,6 @@ module_root = ""
 make_root = ""
 release_dir = ""
 module_root_parent = ""
-optionals_root = ""
 key_name = "MFFA"
 key = ""
 dssignfile = ""
@@ -350,119 +349,7 @@ def copy_important_files(source_dir,destination_dir):
         print_error("COPYING IMPORTANT FILES.")
         raise
 
-    #copy all extension dlls
-    try:
-        os.chdir(os.path.join(source_dir))
-        print_blue("\nSearching for DLLs in {}".format(os.getcwd()))
-        filenames = glob.glob("*.dll")
-
-        if not filenames:
-            print ("Empty SET")
-
-        for dll in filenames:
-            print_green("Copying dll => {}".format(os.path.join(source_dir,dll)))
-            if os.path.isfile(dll):
-                shutil.copyfile(os.path.join(source_dir,dll),os.path.join(destination_dir,dll))
-    except:
-        print_error("COPYING DLL FILES.")
-        raise
-    finally:
         os.chdir(originalDir)
-
-
-def copy_optionals_for_building(mod,pbos):
-    src_directories = os.listdir(optionals_root)
-    current_dir = os.getcwd()
-
-    print_blue("\nChecking Optionals folder...")
-    try:
-
-        #special server.pbo processing
-        files = glob.glob(os.path.join(release_dir, project, "optionals", "*.pbo"))
-        for file in files:
-            file_name = os.path.basename(file)
-            #print ("Adding the following file: {}".format(file_name))
-            pbos.append(file_name)
-            pbo_path = os.path.join(release_dir, project, "optionals", file_name)
-            sigFile_name = file_name +"."+ key_name + ".bisign"
-            sig_path = os.path.join(release_dir, project, "optionals", sigFile_name)
-            if (os.path.isfile(pbo_path)):
-                print("Moving {} for processing.".format(pbo_path))
-                shutil.move(pbo_path, os.path.join(release_dir, project, "addons", file_name))
-
-            if (os.path.isfile(sig_path)):
-                #print("Moving {} for processing.".format(sig_path))
-                shutil.move(sig_path, os.path.join(release_dir, project, "addons", sigFile_name))
-
-    except:
-        print_error("Error in moving")
-        raise
-    finally:
-        os.chdir(current_dir)
-
-    print("")
-    try:
-        for dir_name in src_directories:
-            mod.append(dir_name)
-            #userconfig requires special handling since it is not a PBO source folder.
-            #CfgConvert fails to build server.pbo if userconfig is not found in P:\
-            if (dir_name == "userconfig"):
-                if (os.path.exists(os.path.join(release_dir, project, "optionals", dir_name))):
-                    shutil.rmtree(os.path.join(release_dir, project, "optionals", dir_name), True)
-                shutil.copytree(os.path.join(optionals_root,dir_name), os.path.join(release_dir, project, "optionals", dir_name))
-                destination = os.path.join(work_drive,dir_name)
-            else:
-                destination = os.path.join(module_root,dir_name)
-
-            print("Temporarily copying {} => {} for building.".format(os.path.join(optionals_root,dir_name),destination))
-            if (os.path.exists(destination)):
-                shutil.rmtree(destination, True)
-            shutil.copytree(os.path.join(optionals_root,dir_name), destination)
-    except:
-        print_error("Copy Optionals Failed")
-        raise
-    finally:
-        os.chdir(current_dir)
-
-
-def cleanup_optionals(mod):
-    print("")
-    try:
-        for dir_name in mod:
-            #userconfig requires special handling since it is not a PBO source folder.
-            if (dir_name == "userconfig"):
-                destination = os.path.join(work_drive,dir_name)
-            else:
-                destination = os.path.join(module_root,dir_name)
-
-            print("Cleaning {}".format(destination))
-
-            try:
-                file_name = "{}{}.pbo".format(pbo_name_prefix,dir_name)
-                src_file_path = os.path.join(release_dir, project, "addons", file_name)
-                dst_file_path = os.path.join(release_dir, project, "optionals", file_name)
-
-                sigFile_name = "{}.{}.bisign".format(file_name,key_name)
-                src_sig_path = os.path.join(release_dir, project, "addons", sigFile_name)
-                dst_sig_path = os.path.join(release_dir, project, "optionals", sigFile_name)
-
-                if (os.path.isfile(src_file_path)):
-                    #print("Preserving {}".format(file_name))
-                    os.renames(src_file_path,dst_file_path)
-                if (os.path.isfile(src_sig_path)):
-                    #print("Preserving {}".format(sigFile_name))
-                    os.renames(src_sig_path,dst_sig_path)
-            except FileExistsError:
-                print_error("{} already exists".format(file_name))
-                continue
-            shutil.rmtree(destination)
-
-    except FileNotFoundError:
-        print_yellow("{} file not found".format(file_name))
-
-    except:
-        print_error("Cleaning Optionals Failed")
-        raise
 
 
 def purge(dir, pattern, friendlyPattern="files"):
@@ -751,7 +638,6 @@ def main(argv):
     global make_root
     global release_dir
     global module_root_parent
-    global optionals_root
     global key_name
     global key
     global dssignfile
@@ -925,8 +811,6 @@ See the make.cfg file for additional build options.
         # Project module Root
         module_root_parent = os.path.abspath(os.path.join(os.path.join(work_drive, prefix), os.pardir))
         module_root = cfg.get(make_target, "module_root", fallback=os.path.join(make_root_parent, "addons"))
-        optionals_root = os.path.join(module_root_parent, "optionals")
-        extensions_root = os.path.join(module_root_parent, "extensions")
 
         commit_id = get_commit_ID()
         key_name = versionStamp = get_private_keyname(commit_id)
@@ -936,12 +820,6 @@ See the make.cfg file for additional build options.
             os.chdir(module_root)
         else:
             print_error ("Directory {} does not exist.".format(module_root))
-            sys.exit()
-
-        if (os.path.isdir(optionals_root)):
-            print_green ("optionals_root: {}".format(optionals_root))
-        else:
-            print_error ("Directory {} does not exist.".format(optionals_root))
             sys.exit()
 
         print_green ("release_dir: {}".format(release_dir))
@@ -1032,10 +910,6 @@ See the make.cfg file for additional build options.
     namesOfBuildsFailed = []
 
     try:
-        # Temporarily copy optionals_root for building. They will be removed later.
-        optionals_modules = []
-        optional_files = []
-        copy_optionals_for_building(optionals_modules,optional_files)
 
         # Get list of subdirs in make root.
         dirs = next(os.walk(module_root))[1]
@@ -1065,7 +939,6 @@ See the make.cfg file for additional build options.
                     print_green("Created: {}".format(os.path.join(private_key_path, key_name + ".biprivatekey")))
                     print("Removing any old signature keys...")
                     purge(os.path.join(module_root, release_dir, project, "addons"), "^.*\.bisign$","*.bisign")
-                    purge(os.path.join(module_root, release_dir, project, "optionals"), "^.*\.bisign$","*.bisign")
                     purge(os.path.join(module_root, release_dir, project, "keys"), "^.*\.bikey$","*.bikey")
                 else:
                     print_error("Failed to create key!")
@@ -1351,7 +1224,6 @@ See the make.cfg file for additional build options.
 
     finally:
         copy_important_files(module_root_parent,os.path.join(release_dir, project))
-        cleanup_optionals(optionals_modules)
         if not version_update:
             restore_version_files()
 
