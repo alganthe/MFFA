@@ -18,7 +18,7 @@ class cg_HarnessO_cwp: V_HarnessO_brn {
     };
     class ItemInfo: ItemInfo {
         uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
-        containerClass = "Supply160";
+        containerClass = "Supply120";
         mass = 30;
         hiddenSelections[] = {"Camo1","Camo2"};
     };
@@ -29,8 +29,8 @@ class cg_HarnessO_cwp: V_HarnessO_brn {
     displayName="LBV Grenadier Harness (cwp)";
     model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
     class ItemInfo: ItemInfo {
-        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
-        containerClass = "Supply120";
+        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest_gl";
+        containerClass = "Supply160";
         mass = 15;
     };
  };
@@ -49,8 +49,8 @@ class cg_HarnessO_cwp: V_HarnessO_brn {
         QPATHTOF(data\cg_harness2_cdp.paa)
     };
     class ItemInfo: ItemInfo {
-        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest_gl";
-        containerClass = "Supply160";
+        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
+        containerClass = "Supply120";
         mass = 30;
         hiddenSelections[] = {"Camo1","Camo2"};
     };
@@ -63,8 +63,8 @@ class cg_HarnessO_cwp: V_HarnessO_brn {
     displayName="LBV Grenadier Harness (cdp)";
     model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
     class ItemInfo: ItemInfo {
-        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
-        containerClass = "Supply120";
+        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest_gl";
+        containerClass = "Supply160";
         mass = 15;
     };
  };
@@ -84,7 +84,7 @@ class cg_HarnessO_cwp: V_HarnessO_brn {
     };
     class ItemInfo: ItemInfo {
         uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
-        containerClass = "Supply160";
+        containerClass = "Supply120";
         mass = 30;
         hiddenSelections[] = {"Camo1","Camo2"};
     };
@@ -96,8 +96,8 @@ class cg_HarnessO_cwp: V_HarnessO_brn {
     displayName="LBV Grenadier Harness (cup)";
     model="\A3\Characters_F\OPFOR\equip_o_vest_gl";
     class ItemInfo: ItemInfo {
-        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
-        containerClass = "Supply120";
+        uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest_gl";
+        containerClass = "Supply160";
         mass = 15;
     };
 };
