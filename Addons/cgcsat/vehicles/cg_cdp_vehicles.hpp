@@ -426,6 +426,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class Land_Pod_Heli_Transport_04_bench_cg_cdp_F: Land_Pod_Heli_Transport_04_bench_F {
@@ -439,6 +440,7 @@
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\cgcsat_taru_bench_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class Land_Pod_Heli_Transport_04_box_cg_cdp_F: Land_Pod_Heli_Transport_04_box_F {
@@ -453,6 +455,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class Land_Pod_Heli_Transport_04_covered_cg_cdp_F: Land_Pod_Heli_Transport_04_covered_F {
@@ -467,6 +470,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class Land_Pod_Heli_Transport_04_fuel_cg_cdp_F: Land_Pod_Heli_Transport_04_fuel_F {
@@ -480,6 +484,7 @@
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\cgcsat_taru_fuel_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class Land_Pod_Heli_Transport_04_medevac_cg_cdp_F: Land_Pod_Heli_Transport_04_medevac_F {
@@ -494,6 +499,7 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
 
     class Land_Pod_Heli_Transport_04_repair_cg_cdp_F: Land_Pod_Heli_Transport_04_repair_F {
@@ -508,4 +514,5 @@
             QPATHTOF(data\cgcsat_taru_box1_cdp.paa),
             QPATHTOF(data\cgcsat_taru_box2_cdp.paa)
         };
+        textureList[] = {"O_cg_cdp",1};
     };
